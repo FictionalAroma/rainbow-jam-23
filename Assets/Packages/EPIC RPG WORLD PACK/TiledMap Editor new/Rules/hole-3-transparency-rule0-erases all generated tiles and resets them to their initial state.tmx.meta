@@ -11,6 +11,8 @@ ScriptedImporter:
   missingFiles:
   - :/automap-tiles.tsx
   errors:
+  - Errors detected in tileset '../Tilesets/hole3.tsx'. Check the tileset inspector
+    for more details. Your map may be broken until these are fixed.
   - 'Missing tileset asset: :/automap-tiles.tsx'
   warnings: []
   missingSortingLayers: []
