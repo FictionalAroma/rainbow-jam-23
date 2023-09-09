@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.seanba.super-tiled2unity": "file:D:/Users/Olddev.DESKTOP-F8UL281/Downloads/super-tiled2unity.v2.0.1",
     "com.unity.addressables": "1.21.17",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.connect.share": "4.2.3",
