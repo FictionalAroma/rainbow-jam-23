@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,139 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cabin - top section with tissue and chimney - opening animation to access
+        the interior_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 425
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4c8f47c03e40945bd74848c58dc72a
+      internalID: -294396005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue and chimney - opening animation to access
+        the interior_1
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 31
+        width: 425
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1575294c872aa69499df332a94fe3226
+      internalID: -1811383791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue and chimney - opening animation to access
+        the interior_2
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 33
+        width: 425
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92c13e875d2c88448d0dc8b164b1376
+      internalID: 1669475550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue and chimney - opening animation to access
+        the interior_3
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 49
+        width: 424
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e286722e8f4393547bca75ce747ce1d3
+      internalID: -1389268694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue and chimney - opening animation to access
+        the interior_4
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 121
+        width: 425
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13eaebe24cb8c642a2ecdfa82623b1e
+      internalID: 1554446353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue and chimney - opening animation to access
+        the interior_5
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 180
+        width: 425
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c11fd4cc1bae354e9743cb250e67cc3
+      internalID: 2034701047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +251,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cabin - top section with tissue and chimney - opening animation to access the interior_0: -294396005
+      cabin - top section with tissue and chimney - opening animation to access the interior_1: -1811383791
+      cabin - top section with tissue and chimney - opening animation to access the interior_2: 1669475550
+      cabin - top section with tissue and chimney - opening animation to access the interior_3: -1389268694
+      cabin - top section with tissue and chimney - opening animation to access the interior_4: 1554446353
+      cabin - top section with tissue and chimney - opening animation to access the interior_5: 2034701047
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

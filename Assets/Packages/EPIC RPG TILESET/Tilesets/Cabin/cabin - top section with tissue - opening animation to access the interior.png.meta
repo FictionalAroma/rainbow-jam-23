@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cabin - top section with tissue - opening animation to access the interior_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 425
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20e632368640447afd4704095db8d1
+      internalID: -1480227238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue - opening animation to access the interior_1
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 31
+        width: 425
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfde5991a917ac48933f534c82b8346
+      internalID: -2044370401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue - opening animation to access the interior_2
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 33
+        width: 425
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fb026a11ebdab4fab7710a4a4267e0
+      internalID: 964482759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue - opening animation to access the interior_3
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 49
+        width: 424
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8e0c62c00342847a58b90fe69010d1
+      internalID: 579577075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue - opening animation to access the interior_4
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 121
+        width: 425
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd7128738c508c4aa3e47503f2bf1d7
+      internalID: 653441533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabin - top section with tissue - opening animation to access the interior_5
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 180
+        width: 425
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3ee2199a067744297e11dc9e48c96d
+      internalID: -943193751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cabin - top section with tissue - opening animation to access the interior_0: -1480227238
+      cabin - top section with tissue - opening animation to access the interior_1: -2044370401
+      cabin - top section with tissue - opening animation to access the interior_2: 964482759
+      cabin - top section with tissue - opening animation to access the interior_3: 579577075
+      cabin - top section with tissue - opening animation to access the interior_4: 653441533
+      cabin - top section with tissue - opening animation to access the interior_5: -943193751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
