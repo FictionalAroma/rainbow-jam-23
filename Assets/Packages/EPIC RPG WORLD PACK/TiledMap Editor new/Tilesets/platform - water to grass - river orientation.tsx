@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.2" name="platform -grass to water-spritesheet" tilewidth="32" tileheight="32" tilecount="870" columns="30">
- <image source="../../Tilesets/Platform - grass to water/water to grass2 - river orientation-spritesheet.png" width="960" height="929"/>
+<tileset version="1.10" tiledversion="1.10.2" name="platform -grass to water-spritesheet" tilewidth="32" tileheight="32" tilecount="870" columns="30">
+ <image source="../../Tilesets/Platform-grass_to_water/water to grass2 - river orientation-spritesheet.png" width="960" height="929"/>
  <tile id="30">
   <animation>
    <frame tileid="30" duration="100"/>

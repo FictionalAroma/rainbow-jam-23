@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.2" name="platform - grass- coast - spritesheet" tilewidth="32" tileheight="32" tilecount="986" columns="34">
- <image source="../../Tilesets/Platform - grass to water/platform - grass2- coast - spritesheet.png" width="1088" height="953"/>
+<tileset version="1.10" tiledversion="1.10.2" name="platform - grass- coast - spritesheet" tilewidth="32" tileheight="32" tilecount="986" columns="34">
+ <image source="../../Tilesets/Platform-grass_to_water/platform - grass2- coast - spritesheet.png" width="1088" height="953"/>
  <tile id="1">
   <animation>
    <frame tileid="1" duration="100"/>
