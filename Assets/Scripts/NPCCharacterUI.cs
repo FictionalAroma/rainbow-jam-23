@@ -1,10 +1,12 @@
+using CommonComponents;
+using CommonComponents.Interfaces;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPCCharacterUI : MonoBehaviour
+public class NPCCharacterUI : Interactable
 {
     [SerializeField] TextMeshProUGUI firstName, lastName, level, npcClass, race, strength, dexterity, constitution, intelligence, wisdom, charisma;
     [SerializeField] TextMeshProUGUI health_points, health_points_max, armor_class;
@@ -19,17 +21,25 @@ public class NPCCharacterUI : MonoBehaviour
     {
         
     }
-    public void OnInteraction()
+
+    public override bool Action(InteractableActor actor)
     {
-        if (npcharacterSheetCanvas.enabled== false) 
+        if (actor != null)
         {
-            npcharacterSheetCanvas.enabled = true;
+            if (npcharacterSheetCanvas.enabled == false)
+            {
+                npcharacterSheetCanvas.enabled = true;
+            }
+            else
+            {
+                npcharacterSheetCanvas.enabled = false;
+            }
+            return true;
         }
         else
         {
-            npcharacterSheetCanvas.enabled = false;
+            return false;
         }
         
     }
-    
 }
