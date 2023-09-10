@@ -6,7 +6,15 @@ using UnityEngine.Serialization;
 
 namespace Assets.Scripts.Player
 {
-    public class PlayerController : InteractableActor
+	public class PlayerAnimator
+	{
+		public static readonly int LastY = Animator.StringToHash("lastY");
+		public static readonly int LastX = Animator.StringToHash("lastX");
+		public static readonly int CurrentX = Animator.StringToHash("currentX");
+		public static readonly int CurrentY = Animator.StringToHash("currentY");
+	}
+
+	public class PlayerController : InteractableActor
 	{
         [FormerlySerializedAs("_input")]
 		[Header("Static Setup")]
@@ -17,11 +25,6 @@ namespace Assets.Scripts.Player
 
 		private Vector2 _moveVector;
 		private Vector2 _lastDirection;
-
-		private static readonly int LastY = Animator.StringToHash("lastY");
-		private static readonly int LastX = Animator.StringToHash("lastX");
-		private static readonly int CurrentX = Animator.StringToHash("currentX");
-		private static readonly int CurrentY = Animator.StringToHash("currentY");
 
 		void Awake()
 		{
@@ -57,13 +60,13 @@ namespace Assets.Scripts.Player
 			if (_moveVector != Vector2.zero)
 			{
 				_lastDirection = _moveVector;
-				_anim.SetFloat(LastX, _lastDirection.x);
-				_anim.SetFloat(LastY, _lastDirection.y);
+				_anim.SetFloat(PlayerAnimator.LastX, _lastDirection.x);
+				_anim.SetFloat(PlayerAnimator.LastY, _lastDirection.y);
 			}
 			_rb.velocity = _moveVector;
 
-			_anim.SetFloat(CurrentX, _moveVector.x);
-			_anim.SetFloat(CurrentY, _moveVector.y);
+			_anim.SetFloat(PlayerAnimator.CurrentX, _moveVector.x);
+			_anim.SetFloat(PlayerAnimator.CurrentY, _moveVector.y);
 
 		}
     }
