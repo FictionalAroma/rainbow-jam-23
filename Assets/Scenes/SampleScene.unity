@@ -2643,6 +2643,7 @@ GameObject:
   - component: {fileID: 1500221805}
   - component: {fileID: 1500221804}
   - component: {fileID: 1500221803}
+  - component: {fileID: 1500221807}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2734,6 +2735,33 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1500221807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500221802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b0e8fc72fa80445b7a5d357ddc755b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstName: {fileID: 1741572543}
+  lastName: {fileID: 665839205}
+  level: {fileID: 1822349144}
+  npcClass: {fileID: 643074680}
+  race: {fileID: 1144033843}
+  strength: {fileID: 67752229}
+  dexterity: {fileID: 1140076121}
+  constitution: {fileID: 779746470}
+  intelligence: {fileID: 586179250}
+  wisdom: {fileID: 1141929289}
+  charisma: {fileID: 245137309}
+  traits: {fileID: 768174590}
+  flaws: {fileID: 682384708}
+  ideals: {fileID: 49227513}
+  skills: {fileID: 1455541735}
 --- !u!1 &1707833352
 GameObject:
   m_ObjectHideFlags: 0
