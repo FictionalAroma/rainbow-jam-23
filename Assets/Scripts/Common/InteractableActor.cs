@@ -23,12 +23,7 @@ namespace CommonComponents.Interfaces
 
 		public bool ActionCurrent()
 		{
-			if (InteractiveObject != null)
-			{
-				return InteractiveObject.Action(this);
-			}
-
-			return false;
+			return InteractiveObject != null && InteractiveObject.Action(this);
 		}
 	}
 }
