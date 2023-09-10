@@ -1,0 +1,27 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Buildings1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "F:/GameJams/rainbow-jam-23/Assets/Packages/CL_v1.12/32x32",
+    "map.height": 60,
+    "map.lastUsedFormat": "tmx",
+    "map.renderOrder": null,
+    "map.width": 60,
+    "openFiles": [
+    ],
+    "project": "Guildhall.tiled-project",
+    "recentFiles": [
+        "Buildings1.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
