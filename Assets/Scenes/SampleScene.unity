@@ -1097,11 +1097,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0e92bbf010f384799001999e7c0809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonDB: {fileID: 0}
-  num_of_traits: 0
-  num_of_flaws: 0
-  num_of_ideals: 0
-  num_of_skills: 0
+  jsonDB: {fileID: 4900000, guid: 10ce58ad0d69c3a419a8f00ebb2fea0e, type: 3}
+  num_of_traits: 3
+  num_of_flaws: 3
+  num_of_ideals: 3
+  num_of_skills: 3
   generateCharacter: 0
 --- !u!4 &2027039290
 Transform:
