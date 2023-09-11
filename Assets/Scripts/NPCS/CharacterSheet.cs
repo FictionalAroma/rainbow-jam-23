@@ -3,32 +3,33 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewCharacter", menuName = "Character/New Character")]
 public class CharacterSheet : ScriptableObject
 {
+	
 	[Header("Character Details")]
-	[SerializeField] private string firstName;
-	[SerializeField] private string lastName;
-	[SerializeField] private string race;
+	[SerializeField] public string firstName;
+	[SerializeField] public string lastName;
+	[SerializeField] public string race;
 
 	[Header("Character Class")]
-	[SerializeField] private int level;
-	[SerializeField] private string npcClass;
-	[SerializeField] private string[] skills;
+	[SerializeField] public int level;
+	[SerializeField] public string npcClass;
+	[SerializeField] public string[] skills;
 
 	
 	[Header("Stats")]
-	[SerializeField] private int healthPoints;
-	[SerializeField] private int healthPointsMax;
-	[SerializeField] private int armorClass;
-	[SerializeField] private int strength;
-	[SerializeField] private int dexterity;
-	[SerializeField] private int constitution;
-	[SerializeField] private int intelligence;
-	[SerializeField] private int wisdom;
-	[SerializeField] private int charisma;
+	[SerializeField] public int healthPoints;
+	[SerializeField] public int healthPointsMax;
+	[SerializeField] public int armorClass;
+	[SerializeField] public int strength;
+	[SerializeField] public int dexterity;
+	[SerializeField] public int constitution;
+	[SerializeField] public int intelligence;
+	[SerializeField] public int wisdom;
+	[SerializeField] public int charisma;
 
 	
 	[Header("Personality")]
-	[SerializeField] private string[] traits;
-	[SerializeField] private string[] flaws;
-	[SerializeField] private string[] ideals;
+	[SerializeField] public string[] traits;
+	[SerializeField] public string[] flaws;
+	[SerializeField] public string[] ideals;
 
 }

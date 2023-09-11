@@ -17,7 +17,7 @@ using UnityEngine.InputSystem.Utilities;
 
 namespace PlayerInput
 {
-    public partial class @PlayerControls: IInputActionCollection, IDisposable
+    public partial class @PlayerControls: IInputActionCollection2, IDisposable
     {
         public InputActionAsset asset { get; }
         public @PlayerControls()

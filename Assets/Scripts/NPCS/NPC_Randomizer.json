@@ -1,0 +1,21 @@
+{
+  "npc": {
+    "fname": [ "Name1", "Name2", "Name3", "Name4", "Name5" ],
+    "lname": [ "name2," ],
+    "level": [ "1", "2", "3" ],
+    "class": [ "Warrior" ],
+    "race": [ "Elf" ],
+    "strength": [ "1", "2" ],
+    "dexterity": [ "1", "2" ],
+    "constitution": [ "1", "2" ],
+    "intelligence": [ "1", "2" ],
+    "wisdom": [ "1", "2" ],
+    "charisma": [ "1", "2" ],
+    "hp": [ "10" ],
+    "ac": [ "10" ],
+    "traits": [ "trait1", "trait2" ],
+    "flaws": [ "flaw1", "flaw2" ],
+    "ideals": [ "ideal1", "ideal2" ],
+    "skills": [ "skill1", "skill2" ]
+  }
+}
