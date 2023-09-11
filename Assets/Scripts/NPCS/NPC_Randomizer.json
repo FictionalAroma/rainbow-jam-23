@@ -1,5 +1,5 @@
 {
-  "npc": {
+  
     "fname": [ "Name1", "Name2", "Name3", "Name4", "Name5" ],
     "lname": [ "name2," ],
     "level": [ "1", "2", "3" ],
@@ -17,5 +17,5 @@
     "flaws": [ "flaw1", "flaw2" ],
     "ideals": [ "ideal1", "ideal2" ],
     "skills": [ "skill1", "skill2" ]
-  }
+  
 }

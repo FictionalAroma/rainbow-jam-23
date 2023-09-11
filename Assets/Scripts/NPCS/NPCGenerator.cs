@@ -1,7 +1,8 @@
+using Microsoft.Unity.VisualStudio.Editor;
+using Newtonsoft.Json;
 using SuperTiled2Unity;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEditor.PackageManager.UI;
 using UnityEngine;
 using static Cinemachine.DocumentationSortingAttribute;
@@ -25,13 +26,15 @@ public class NPCGenerator : MonoBehaviour
     {
         if (generateCharacter)
         {
-            GenerateCharacter(jsonDB);
+            var character = GenerateCharacter(jsonDB);
+            Debug.Log(character.firstName);
+            Debug.Log(character.lastName);
         }
     }
     public CharacterSheet GenerateCharacter(TextAsset jsonDB)
     {
         generateCharacter = false;
-        CharacterSheet characterSheet = new CharacterSheet();
+        CharacterSheet characterSheet = ScriptableObject.CreateInstance<CharacterSheet>();
         if (jsonDB == null)
         {
             return null;
@@ -43,13 +46,13 @@ public class NPCGenerator : MonoBehaviour
             if (!string.IsNullOrEmpty(json))
             {
                 // Deserialize the JSON data into a Dictionary<string, string[]>
-                var data = JsonUtility.FromJson<Dictionary<string, string[]>>(json);
+                var data = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
 
                 // Populate UI fields
                 characterSheet.firstName = RandomFromArray(data["fname"]);
                 characterSheet.lastName = RandomFromArray(data["lname"]);
                 characterSheet.level = RandomFromArray(data["level"]).ToInt();
-                characterSheet.npcClass = RandomFromArray(data["npcClass"]);
+                characterSheet.npcClass = RandomFromArray(data["class"]);
                 characterSheet.race = RandomFromArray(data["race"]);
                 characterSheet.strength = RandomFromArray(data["strength"]).ToInt();
                 characterSheet.dexterity = RandomFromArray(data["dexterity"]).ToInt();
