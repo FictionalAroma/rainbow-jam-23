@@ -1,9 +1,9 @@
 using CommonComponents.Interfaces;
-using System.Collections.Generic;
+using CommonComponents;
 using TMPro;
 using UnityEngine;
 
-public class NpcCharacterUI : MonoBehaviour
+public class CharacterUI : Interactable
 {
     [SerializeField] TextMeshProUGUI firstName, lastName, level, npcClass, race, strength, dexterity, constitution, intelligence, wisdom, charisma;
     [SerializeField] TextMeshProUGUI healthPoints;
@@ -34,7 +34,7 @@ public class NpcCharacterUI : MonoBehaviour
 		skills.text = characterSheet.skills.ToString();
 
     }
-    public bool Action(InteractableActor actor)
+    public override bool Action(InteractableActor actor)
 	{
 		if (actor != null)
 		{
