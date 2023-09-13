@@ -41,7 +41,7 @@ public class CharacterSpeech : Interactable
 		speechCanvas.SetActive(false);
 		_currentSpeech = null;
 	}
-    public IEnumerator CaptainMessage(string text, Sprite npcImage)
+    public IEnumerator NPCMessage(string text, Sprite npcImage)
     {
         speechCanvas.SetActive(true);
         speechBubble.text = text;
