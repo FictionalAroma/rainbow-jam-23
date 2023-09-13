@@ -89,7 +89,7 @@ namespace SuperTiled2Unity.Editor
                 // This should be reported for bug fixing
                 m_Errors.Add("Unknown error encountered. Please report as bug. Stack track is in the console output.");
                 m_Errors.Add(ex.Message);
-                Debug.LogErrorFormat("Unknown error of type importing '{0}': {1}\nStack Trace:\n{2}", assetPath, ex.Message, ex.StackTrace);
+                Debug.LogErrorFormat("Unknown error of type importing '{0}': {1}nStack Trace:n{2}", assetPath, ex.Message, ex.StackTrace);
             }
 #else
             {

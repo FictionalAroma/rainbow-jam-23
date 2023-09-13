@@ -102,10 +102,10 @@ namespace SuperTiled2Unity.Editor
                     msg.AppendLine(TargetAssetImporter.GetReportHeader());
                     msg.AppendLine("This asset is dependent on other files that either cannot be found or they failed to be imported.");
                     msg.AppendLine("Note that all Tiled assets must be imported to Unity in folder locations that keep their relative paths intact.");
-                    msg.AppendLine("Reimport this asset once fixes are made.\n");
-                    msg.AppendFormat("Tip: Try opening {0} in Tiled to resolve location of missing assets.\n\n", asset);
+                    msg.AppendLine("Reimport this asset once fixes are made.n");
+                    msg.AppendFormat("Tip: Try opening {0} in Tiled to resolve location of missing assets.nn", asset);
 
-                    msg.AppendLine(string.Join("\n", TargetAssetImporter.MissingFiles.ToArray()));
+                    msg.AppendLine(string.Join("n", TargetAssetImporter.MissingFiles.ToArray()));
 
                     EditorGUILayout.HelpBox(msg.ToString(), MessageType.Error);
 
@@ -139,7 +139,7 @@ namespace SuperTiled2Unity.Editor
 
                     var msg = new StringBuilder();
                     msg.AppendLine(TargetAssetImporter.GetReportHeader());
-                    msg.AppendLine(string.Join("\n", TargetAssetImporter.Errors.Take(10).ToArray()));
+                    msg.AppendLine(string.Join("n", TargetAssetImporter.Errors.Take(10).ToArray()));
 
                     EditorGUILayout.HelpBox(msg.ToString(), MessageType.Error);
 
@@ -157,7 +157,7 @@ namespace SuperTiled2Unity.Editor
                 if (TargetAssetImporter.Warnings.Any())
                 {
                     EditorGUILayout.LabelField("There were warnings importing " + asset, EditorStyles.boldLabel);
-                    var msg = string.Join("\n\n", TargetAssetImporter.Warnings.Take(10).ToArray());
+                    var msg = string.Join("nn", TargetAssetImporter.Warnings.Take(10).ToArray());
                     EditorGUILayout.HelpBox(msg, MessageType.Warning);
 
                     if (GUILayout.Button("Copy Warning Message to Clipboard"))
@@ -197,7 +197,7 @@ namespace SuperTiled2Unity.Editor
 
                         foreach (var layer in TargetAssetImporter.MissingSortingLayers)
                         {
-                            message.AppendFormat("    {0}\n", layer);
+                            message.AppendFormat("    {0}n", layer);
                         }
 
                         EditorGUILayout.HelpBox(message.ToString(), MessageType.Warning);
@@ -216,7 +216,7 @@ namespace SuperTiled2Unity.Editor
 
                         foreach (var layer in TargetAssetImporter.MissingLayers)
                         {
-                            message.AppendFormat("    {0}\n", layer);
+                            message.AppendFormat("    {0}n", layer);
                         }
 
                         EditorGUILayout.HelpBox(message.ToString(), MessageType.Warning);
@@ -235,7 +235,7 @@ namespace SuperTiled2Unity.Editor
 
                         foreach (var tag in TargetAssetImporter.MissingTags)
                         {
-                            message.AppendFormat("    {0}\n", tag);
+                            message.AppendFormat("    {0}n", tag);
                         }
 
                         EditorGUILayout.HelpBox(message.ToString(), MessageType.Warning);

@@ -35,7 +35,7 @@ namespace SuperTiled2Unity.Editor
                 return string.Empty;
             }
 
-            return path.Replace('\\', '/');
+            return path.Replace('', '/');
         }
 
         public static void CopyToClipboard(this string str)
