@@ -1,6 +1,7 @@
 using System.Collections;
 using CommonComponents;
 using CommonComponents.Interfaces;
+using Interactions;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine;
@@ -33,13 +34,7 @@ public class CharacterSpeech : Interactable
         return true;
     }
 
-	private IEnumerator ShowSpeech()
-	{
-		speechCanvas.SetActive(true);
-		speechBubble.text = speechText;
-		yield return new WaitForSeconds(3);
-		speechCanvas.SetActive(false);
-		_currentSpeech = null;
+		return true;
 	}
     public IEnumerator NPCMessage(string text, Sprite npcImage)
     {
