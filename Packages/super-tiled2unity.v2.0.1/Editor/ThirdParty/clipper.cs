@@ -1,4 +1,4 @@
-﻿/*
+﻿/*******************************************************************************
 *                                                                              *
 * Author    :  Angus Johnson                                                   *
 * Version   :  6.4.2                                                           *
@@ -29,14 +29,14 @@
 * September 24-28, 2005 , Long Beach, California, USA                          *
 * http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf              *
 *                                                                              *
-*/
+*******************************************************************************/
 
-/*
+/*******************************************************************************
 *                                                                              *
 * This is a translation of the Delphi Clipper library and the naming style     *
 * used has retained a Delphi flavour.                                          *
 *                                                                              *
-*/
+*******************************************************************************/
 
 //use_int32: When enabled 32bit ints are used instead of 64bit ints. This
 //improve performance but coordinate values are limited to the range +/- 46340

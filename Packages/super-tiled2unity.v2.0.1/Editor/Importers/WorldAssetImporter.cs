@@ -68,7 +68,7 @@ namespace SuperTiled2Unity.Editor
             }
             catch (Exception ex)
             {
-                ReportError("Unknown error importing World file: {0}n{1}n{2}", assetPath, ex.Message, ex.StackTrace);
+                ReportError("Unknown error importing World file: {0}\n{1}\n{2}", assetPath, ex.Message, ex.StackTrace);
             }
         }
 
@@ -83,7 +83,7 @@ namespace SuperTiled2Unity.Editor
             }
             catch (Exception ex)
             {
-                ReportError("World file has broken JSON syntax.n{0}", ex.Message);
+                ReportError("World file has broken JSON syntax.\n{0}", ex.Message);
                 return;
             }
 

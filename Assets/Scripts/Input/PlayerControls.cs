@@ -17,7 +17,7 @@ using UnityEngine.InputSystem.Utilities;
 
 namespace PlayerInput
 {
-    public partial class @PlayerControls: IInputActionCollection2, IDisposable
+    public partial class @PlayerControls: IInputActionCollection, IDisposable
     {
         public InputActionAsset asset { get; }
         public @PlayerControls()
@@ -460,21 +460,10 @@ namespace PlayerInput
                 {
                     ""name"": """",
                     ""id"": ""9e92bb26-7e3b-4ec4-b06b-3c8f8e498ddc"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""*/{Submit}"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Submit"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""d11b1535-56bf-4d45-9f82-0daf575add5b"",
-                    ""path"": ""<Keyboard>/enter"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard&Mouse;Gamepad;Touch;Joystick;XR"",
                     ""action"": ""Submit"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false

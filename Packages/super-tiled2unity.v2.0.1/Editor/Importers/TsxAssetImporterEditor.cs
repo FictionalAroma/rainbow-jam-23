@@ -32,7 +32,7 @@ namespace SuperTiled2Unity.Editor
         {
             get
             {
-                return "This imports Tiled Map Editor tileset files (.tsx) into Unity projects.n" +
+                return "This imports Tiled Map Editor tileset files (.tsx) into Unity projects.\n" +
                     "TSX assets are referenced by Tiled Map (.tmx) assets to build maps.";
             }
         }
@@ -102,9 +102,9 @@ namespace SuperTiled2Unity.Editor
                     m_AtlasWidth.intValue = (int)(AtlasSize)EditorGUILayout.EnumPopup(m_AtlasWidthContent, (AtlasSize)m_AtlasWidth.intValue);
                     m_AtlasHeight.intValue = (int)(AtlasSize)EditorGUILayout.EnumPopup(m_AtlasHeightContent, (AtlasSize)m_AtlasHeight.intValue);
 
-                    EditorGUILayout.HelpBox("SuperTiled2Unity can automate the creation of sprite atlas used to package tiles.n" +
-                        "This will eliminate visual artifacts like seams from your maps but some users may wish to handle sprite atlases themselves.n" +
-                        "It is best practice to reuse tilesets so that multiple atlases containing the same tiles are created.n" +
+                    EditorGUILayout.HelpBox("SuperTiled2Unity can automate the creation of sprite atlas used to package tiles.\n" +
+                        "This will eliminate visual artifacts like seams from your maps but some users may wish to handle sprite atlases themselves.\n" +
+                        "It is best practice to reuse tilesets so that multiple atlases containing the same tiles are created.\n" +
                         "Seams can also be avoided by constraining the game camera. This reduces memory but can be difficult to achieve.",
                         MessageType.None);
                     EditorGUILayout.Space();

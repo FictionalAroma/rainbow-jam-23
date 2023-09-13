@@ -16,7 +16,7 @@ namespace SuperTiled2Unity.Editor
         {
             get
             {
-                return "This imports Tiled Map Editor template files (.tx) into Unity projects.n" +
+                return "This imports Tiled Map Editor template files (.tx) into Unity projects.\n" +
                     "TX assets are referenced by objects in Tiled Map (.tmx) assets.";
             }
         }

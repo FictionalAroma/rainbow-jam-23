@@ -93,7 +93,7 @@ namespace SuperTiled2Unity.Editor
                 }
                 catch (XmlException xe)
                 {
-                    m_ParseXmlError = string.Format("'{0}' is not a valid XML file.nnError: {1}", m_ObjectTypesXml.name, xe.Message);
+                    m_ParseXmlError = string.Format("'{0}' is not a valid XML file.\n\nError: {1}", m_ObjectTypesXml.name, xe.Message);
                     m_CustomObjectTypes.Clear();
                 }
                 catch (Exception e)
