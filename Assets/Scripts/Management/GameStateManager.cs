@@ -6,20 +6,9 @@ namespace Management
 	public class GameStateManager
 	{
 		private static GameStateManager _instance = null;
-        public static GameStateManager Instance
-        {
-            get
-            {
-				if (_instance == null)
-				{
-					_instance = new GameStateManager();
-				}
+        public static GameStateManager Instance => _instance ??= new GameStateManager();
 
-				return _instance;
-			}
-        }
-
-        private event GameStateChange StateChangeEvent;
+		private event GameStateChange StateChangeEvent;
 
 		public GameState CurrentState { get; private set; } = GameState.Running;
 

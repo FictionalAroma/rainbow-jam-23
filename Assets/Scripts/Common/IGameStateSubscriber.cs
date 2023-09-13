@@ -5,7 +5,8 @@
 		Running,
 		Paused,
 		Loading,
-		Cutscene
+		Cutscene,
+		Interaction,
 	}
 	public delegate void GameStateChange (GameState newState);
 
