@@ -4,7 +4,100 @@ using UnityEngine;
 
 public class PlayerSettings
 {
+    private int? _masterVolume;
+    private int? _sfxVolume;
+    private int? _musicVolume;
+    private string? _font;
+    private int? _fontSize;
+    public int MasterVolume
+    {
+        get
+        {
+            if (!_masterVolume.HasValue)
+            {
+                _masterVolume = GetInt("MasterVolume");
+            }
+            return _masterVolume.Value;
+        }
+        set
+        {
+            SetInt("MasterVolume", value);
+            MasterVolume = value;
+        }
+    }
+    public int SFXVolume
+    {
+        get
+        {
+            if (!_sfxVolume.HasValue)
+            {
+                _sfxVolume = GetInt("SFXVolume");
 
+            }
+            return _sfxVolume.Value;
+        }
+        set
+        {
+            SetInt("SFXVolume", value);
+            SFXVolume = value;
+        }
+    }
+    public int MusicVolume
+    {
+        get
+        {
+            if (!_musicVolume.HasValue)
+            {
+                _musicVolume = GetInt("MusicVolume");
+            }
+            return _musicVolume.Value;
+        }
+        set
+        {
+            SetInt("MusicVolume",value);
+            MusicVolume = value;
+        }
+    }
+    public int FontSize
+    {
+        get
+        {
+            if(!_fontSize.HasValue)
+            {
+                _fontSize = GetInt("FontSize");
+            }
+            return _fontSize.Value;
+        }
+        set
+        {
+            SetInt("FontSize", value);
+            FontSize = value;
+        }
+    }
+    public string Font
+    {
+        get
+        {
+            if(_font == null)
+            {
+                _font = GetString("Font");
+            }
+            return _font;
+        }
+        set
+        {
+            SetString("Font", value);
+            Font = value;
+        }
+    }
+    public void ForceReload()
+    {
+        _fontSize = null;
+        _font = null;
+        _masterVolume = null;
+        _musicVolume = null;
+        
+    }
     public int GetInt(string key)
     {
         return PlayerPrefs.GetInt(key);
@@ -29,13 +122,7 @@ public class PlayerSettings
     {
         PlayerPrefs.SetFloat(key, value);
     }
-    
+   
 
-    /*public void SaveSettings()
-    {
-        PlayerPrefs.SetInt("sfxVolume", sfxVolumeSet);
-        PlayerPrefs.SetInt("musicVolume", musicVolumeSet);
-        PlayerPrefs.SetInt("fontSize", fontSizeSet);
-    }*/
     
 }
