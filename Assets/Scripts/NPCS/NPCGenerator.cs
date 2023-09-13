@@ -46,6 +46,7 @@ public class NPCGenerator : MonoBehaviour
             if (!string.IsNullOrEmpty(json))
             {
                 CharacterAttributesFromJson characterAttributesFromJson = JsonUtility.FromJson<CharacterAttributesFromJson>(json);
+                Debug.Log(characterAttributesFromJson.surnames);
                 //for integers
                 //var intData = JsonUtility.FromJson<int>(jsonDB.text);
                 // Deserialize the JSON data into a Dictionary<string, string[]>

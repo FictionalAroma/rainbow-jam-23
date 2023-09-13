@@ -7,14 +7,14 @@ public class CharacterAttributesFromJson
 
         public int charisma, wisdom, strength, dexterity, intelligence, constitution;
         public int level;
-        public List<string> first_names { get; set; }
-        public List<string> surnames { get; set; }
-        public List<string> @class { get; set; }
-        public List<string> race { get; set; }
-        public List<string> traitsPos { get; set; }
-        public List<string> traitsNeg { get; set; }
-        public List<string> flaws { get; set; }
-        public List<string> skills { get; set; }
-        public List<string> ideals { get; set; }
+        public List<string> first_names;
+        public List<string> surnames;
+        public List<string> @class;
+        public List<string> race;
+        public List<string> traitsPos;
+        public List<string> traitsNeg;
+        public List<string> flaws;
+        public List<string> skills;
+        public List<string> ideals;     
   
 }
