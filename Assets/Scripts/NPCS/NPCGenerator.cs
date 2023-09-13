@@ -12,7 +12,7 @@ public class NPCGenerator : MonoBehaviour
 {
     
     [SerializeField] TextAsset jsonDB;
-    [SerializeField] int num_of_traits, num_of_flaws, num_of_ideals, num_of_skills;
+    [SerializeField] int num_of_neg_traits,num_of_pos_traits, num_of_flaws, num_of_ideals, num_of_skills;
     [SerializeField] bool generateCharacter = false;
     
     // Start is called before the first frame update
@@ -45,30 +45,29 @@ public class NPCGenerator : MonoBehaviour
             string json = jsonDB.text;
             if (!string.IsNullOrEmpty(json))
             {
+                CharacterAttributesFromJson characterAttributesFromJson = JsonUtility.FromJson<CharacterAttributesFromJson>(json);
                 //for integers
-                var intData = JsonUtility.FromJson<int>(jsonDB.text);
+                //var intData = JsonUtility.FromJson<int>(jsonDB.text);
                 // Deserialize the JSON data into a Dictionary<string, string[]>
-                var stringData = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
+                //var stringData = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
 
                 // Populate UI fields
-                characterSheet.firstName = RandomStringFromArray(stringData["fname"]);
-                characterSheet.lastName = RandomStringFromArray(stringData["lname"]);
-                characterSheet.level = intData["level"];//RandomIntFromArray(intData["level"]);
-                characterSheet.npcClass = RandomIntFromArray(stringData["class"]);
-                characterSheet.race = RandomStringFromArray(stringData["race"]);
-                characterSheet.strength = RandomIntFromArray(data["strength"]);
-                characterSheet.dexterity = RandomIntFromArray(data["dexterity"]);
-                characterSheet.constitution = RandomIntFromArray(data["constitution"]);
-                characterSheet.intelligence = RandomIntFromArray(data["intelligence"]);
-                characterSheet.wisdom = RandomIntFromArray(data["wisdom"]);
-                characterSheet.charisma = RandomIntFromArray(data["charisma"]);
-                characterSheet.healthPoints = RandomIntFromArray(data["hp"]);
-                characterSheet.healthPointsMax = RandomIntFromArray(data["hp"]); // For simplicity, using the same value for max HP
-                characterSheet.armorClass = RandomIntFromArray(data["ac"]);
-                characterSheet.traits = ReturnMultipleRandomStringsFromArray(stringData["traits"],num_of_traits);
-                characterSheet.flaws = ReturnMultipleRandomStringsFromArray(stringData["flaws"],num_of_flaws);
-                characterSheet.ideals = ReturnMultipleRandomStringsFromArray(stringData["ideals"],num_of_ideals);
-                characterSheet.skills = ReturnMultipleRandomStringsFromArray(stringData["skills"],num_of_skills);
+                characterSheet.firstName = RandomStringFromArray(characterAttributesFromJson.first_names.ToArray());
+                characterSheet.lastName = RandomStringFromArray(characterAttributesFromJson.surnames.ToArray());
+                characterSheet.level = characterAttributesFromJson.level;//RandomIntFromArray(intData["level"]);
+                characterSheet.npcClass = RandomStringFromArray(characterAttributesFromJson.@class.ToArray());
+                characterSheet.race = RandomStringFromArray(characterAttributesFromJson.race.ToArray());
+                characterSheet.strength = characterAttributesFromJson.strength;
+                characterSheet.dexterity = characterAttributesFromJson.dexterity;
+                characterSheet.constitution = characterAttributesFromJson.constitution;
+                characterSheet.intelligence = characterAttributesFromJson.intelligence;
+                characterSheet.wisdom = characterAttributesFromJson.wisdom;
+                characterSheet.charisma = characterAttributesFromJson.charisma;
+                characterSheet.pos_traits = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.traitsPos.ToArray(),num_of_pos_traits);
+                characterSheet.neg_traits= ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.traitsNeg.ToArray(),num_of_neg_traits);
+                characterSheet.flaws = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.flaws.ToArray(),num_of_flaws);
+                characterSheet.ideals = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.ideals.ToArray(),num_of_ideals);
+                characterSheet.skills = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.skills.ToArray(),num_of_skills);
                 
             }
         }

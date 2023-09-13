@@ -26,9 +26,10 @@ public class CharacterSheet : ScriptableObject
 	public int wisdom;
 	public int charisma;
 
-	
+
 	[Header("Personality")]
-	public string[] traits;
+	public string[] neg_traits;
+	public string[] pos_traits;
 	public string[] flaws;
 	public string[] ideals;
 
