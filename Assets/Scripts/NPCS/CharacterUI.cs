@@ -28,7 +28,7 @@ public class NpcCharacterUI : MonoBehaviour
 		healthPoints.text = characterSheet.healthPoints.ToString();
 		healthPointsMax.text = characterSheet.healthPointsMax.ToString();
 		armorClass.text = characterSheet.armorClass.ToString();
-		traits.text = characterSheet.traits.ToString();
+		traits.text = characterSheet.neg_traits.ToString()+characterSheet.pos_traits.ToString();
 		flaws.text = characterSheet.flaws.ToString();
 		ideals.text = characterSheet.ideals.ToString();
 		skills.text = characterSheet.skills.ToString();
