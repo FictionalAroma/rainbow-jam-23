@@ -30,12 +30,10 @@ public class CharacterSpeech : Interactable
 		}
 		_currentSpeech = StartCoroutine(ShowSpeech());
 		return true;*/
-        StartCoroutine(CaptainMessage(speechText, npcImage));
+        StartCoroutine(NPCMessage(speechText, npcImage));
         return true;
     }
 
-		return true;
-	}
     public IEnumerator NPCMessage(string text, Sprite npcImage)
     {
         speechCanvas.SetActive(true);
