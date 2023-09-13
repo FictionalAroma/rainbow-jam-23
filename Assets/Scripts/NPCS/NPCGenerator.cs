@@ -45,44 +45,46 @@ public class NPCGenerator : MonoBehaviour
             string json = jsonDB.text;
             if (!string.IsNullOrEmpty(json))
             {
+                //for integers
+                var intData = JsonUtility.FromJson<int>(jsonDB.text);
                 // Deserialize the JSON data into a Dictionary<string, string[]>
-                var data = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
+                var stringData = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
 
                 // Populate UI fields
-                characterSheet.firstName = RandomFromArray(data["fname"]);
-                characterSheet.lastName = RandomFromArray(data["lname"]);
-                characterSheet.level = RandomFromArray(data["level"]).ToInt();
-                characterSheet.npcClass = RandomFromArray(data["class"]);
-                characterSheet.race = RandomFromArray(data["race"]);
-                characterSheet.strength = RandomFromArray(data["strength"]).ToInt();
-                characterSheet.dexterity = RandomFromArray(data["dexterity"]).ToInt();
-                characterSheet.constitution = RandomFromArray(data["constitution"]).ToInt();
-                characterSheet.intelligence = RandomFromArray(data["intelligence"]).ToInt();
-                characterSheet.wisdom = RandomFromArray(data["wisdom"]).ToInt();
-                characterSheet.charisma = RandomFromArray(data["charisma"]).ToInt();
-                characterSheet.healthPoints = RandomFromArray(data["hp"]).ToInt();
-                characterSheet.healthPointsMax = RandomFromArray(data["hp"]).ToInt(); // For simplicity, using the same value for max HP
-                characterSheet.armorClass = RandomFromArray(data["ac"]).ToInt();
-                characterSheet.traits = ReturnMultipleRandomFromArray(data["traits"],num_of_traits);
-                characterSheet.flaws = ReturnMultipleRandomFromArray(data["flaws"],num_of_flaws);
-                characterSheet.ideals = ReturnMultipleRandomFromArray(data["ideals"],num_of_ideals);
-                characterSheet.skills = ReturnMultipleRandomFromArray(data["skills"],num_of_skills);
+                characterSheet.firstName = RandomStringFromArray(stringData["fname"]);
+                characterSheet.lastName = RandomStringFromArray(stringData["lname"]);
+                characterSheet.level = intData["level"];//RandomIntFromArray(intData["level"]);
+                characterSheet.npcClass = RandomIntFromArray(stringData["class"]);
+                characterSheet.race = RandomStringFromArray(stringData["race"]);
+                characterSheet.strength = RandomIntFromArray(data["strength"]);
+                characterSheet.dexterity = RandomIntFromArray(data["dexterity"]);
+                characterSheet.constitution = RandomIntFromArray(data["constitution"]);
+                characterSheet.intelligence = RandomIntFromArray(data["intelligence"]);
+                characterSheet.wisdom = RandomIntFromArray(data["wisdom"]);
+                characterSheet.charisma = RandomIntFromArray(data["charisma"]);
+                characterSheet.healthPoints = RandomIntFromArray(data["hp"]);
+                characterSheet.healthPointsMax = RandomIntFromArray(data["hp"]); // For simplicity, using the same value for max HP
+                characterSheet.armorClass = RandomIntFromArray(data["ac"]);
+                characterSheet.traits = ReturnMultipleRandomStringsFromArray(stringData["traits"],num_of_traits);
+                characterSheet.flaws = ReturnMultipleRandomStringsFromArray(stringData["flaws"],num_of_flaws);
+                characterSheet.ideals = ReturnMultipleRandomStringsFromArray(stringData["ideals"],num_of_ideals);
+                characterSheet.skills = ReturnMultipleRandomStringsFromArray(stringData["skills"],num_of_skills);
                 
             }
         }
         return characterSheet;
 
     }
-    private string[] ReturnMultipleRandomFromArray(string[] array, int sizeOfArrayToReturn)
+    private string[] ReturnMultipleRandomStringsFromArray(string[] array, int sizeOfArrayToReturn)
     {
         List<string> listToReturn = new List<string>();
         for (int i = 0; i< sizeOfArrayToReturn; i++)
         {
-            listToReturn.Add(RandomFromArray(array));
+            listToReturn.Add(RandomStringFromArray(array));
         }
         return listToReturn.ToArray();
     }
-    private string RandomFromArray(string[] array)
+    private string RandomStringFromArray(string[] array)
     {
         if (array.Length > 0)
         {
@@ -95,5 +97,17 @@ public class NPCGenerator : MonoBehaviour
         }
 
 
+    }
+    private int RandomIntFromArray(int[] array)
+    {
+        if (array.Length > 0)
+        {
+            int randomIndex = Random.Range(0,array.Length);
+            return array[randomIndex];
+        }
+        else
+        {
+            return array[0];
+        }
     }
 }

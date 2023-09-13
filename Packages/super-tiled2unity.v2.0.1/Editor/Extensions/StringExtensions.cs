@@ -5,6 +5,8 @@ namespace SuperTiled2Unity.Editor
 {
     public static class StringExtensions
     {
+       
+
         public static bool IsNullOrWhiteSpace(this string value)
         {
 #if NET_LEGACY
@@ -35,7 +37,7 @@ namespace SuperTiled2Unity.Editor
                 return string.Empty;
             }
 
-            return path.Replace('', '/');
+            return path.Replace(' ', '/');
         }
 
         public static void CopyToClipboard(this string str)
