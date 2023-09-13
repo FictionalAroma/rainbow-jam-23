@@ -37,7 +37,7 @@ public class CharacterUI : IngameUIBase<CharacterSheet>
 		if (armorClass != null)
 			armorClass.text = characterSheet.armorClass.ToString();
 		if (traits != null)
-			traits.text = characterSheet.traits.ToString();
+			traits.text = characterSheet.neg_traits.ToString()+characterSheet.pos_traits.ToString();
 		if (flaws != null)
 			flaws.text = characterSheet.flaws.ToString();
 		if (ideals != null)

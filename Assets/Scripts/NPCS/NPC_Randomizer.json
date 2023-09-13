@@ -1,4 +1,33 @@
 {
+  "charisma": {
+    "min": 6,
+    "max": 17
+  },
+  "constitution": {
+    "min": 6,
+    "max": 17
+  },
+  "dexterity": {
+    "min": 6,
+    "max": 17
+  },
+  "intelligence": {
+    "min": 6,
+    "max": 17
+  },
+  "strength": {
+    "min": 1,
+    "max": 17
+  },
+  "wisdom": {
+    "min": 1,
+    "max": 17
+  },
+  "level": {
+    "min": 1,
+    "max": 3
+  },
+
   "npc": {
     "first_names": [
       "Felorian",
@@ -235,20 +264,12 @@
       "Wyvernslayer"
     ],
     "class": [ "Warrior", "Paladin", "Wizard", "Sorcerer", "Monk", "Bard", "Druid", "Ranger", "Rogue", "Barbarian", "Warlock" ],
-    "race": [ "Elf" ]
-  },
-    "level": [ "1", "2", "3" ],
-    "strength": [ "1", "2" ],
-    "dexterity": [ "1", "2" ],
-    "constitution": [ "1", "2" ],
-    "intelligence": [ "1", "2" ],
-    "wisdom": [ "1", "2" ],
-    "charisma": [ "1", "2" ],
-    "hp": [ "10" ],
-    "ac": [ "10" ],
-    "traits": [ "trait1", "trait2" ],
-    "flaws": [ "flaw1", "flaw2" ],
-    "ideals": [ "ideal1", "ideal2" ],
-    "skills": [ "skill1", "skill2" ]
-  
+    "race": [ "Elf","Dwarf","Human","Half-Orc","Tiefling","Aasimar","Dragonborn","Drow","Half-Elf","Halfling","Gnome","Warforged" ],
+    "traitsPos": [ "Brave", "Cheerful", "Friendly" ],
+    "traitsNeg": [ "Cowardly", "Gloomy", "Aloof" ],
+    "flaws": [ "Addict", "Arrogant", "Greedy", "Jealous", "Lier", "Compulsive" ],
+    "skills": [ "Acrobat", "Survivor", "Animal Handler", "Investigator", "Deceptive", "Arcane", "Historian", "Insightful", "Intimidating", "Perceptive", "Performer", "Stealthy", "Persuasive", "Medic", "Sylvan" ],
+    "ideals": [ "Honor", "Justice", "Freedom", "Knowledge", "Power", "Faith" ]
+  }
+
 }
