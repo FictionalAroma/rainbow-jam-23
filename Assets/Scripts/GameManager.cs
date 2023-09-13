@@ -16,9 +16,9 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        sfxVolume = playerSettings.sfxVolumeSet;
-        musicVolume = playerSettings.musicVolumeSet;
-        fontSize = playerSettings.fontSizeSet;
+        sfxVolume = playerSettings.GetInt("sfxVolume");
+        musicVolume = playerSettings.GetInt("musicVolume");
+        fontSize = playerSettings.GetInt("fontSize");
 
     }
 

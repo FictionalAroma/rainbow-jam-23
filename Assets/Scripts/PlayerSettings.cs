@@ -5,25 +5,25 @@ using UnityEngine;
 public class PlayerSettings
 {
 
-    public void GetInt(string key)
+    public int GetInt(string key)
     {
-        PlayerPrefs.GetInt(key);
+        return PlayerPrefs.GetInt(key);
     }
     public void SetInt(string key, int value)
     {
-        PlayerPrefs.SetInt(key, value);
+         PlayerPrefs.SetInt(key, value);
     }
-    public void GetString(string key)
+    public string GetString(string key)
     {
-        PlayerPrefs.GetString(key);
+        return PlayerPrefs.GetString(key);
     }
-    public void SetString(string key, string value)
+    public void  SetString(string key, string value)
     {
         PlayerPrefs.SetString(key, value);
     }
-    public void GetFloat(string key)
+    public float GetFloat(string key)
     {
-        PlayerPrefs.GetFloat(key);
+        return PlayerPrefs.GetFloat(key);
     }
     public void SetFloat(string key, float value)
     {
