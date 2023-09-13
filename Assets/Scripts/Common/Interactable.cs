@@ -3,27 +3,18 @@ using UnityEngine;
 
 namespace CommonComponents
 {
+	[RequireComponent(typeof(Collider2D))]
 	public abstract class Interactable : MonoBehaviour
 	{
-		[SerializeField] private string actionText;
-		[SerializeField] private string ItemName;
+		[SerializeField] protected string actionText;
+		[SerializeField] protected string itemName;
+		[SerializeField] protected Collider2D interactionCollider;
 
-		private void OnTriggerEnter(Collider other)
-		{
-			if (other.gameObject.TryGetComponent<InteractableActor>(out var c))
-			{
-				c.SetInteractableObject(this);
-			}
-		}
+		public Collider2D InteractionCollider => interactionCollider;
+		public string ActionText => actionText;
+		public string ItemName => itemName;
 
-		private void OnTriggerExit(Collider other)
-		{
-			if (other.gameObject.TryGetComponent <InteractableActor>(out var c))
-			{
-				c.ResetInteractableObject(this);
-			}
-		}
-
-		public abstract bool Action(InteractableActor actor);
+		public abstract bool Action(InteractableActor interactableActor);
+		public float GetDistance(Collider2D actionTrigger) => actionTrigger.Distance(interactionCollider).distance;
 	}
 }

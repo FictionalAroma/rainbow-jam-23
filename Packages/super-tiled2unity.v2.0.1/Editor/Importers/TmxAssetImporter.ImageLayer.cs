@@ -46,7 +46,7 @@ namespace SuperTiled2Unity.Editor
                     }
                     catch (Exception e)
                     {
-                        ReportError("Error creating sprite '{0}' for image layer '{1}'\n{2}", source, layerComponent.m_TiledName, e.Message);
+                        ReportError("Error creating sprite '{0}' for image layer '{1}'n{2}", source, layerComponent.m_TiledName, e.Message);
                     }
                 }
             }
