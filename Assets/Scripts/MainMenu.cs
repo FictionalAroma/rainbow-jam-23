@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    Canvas mainMenuCanvas;
-    Canvas optionsCanvas;
+    [SerializeField] GameObject mainMenuCanvas;
+    [SerializeField] GameObject optionsCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,14 +25,17 @@ public class MainMenu : MonoBehaviour
     }
     public void OpenOptions()
     {
-        mainMenuCanvas.enabled = false;
-        optionsCanvas.enabled = true;
+        mainMenuCanvas.SetActive(false);
+        optionsCanvas.SetActive(true);
     }
     public void ReturnToMainMenu()
     {
-        optionsCanvas.enabled = false;
-        mainMenuCanvas.enabled = true;
+        optionsCanvas.SetActive(false);
+        mainMenuCanvas.SetActive(true);
     }
-    
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
     
 }
