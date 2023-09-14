@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using Extensions;
+using ExtensionClasses;
 using UnityEngine;
 
 public class NPCGenerator : MonoBehaviour

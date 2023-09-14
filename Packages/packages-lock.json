@@ -8,9 +8,9 @@
       "hash": "f8a1aedbf0bc7c4aebe0f52300b002912690ce1a"
     },
     "com.seanba.super-tiled2unity": {
-      "version": "file:super-tiled2unity.v2.0.1",
+      "version": "file:F:/GameJams/packages/super-tiled2unity.v2.1.1",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.physics2d": "1.0.0",
