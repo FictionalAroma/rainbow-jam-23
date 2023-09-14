@@ -8,7 +8,7 @@
       "hash": "f8a1aedbf0bc7c4aebe0f52300b002912690ce1a"
     },
     "com.seanba.super-tiled2unity": {
-      "version": "file:F:/GameJams/packages/super-tiled2unity.v2.1.1",
+      "version": "file:../../packages/super-tiled2unity.v2.1.1",
       "depth": 0,
       "source": "local",
       "dependencies": {
