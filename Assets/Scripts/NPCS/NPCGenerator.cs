@@ -1,12 +1,7 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using Newtonsoft.Json;
-using SuperTiled2Unity;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager.UI;
+using Extensions;
 using UnityEngine;
-using static Cinemachine.DocumentationSortingAttribute;
-using static UnityEngine.ParticleSystem;
 
 public class NPCGenerator : MonoBehaviour
 {
@@ -14,100 +9,63 @@ public class NPCGenerator : MonoBehaviour
     [SerializeField] TextAsset jsonDB;
     [SerializeField] int num_of_neg_traits,num_of_pos_traits, num_of_flaws, num_of_ideals, num_of_skills;
     [SerializeField] bool generateCharacter = false;
-    
-    // Start is called before the first frame update
+
+	private List<CharacterRandomizationData> _characterGenList;
+
     void Start()
     {
-        
-    }
+		var wrapper = JsonConvert.DeserializeObject<CharacterRandomizationDataJsonWrapper>(jsonDB.text);
+		_characterGenList = wrapper.NPCList;
+	}
 
     // Update is called once per frame
     void Update()
     {
         if (generateCharacter)
         {
-            var character = GenerateCharacter(jsonDB);
+            var character = GenerateCharacter(_characterGenList);
             Debug.Log(character.firstName);
             Debug.Log(character.lastName);
         }
     }
-    public CharacterSheet GenerateCharacter(TextAsset jsonDB)
+    public CharacterSheet GenerateCharacter(List<CharacterRandomizationData> jsonDB)
     {
         generateCharacter = false;
-        CharacterSheet characterSheet = ScriptableObject.CreateInstance<CharacterSheet>();
         if (jsonDB == null)
         {
             return null;
         }
-        else
-        {
-            
-            string json = jsonDB.text;
-            if (!string.IsNullOrEmpty(json))
-            {
-                CharacterAttributesFromJson characterAttributesFromJson = JsonUtility.FromJson<CharacterAttributesFromJson>(json);
-                Debug.Log(characterAttributesFromJson.surnames);
-                //for integers
-                //var intData = JsonUtility.FromJson<int>(jsonDB.text);
-                // Deserialize the JSON data into a Dictionary<string, string[]>
-                //var stringData = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
 
-                // Populate UI fields
-                characterSheet.firstName = RandomStringFromArray(characterAttributesFromJson.first_names.ToArray());
-                characterSheet.lastName = RandomStringFromArray(characterAttributesFromJson.surnames.ToArray());
-                characterSheet.level = characterAttributesFromJson.level;//RandomIntFromArray(intData["level"]);
-                characterSheet.npcClass = RandomStringFromArray(characterAttributesFromJson.@class.ToArray());
-                characterSheet.race = RandomStringFromArray(characterAttributesFromJson.race.ToArray());
-                characterSheet.strength = characterAttributesFromJson.strength;
-                characterSheet.dexterity = characterAttributesFromJson.dexterity;
-                characterSheet.constitution = characterAttributesFromJson.constitution;
-                characterSheet.intelligence = characterAttributesFromJson.intelligence;
-                characterSheet.wisdom = characterAttributesFromJson.wisdom;
-                characterSheet.charisma = characterAttributesFromJson.charisma;
-                characterSheet.pos_traits = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.traitsPos.ToArray(),num_of_pos_traits);
-                characterSheet.neg_traits= ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.traitsNeg.ToArray(),num_of_neg_traits);
-                characterSheet.flaws = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.flaws.ToArray(),num_of_flaws);
-                characterSheet.ideals = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.ideals.ToArray(),num_of_ideals);
-                characterSheet.skills = ReturnMultipleRandomStringsFromArray(characterAttributesFromJson.skills.ToArray(),num_of_skills);
+		CharacterSheet characterSheet = ScriptableObject.CreateInstance<CharacterSheet>();
+
+		var randomData = Random.Range(0, _characterGenList.Count);
+		var characterRandomizationData = _characterGenList[randomData];
+		//for integers
+		//var intData = JsonUtility.FromJson<int>(jsonDB.text);
+		// Deserialize the JSON data into a Dictionary<string, string[]>
+		//var stringData = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(json);
+
+		// Populate UI fields
+		characterSheet.firstName = characterRandomizationData.FirstNames.RandomFromList();
+		characterSheet.lastName = characterRandomizationData.Surnames.RandomFromList();
+		characterSheet.level = characterRandomizationData.Level.GetRandomValue;//RandomIntFromArray(intData["level"]);
+		characterSheet.npcClass = characterRandomizationData.Class.RandomFromList();
+		characterSheet.race = characterRandomizationData.Race.RandomFromList();;
+		characterSheet.strength = characterRandomizationData.Strength.GetRandomValue;
+		characterSheet.dexterity = characterRandomizationData.Dexterity.GetRandomValue;
+		characterSheet.constitution = characterRandomizationData.Constitution.GetRandomValue;
+		characterSheet.intelligence = characterRandomizationData.Intelligence.GetRandomValue;
+		characterSheet.wisdom = characterRandomizationData.Wisdom.GetRandomValue;
+		characterSheet.charisma = characterRandomizationData.Charisma.GetRandomValue;
+		characterSheet.pos_traits = characterRandomizationData.TraitsPos.RandomFromList(num_of_pos_traits);
+		characterSheet.neg_traits= characterRandomizationData.TraitsNeg.RandomFromList(num_of_neg_traits);
+		characterSheet.flaws = characterRandomizationData.Flaws.RandomFromList(num_of_flaws);
+		characterSheet.ideals = characterRandomizationData.Ideals.RandomFromList(num_of_ideals);
+		characterSheet.skills = characterRandomizationData.Skills.RandomFromList(num_of_skills);
                 
-            }
-        }
-        return characterSheet;
+		
+		return characterSheet;
 
     }
-    private string[] ReturnMultipleRandomStringsFromArray(string[] array, int sizeOfArrayToReturn)
-    {
-        List<string> listToReturn = new List<string>();
-        for (int i = 0; i< sizeOfArrayToReturn; i++)
-        {
-            listToReturn.Add(RandomStringFromArray(array));
-        }
-        return listToReturn.ToArray();
-    }
-    private string RandomStringFromArray(string[] array)
-    {
-        if (array.Length > 0)
-        {
-            int randomIndex = Random.Range(0, array.Length);
-            return array[randomIndex];
-        }
-        else
-        {
-            return array[0];
-        }
 
-
-    }
-    private int RandomIntFromArray(int[] array)
-    {
-        if (array.Length > 0)
-        {
-            int randomIndex = Random.Range(0,array.Length);
-            return array[randomIndex];
-        }
-        else
-        {
-            return array[0];
-        }
-    }
 }
