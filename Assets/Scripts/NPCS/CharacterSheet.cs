@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 
+[Serializable]
 [CreateAssetMenu(fileName = "NewCharacter", menuName = "Character/New Character")]
 public class CharacterSheet : ScriptableObject
 {
