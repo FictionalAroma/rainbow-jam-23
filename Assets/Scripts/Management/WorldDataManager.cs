@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using ExtensionClasses;
 using Management.Data;
+using NPCS;
 using UnityEngine;
 
 namespace Management
@@ -43,7 +44,12 @@ namespace Management
 			}
 		}
 
-		public Adventurer GenerateAdventurer() => _generator.GenerateAdventurer();
+		public AdventurerData GenerateAdventurer()
+		{
+			var newMeat = _generator.GenerateAdventurer();
+			_world.AdventurerList.Add(newMeat);
+			return newMeat;
+		}
 
 
 		private string GetWorldFilePath(string username, string gameName) =>

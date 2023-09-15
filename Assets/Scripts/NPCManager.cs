@@ -1,7 +1,6 @@
 using Management;
 using Management.Data;
 using System.Collections.Generic;
-using System.IO;
 using NPCS;
 using UnityEngine;
 
@@ -9,7 +8,7 @@ public class NPCManager : MonoSingleton<NPCManager>
 {
     private WorldData _worldData;
 	readonly List<AdventurerData> _graveYard = new List<AdventurerData>();
-	readonly List<Adventurer> _adventurersAlive = new List<Adventurer>();
+	[SerializeField] private List<Adventurer> _adventurersAlive = new List<Adventurer>();
 
 	private void Start()
     {
@@ -21,6 +20,12 @@ public class NPCManager : MonoSingleton<NPCManager>
 
     }
 
+	public void AddNewAdventurer()
+	{
+		var newMeat = WorldDataManager.Instance.GenerateAdventurer();
+        _adventurersAlive.Add(new Adventurer(newMeat));
+	}
+
     public void OnNPCTick()
     {
         foreach (var adventurer in _adventurersAlive)
@@ -28,6 +33,7 @@ public class NPCManager : MonoSingleton<NPCManager>
             adventurer.Tick();
         }
     }
+
     private void PopulateNPCs(List<AdventurerData> adventurers)
     {
         foreach (var adventurer in adventurers)

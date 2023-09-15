@@ -7,9 +7,6 @@ using UnityEngine;
 
 public class NPCGenerator
 {
-    
-    TextAsset jsonDB;
-
 	private List<CharacterRandomizationData> _characterGenList;
 
 	public NPCGenerator(string filePath)
@@ -27,7 +24,7 @@ public class NPCGenerator
     // Update is called once per frame
     public CharacterSheet GenerateCharacter()
     {
-        if (jsonDB == null || !_characterGenList.Any())
+        if (!_characterGenList.Any())
         {
             return null;
         }
@@ -48,9 +45,9 @@ public class NPCGenerator
 
     }
 
-	public Adventurer GenerateAdventurer() { 		
+	public AdventurerData GenerateAdventurer() { 		
 		var characterSheet = GenerateCharacter();
-		var newAdventurer = new Adventurer(new AdventurerData() { CharacterStats = characterSheet });
+		var newAdventurer = new AdventurerData() { CharacterStats = characterSheet };
 
 		return newAdventurer;
 	}

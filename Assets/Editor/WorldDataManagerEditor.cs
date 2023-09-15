@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 
 	[CustomEditor(typeof(WorldDataManager)), CanEditMultipleObjects]
-	public class WorldDataManagerEditor : Editor
+	public class WorldDataManagerEditor : UnityEditor.Editor
 	{
 		public override void OnInspectorGUI()
 		{

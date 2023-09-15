@@ -1,6 +1,8 @@
+using System;
 using DataObjects;
 using NPCS;
 
+[Serializable]
 public class Adventurer
 {
 	AdventurerData AdventurerData { get; set; }
