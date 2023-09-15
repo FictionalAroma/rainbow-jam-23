@@ -269,8 +269,12 @@
       "TraitsNeg": [ "Cowardly", "Gloomy", "Aloof" ],
       "Flaws": [ "Addict", "Arrogant", "Greedy", "Jealous", "Lier", "Compulsive" ],
       "Skills": [ "Acrobat", "Survivor", "Animal Handler", "Investigator", "Deceptive", "Arcane", "Historian", "Insightful", "Intimidating", "Perceptive", "Performer", "Stealthy", "Persuasive", "Medic", "Sylvan" ],
-      "Ideals": [ "Honor", "Justice", "Freedom", "Knowledge", "Power", "Faith" ]
-
+      "Ideals": [ "Honor", "Justice", "Freedom", "Knowledge", "Power", "Faith" ],
+      "NumOfNegTraits": 1,
+      "NumOfPosTraits": 2,
+      "NumOfFlaws": 1,
+      "NumOfIdeals": 3,
+      "NumOfSkills": 3
     }
 
   ]
