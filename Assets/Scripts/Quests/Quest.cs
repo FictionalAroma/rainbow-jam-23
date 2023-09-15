@@ -1,48 +1,69 @@
-using DataObjects;
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using DataObjects;
+using NPCS;
 using UnityEngine;
 
-public class Quest : MonoBehaviour
+public class Quest
 {
-    public void PopulateQuest(QuestData questData)
-    {
-        public enum QuestState
-    {
-        Inactive,
-        Pending,
-        Ongoing,
-        Complete,
-        Failed,
-    }
-        public List<Guid> AdventurerIDs { get; set; }
+	private List<Adventurer> _party;
 
-        public QuestState State { get; set; }
+	public QuestData Data { get; set; }
+	public bool IsComplete => Data.State == QuestState.Complete;
 
-        public List<string> Rewards { get; set; }
+    private QuestStageData _currentStageData;
 
-        public List<QuestStageData> Stages { get; set; }
+	public Quest(QuestData questdata)
+	{
+		Data = questdata;
+		Data.Stages = Data.Stages.OrderBy(stage => stage.Order).ToList();
+	}
 
-        public string Reward { get; set; }
-    
+	public void Tick()
+	{
+		_currentStageData.TimeRemaining--;
+		if (_currentStageData.TimeRemaining < 0)
+		{
+			if (DoStageTest(_currentStageData))
+			{
+				_currentStageData.State = QuestState.Complete;
+				UpdateCurrentStage();
+				if (_currentStageData == null)
+				{
+					this.Data.State = QuestState.Complete;
+				}
 
-    public class QuestStageData : BaseDataObject
-    {
-        public QuestState State { get; set; }
+			}
+		}
+	}
 
-        public int TimeRequired { get; set; }
-        public int TimeRemaining { get; set; }
+	private bool DoStageTest(QuestStageData currentStageData)
+	{
+		var current = currentStageData.Obstacles.FirstOrDefault(data => !data.Passed.HasValue);
+		if (current != null)
+		{
+			if (DoSkillCheck(current))
+			{
+				current.Passed = true;
+			}
+			else
+			{
+				current.Passed = false;
+				//do adventer damage here
+			}
+		}
 
-        public List<QuestObstacleData> Obstacles { get; set; }
-    }
+		return currentStageData.Obstacles.All(data => data.Passed.HasValue);
 
-    public class QuestObstacleData : BaseDataObject
-    {
-        public int SkillToBeat { get; set; }
+	}
 
-        public int CooldownTimer { get; set; }
+	private bool DoSkillCheck(QuestObstacleData current)
+	{
+		return Random.Range(0, 100) < current.SkillToBeat;
+	}
 
-        public int FailureDamage { get; set; }
-    }
-}
+	public void UpdateCurrentStage()
+	{
+		_currentStageData = Data.Stages.FirstOrDefault(stage => stage.State == QuestState.Pending);
+	}
 }

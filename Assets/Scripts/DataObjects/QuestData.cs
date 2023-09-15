@@ -21,18 +21,21 @@ namespace DataObjects
 		public List<string> Rewards { get; set; }
 
 		public List<QuestStageData> Stages { get; set; }
+		public int? DayToActivate { get; set; }
 
-		public string Reward { get; set; }
+		public int? ActivateInDays { get; set; }
 	}
 
 	public class QuestStageData : BaseDataObject
 	{
+		public ushort Order { get; set; }
 		public QuestState State { get; set; }
 
 		public int TimeRequired { get; set; }
 		public int TimeRemaining { get; set; }
 
 		public List<QuestObstacleData> Obstacles { get; set; }
+
 	}
 
 	public class QuestObstacleData : BaseDataObject
@@ -42,5 +45,7 @@ namespace DataObjects
 		public int CooldownTimer { get; set; }
 
 		public int FailureDamage { get; set; }
+		public bool? Passed { get; set; }
+
 	}
 }
