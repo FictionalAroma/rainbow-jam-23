@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataObjects
+namespace DataObjects 
 {
 	public enum QuestState
 	{

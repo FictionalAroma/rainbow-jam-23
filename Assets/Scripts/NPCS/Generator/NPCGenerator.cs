@@ -7,7 +7,7 @@ using UnityEngine;
 public class NPCGenerator
 {
     
-    [SerializeField] TextAsset jsonDB;
+    TextAsset jsonDB;
 
 	private List<CharacterRandomizationData> _characterGenList;
 
@@ -19,7 +19,7 @@ public class NPCGenerator
 
     public void ImportRandomizationData(string filePath)
     {
-        var wrapper = (filePath);
+        var wrapper = JsonUtils.LoadFromFile<CharacterRandomizationDataJsonWrapper>(filePath);
         _characterGenList.AddRange(wrapper.NPCList);
     }
 

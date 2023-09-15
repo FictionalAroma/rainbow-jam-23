@@ -34,6 +34,9 @@ public class CharacterSheet
 	public string[] pos_traits;
 	public string[] flaws;
 	public string[] ideals;
+	public CharacterSheet() {
+
+	}
 
 	public CharacterSheet(CharacterRandomizationData characterRandomizationData)
 	{
