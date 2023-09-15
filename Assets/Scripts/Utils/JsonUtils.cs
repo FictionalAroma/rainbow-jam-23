@@ -7,6 +7,11 @@ namespace ExtensionClasses
 	{
 		public static void SaveToFile(object value, string filepath)
 		{
+			if (!File.Exists(filepath))
+			{
+				Directory.CreateDirectory(Path.GetDirectoryName(filepath) ?? string.Empty);
+				File.Create(filepath);
+			}
 			using var fileHandle = File.OpenWrite(filepath);
 			Serialize(value, fileHandle);
 		}
@@ -32,7 +37,8 @@ namespace ExtensionClasses
 		{
 			using StreamReader reader = new StreamReader(s);
 			using JsonTextReader jsonReader = new JsonTextReader(reader);
-			JsonSerializer ser = new JsonSerializer();
+			JsonSerializer ser = new JsonSerializer()
+								 {MissingMemberHandling = MissingMemberHandling.Ignore, ReferenceLoopHandling = ReferenceLoopHandling.Ignore};
 			return ser.Deserialize<T>(jsonReader);
 		}
 

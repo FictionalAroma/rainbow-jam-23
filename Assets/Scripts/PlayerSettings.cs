@@ -7,7 +7,7 @@ public class PlayerSettings
     private int? _masterVolume;
     private int? _sfxVolume;
     private int? _musicVolume;
-    private string? _font;
+    private string _font;
     private int? _fontSize;
     public int MasterVolume
     {
@@ -22,7 +22,7 @@ public class PlayerSettings
         set
         {
             SetInt("MasterVolume", value);
-            MasterVolume = value;
+            _masterVolume = value;
         }
     }
     public int SFXVolume
@@ -55,7 +55,7 @@ public class PlayerSettings
         set
         {
             SetInt("MusicVolume",value);
-            MusicVolume = value;
+            _musicVolume = value;
         }
     }
     public int FontSize
@@ -71,14 +71,14 @@ public class PlayerSettings
         set
         {
             SetInt("FontSize", value);
-            FontSize = value;
+            _fontSize = value;
         }
     }
     public string Font
     {
         get
         {
-            if(_font == null)
+            if(string.IsNullOrEmpty(_font))
             {
                 _font = GetString("Font");
             }
@@ -87,7 +87,7 @@ public class PlayerSettings
         set
         {
             SetString("Font", value);
-            Font = value;
+            _font = value;
         }
     }
     public void ForceReload()

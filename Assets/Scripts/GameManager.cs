@@ -11,9 +11,9 @@ public class GameManager : MonoBehaviour
     int fontSize;
     string font;
     private void Awake()
-    {
-        
-    }
+	{
+		playerSettings = new PlayerSettings();
+	}
     void Start()
     {
         sfxVolume = playerSettings.GetInt("sfxVolume");

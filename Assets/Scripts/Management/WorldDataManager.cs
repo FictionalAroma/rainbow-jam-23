@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using ExtensionClasses;
 using Management.Data;
-using Newtonsoft.Json;
 using UnityEngine;
 
 namespace Management
@@ -12,30 +11,43 @@ namespace Management
 
 		private void Awake()
 		{
-			if (Instance != null && Instance != this) 
-			{ 
-				Destroy(this); 
-			} 
-			else 
-			{ 
-				Instance = this; 
+			if (Instance != null && Instance != this)
+			{
+				Destroy(this);
+			}
+			else
+			{
+				Instance = this;
 				DontDestroyOnLoad(this);
-				Setup();
-			} 
+			}
+		}
+
+		private void Start()
+		{
+			Setup();
 		}
 
 		private NPCGenerator _generator;
 		private WorldData _world;
+		[SerializeField] private bool simulateLoad;
 		public WorldData TheWorld => _world;
+		public string WorldName;
+		public string GameName;
 
 		private void Setup()
 		{
 			_generator = new NPCGenerator(Path.Join(Application.dataPath, "Data/NPC_Randomizer.json"));
-
+			if (simulateLoad)
+			{
+				this.LoadWorldData(WorldName, GameName);
+			}
 		}
 
+		public Adventurer GenerateAdventurer() => _generator.GenerateAdventurer();
+
+
 		private string GetWorldFilePath(string username, string gameName) =>
-			Path.Join(Application.dataPath, $"SaveData/{username}, ${gameName}.json");
+			$"{Application.dataPath}/SaveData/{username}/{gameName}.json";
 
 		public void SaveWorldData(string username, string gameName)
 		{
@@ -51,4 +63,5 @@ namespace Management
 
 		}
 	}
+
 }

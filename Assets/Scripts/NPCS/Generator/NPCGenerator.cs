@@ -2,6 +2,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using ExtensionClasses;
+using NPCS;
 using UnityEngine;
 
 public class NPCGenerator
@@ -47,4 +48,10 @@ public class NPCGenerator
 
     }
 
+	public Adventurer GenerateAdventurer() { 		
+		var characterSheet = GenerateCharacter();
+		var newAdventurer = new Adventurer(new AdventurerData() { CharacterStats = characterSheet });
+
+		return newAdventurer;
+	}
 }

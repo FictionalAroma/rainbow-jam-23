@@ -1,42 +1,29 @@
-using DataObjects;
 using Management;
 using Management.Data;
-using NPCS;
-using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using NPCS;
 using UnityEngine;
 
 public class NPCManager : MonoSingleton<NPCManager>
 {
-    WorldData WorldData;
-    List<AdventurerData> theGraveYard = new List<AdventurerData>();
-    List<Adventurer> adventurersAlive = new List<Adventurer>();
-    NPCGenerator _generator;
-    protected override void Awake()
+    private WorldData _worldData;
+	readonly List<AdventurerData> _graveYard = new List<AdventurerData>();
+	readonly List<Adventurer> _adventurersAlive = new List<Adventurer>();
+
+	private void Start()
     {
-        base.Awake();
-        
-    }
-    private void Start()
-    {
-        WorldData = WorldDataManager.Instance.TheWorld;
-        PopulateNPCs(WorldData.AdventurerList);
+        _worldData = WorldDataManager.Instance.TheWorld;
+
+		
+		PopulateNPCs(_worldData.AdventurerList);
         TimeManager.Instance.OnTick += OnNPCTick;
 
     }
 
-    public void GenerateAdventurer()
-    {
-        var characterSheet = _generator.GenerateCharacter();
-        var newAdventurer = new Adventurer(new AdventurerData() { CharacterStats = characterSheet });
-        adventurersAlive.Add(newAdventurer);
-
-    }
-   
     public void OnNPCTick()
     {
-        foreach (var adventurer in adventurersAlive)
+        foreach (var adventurer in _adventurersAlive)
         {
             adventurer.Tick();
         }
@@ -48,12 +35,12 @@ public class NPCManager : MonoSingleton<NPCManager>
            
             if (!adventurer.IsAlive) 
             {
-                theGraveYard.Add(adventurer);
+                _graveYard.Add(adventurer);
             }
             else
             {
                 var adventurerCreated = new Adventurer(adventurer);
-                adventurersAlive.Add(adventurerCreated);
+                _adventurersAlive.Add(adventurerCreated);
                 
             }
         }
