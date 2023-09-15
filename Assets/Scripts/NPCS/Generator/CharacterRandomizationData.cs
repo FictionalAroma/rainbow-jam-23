@@ -24,6 +24,12 @@ public class CharacterRandomizationData
 	public List<string> Flaws { get; set; }
 	public List<string> Skills { get; set; }
 	public List<string> Ideals { get; set; }
+
+	public int NumOfNegTraits { get; set; } 
+	public int NumOfPosTraits { get; set; }  
+	public int NumOfFlaws { get; set; }  
+	public int NumOfIdeals { get; set; }  
+	public int NumOfSkills { get; set; }
 }
 
 public class StatRandomizationData

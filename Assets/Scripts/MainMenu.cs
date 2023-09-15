@@ -1,28 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
+using Management;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] GameObject mainMenuCanvas;
     [SerializeField] GameObject optionsCanvas;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+
+	public void StartGame()
+	{
+		//WorldDataManager.Instance.LoadStartingDefault();
+		SceneManager.LoadScene(1);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void StartGame()
-    {
-        SceneManager.LoadScene(1);
-    }
+	public void LoadGame()
+	{
+
+	}
+
+	public void LoadGameFromFile()
+	{
+        WorldDataManager.Instance.LoadWorldData("Test", "Test");
+		SceneManager.LoadScene(1);
+	}
+
     public void OpenOptions()
     {
         mainMenuCanvas.SetActive(false);
