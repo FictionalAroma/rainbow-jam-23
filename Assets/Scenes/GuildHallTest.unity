@@ -207,9 +207,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 181044548}
-        m_TargetAssemblyTypeName: GameMenu.IngameUIBase, Assembly-CSharp
-        m_MethodName: CloseMenu
+      - m_Target: {fileID: 1392580374}
+        m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+        m_MethodName: GenerateAdventurer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1230,6 +1230,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083838324}
   m_CullTransparentMesh: 1
+--- !u!1 &1392580371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392580378}
+  - component: {fileID: 1392580377}
+  - component: {fileID: 1392580376}
+  - component: {fileID: 1392580375}
+  - component: {fileID: 1392580374}
+  - component: {fileID: 1392580373}
+  - component: {fileID: 1392580372}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1392580372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e998c234e7830b43aef7ab9c5bfd482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1392580373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f14f796a78fbfb419ad2e9d84fcdd29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1392580374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb69f7f10a204a3468ed5405d959f683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1392580375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92858ce9c19433d4a8af435a76292c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1392580376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810502d53586e034785c6995d08c9e95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timePerTick: 10
+  ticksPerDay: 23
+  currentTickCountdown: 0
+  currentDay: 0
+  currentTick: 0
+--- !u!114 &1392580377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a24b96b70006d4e9a53a6a8d01f723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1392580378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392580371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1420329068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,7 +1973,26 @@ MonoBehaviour:
   itemName: Scarecrow
   interactionCollider: {fileID: 2063732787}
   menuToOpen: {fileID: 181044548}
-  stats: {fileID: 11400000, guid: b1dab814078ec744ebc0481519c2bd2a, type: 2}
+  stats:
+    firstName: 
+    lastName: 
+    race: 
+    level: 0
+    npcClass: 
+    skills: []
+    healthPoints: 0
+    healthPointsMax: 0
+    armorClass: 0
+    strength: 0
+    dexterity: 0
+    constitution: 0
+    intelligence: 0
+    wisdom: 0
+    charisma: 0
+    neg_traits: []
+    pos_traits: []
+    flaws: []
+    ideals: []
 --- !u!1 &2082020205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,11 +2189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4454595986477799210, guid: 5ed1128f070b34943af212e78429abaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0608644
+      value: -3.7726684
       objectReference: {fileID: 0}
     - target: {fileID: 4454595986477799210, guid: 5ed1128f070b34943af212e78429abaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.54542
+      value: 0.55015
       objectReference: {fileID: 0}
     - target: {fileID: 4454595986477799210, guid: 5ed1128f070b34943af212e78429abaf, type: 3}
       propertyPath: m_LocalPosition.z

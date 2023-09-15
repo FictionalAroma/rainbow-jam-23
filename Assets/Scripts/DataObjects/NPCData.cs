@@ -13,6 +13,7 @@ namespace DataObjects
 	{
 		public CharacterSheet CharacterStats { get; set; }
 
+		public NPCState State { get; set; }
 		// status
 		// action
 		public bool IsAlive { get; set; }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DataObjects;
+using NPCS;
 
 namespace Management.Data
 {
@@ -9,7 +10,7 @@ namespace Management.Data
 	{
 		public int Day { get; set; }
 		public int TimeOfDay { get; set; }
-		public List<NPCData> AdventurerList { get; set; }
+		public List<AdventurerData> AdventurerList { get; set; }
 		public List<QuestData> QuestList { get; set; }
 
 		public PlayerData Player { get; set; }

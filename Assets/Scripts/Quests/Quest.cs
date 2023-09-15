@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Quest
 {
-	private List<Adventurer> _party;
+	private List<AdventurerData> _party;
 
 	public QuestData Data { get; set; }
 	public bool IsComplete => Data.State == QuestState.Complete;
