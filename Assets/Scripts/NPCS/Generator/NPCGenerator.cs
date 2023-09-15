@@ -19,7 +19,7 @@ public class NPCGenerator
 
     public void ImportRandomizationData(string filePath)
     {
-        var wrapper = JsonConvert.DeserializeObject<CharacterRandomizationDataJsonWrapper>(filePath);
+        var wrapper = (filePath);
         _characterGenList.AddRange(wrapper.NPCList);
     }
 

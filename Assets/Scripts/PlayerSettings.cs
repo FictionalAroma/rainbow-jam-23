@@ -110,7 +110,7 @@ public class PlayerSettings
     {
         return PlayerPrefs.GetString(key);
     }
-    public void  SetString(string key, string value)
+    public void SetString(string key, string value)
     {
         PlayerPrefs.SetString(key, value);
     }

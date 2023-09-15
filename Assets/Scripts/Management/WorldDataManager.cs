@@ -1,5 +1,7 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
+using ExtensionClasses;
+using Management.Data;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace Management
@@ -23,7 +25,8 @@ namespace Management
 		}
 
 		private NPCGenerator _generator;
-
+		private WorldData _world;
+		public WorldData TheWorld => _world;
 
 		private void Setup()
 		{
@@ -31,7 +34,21 @@ namespace Management
 
 		}
 
+		private string GetWorldFilePath(string username, string gameName) =>
+			Path.Join(Application.dataPath, $"SaveData/{username}, ${gameName}.json");
 
+		public void SaveWorldData(string username, string gameName)
+		{
+			string filePath = GetWorldFilePath(username, gameName);
+			JsonUtils.SaveToFile(_world, filePath);
 
+		}
+
+		public void LoadWorldData(string username, string gameName)
+		{
+			string filePath = GetWorldFilePath(username, gameName);
+			_world = JsonUtils.LoadFromFile<WorldData>(filePath);
+
+		}
 	}
 }
