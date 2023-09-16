@@ -1,6 +1,8 @@
+using System;
 using Management;
 using Management.Data;
 using System.Collections.Generic;
+using System.Linq;
 using NPCS;
 using UnityEngine;
 
@@ -51,4 +53,8 @@ public class NPCManager : MonoSingleton<NPCManager>
             }
         }
     }
+
+	public Adventurer GetAdventurerByID(Guid id) =>
+		_adventurersAlive.FirstOrDefault(adventurer => adventurer.AdventurerData.ID == id);
+
 }

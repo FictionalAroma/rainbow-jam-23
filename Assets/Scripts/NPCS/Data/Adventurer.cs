@@ -1,12 +1,17 @@
 using System;
 using DataObjects;
 using NPCS;
+using Unity.Collections;
+using UnityEngine;
 
 [Serializable]
 public class Adventurer
 {
-	AdventurerData AdventurerData { get; set; }
-	AdventurerAction AdventurerAction { get; set; }
+
+	[field:SerializeField, ReadOnly] public AdventurerData AdventurerData { get; set; }
+	[field:SerializeField, ReadOnly]public AdventurerAction AdventurerAction { get; set; }
+
+	public Adventurer() { }
 	public Adventurer(AdventurerData data) { AdventurerData = data; }
 
 	public void Tick()

@@ -42,6 +42,10 @@ namespace Management
 			{
 				this.LoadWorldData(WorldName, GameName);
 			}
+			else
+			{
+				_world = new WorldData();
+			}
 		}
 
 		public AdventurerData GenerateAdventurer()
