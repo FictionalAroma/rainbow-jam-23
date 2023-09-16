@@ -5,11 +5,11 @@ using UnityEngine;
 
 namespace Interactions
 {
-	public abstract class CharacterInteraction<T> : Interactable where T:new()
+	public abstract class CharacterInteraction<T> : CharacterInteraction where T:new()
 	{
 		private bool _canActivate = true;
 
-		[SerializeField] private IngameUIBase<T> menuToOpen;
+		[SerializeField] protected IngameUIBase<T> menuToOpen;
 		protected abstract T GetData();
 		public override bool Action(InteractableActor interactableActor)
 		{
@@ -21,5 +21,10 @@ namespace Interactions
 
 			return true;
 		}
+	}
+
+	public abstract class CharacterInteraction : Interactable
+	{
+		public abstract void LinkUI(UIManager manager);
 	}
 }

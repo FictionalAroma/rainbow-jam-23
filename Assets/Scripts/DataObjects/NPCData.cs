@@ -5,6 +5,7 @@ namespace DataObjects
 {
 	public enum NPCState
 	{
+		None,
 		Idle,
 		Quest,
 		Busy,
@@ -15,7 +16,7 @@ namespace DataObjects
 	{
 		[field:SerializeField]public CharacterSheet CharacterStats { get; set; }
 
-		[field:SerializeField]public NPCState State { get; set; } = NPCState.Idle;
+		[field:SerializeField]public NPCState State { get; set; } = NPCState.None;
 		// status
 		// action
 		[field:SerializeField]public bool IsAlive { get; set; } = true;
