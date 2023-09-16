@@ -1,6 +1,3 @@
-
-using Management.Data;
-using Management;
 using UnityEngine;
 
 public class MonoSingleton<T>: MonoBehaviour where T : MonoBehaviour
@@ -9,8 +6,7 @@ public class MonoSingleton<T>: MonoBehaviour where T : MonoBehaviour
     protected virtual void Awake()
     {
         // If there is an instance, and it's not me, delete myself.
-
-        if (Instance != null && Instance != this)
+		if (Instance != null && Instance != this)
         {
             Destroy(this);
         }

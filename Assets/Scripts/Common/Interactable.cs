@@ -12,7 +12,7 @@ namespace CommonComponents
 
 		public Collider2D InteractionCollider => interactionCollider;
 		public string ActionText => actionText;
-		public string ItemName => itemName;
+		public string ItemName { get => itemName; set => itemName = value; }
 
 		public abstract bool Action(InteractableActor interactableActor);
 		public float GetDistance(Collider2D actionTrigger) => actionTrigger.Distance(interactionCollider).distance;
