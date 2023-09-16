@@ -40,8 +40,9 @@ namespace Management
 
 		private void DoTick()
 		{
+
 			if (currentTick > ticksPerDay)
-			{
+			{			
 				currentDay++;
 				currentTick = 0;
 				OnDayUpdate?.Invoke(currentDay);
@@ -52,6 +53,7 @@ namespace Management
 		{
 			if (currentTickCountdown < 0f)
 			{
+				currentTick++;
 				OnTick?.Invoke();
 				currentTickCountdown = timePerTick;
 			}
