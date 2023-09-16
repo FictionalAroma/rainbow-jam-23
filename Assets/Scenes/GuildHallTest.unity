@@ -277,7 +277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &181044543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,6 +1230,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083838324}
   m_CullTransparentMesh: 1
+--- !u!1 &1133990583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133990584}
+  m_Layer: 0
+  m_Name: WorldData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1133990584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133990583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1392580378}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392580371
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,6 +1295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e998c234e7830b43aef7ab9c5bfd482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  simulateLoad: 1
+  WorldName: Test
+  GameName: Test
 --- !u!114 &1392580373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1288,6 +1322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb69f7f10a204a3468ed5405d959f683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _adventurersAlive: []
 --- !u!114 &1392580375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,7 +1375,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1133990584}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2189,11 +2225,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4454595986477799210, guid: 5ed1128f070b34943af212e78429abaf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7726684
+      value: -3.0608644
       objectReference: {fileID: 0}
     - target: {fileID: 4454595986477799210, guid: 5ed1128f070b34943af212e78429abaf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55015
+      value: 0.54542
       objectReference: {fileID: 0}
     - target: {fileID: 4454595986477799210, guid: 5ed1128f070b34943af212e78429abaf, type: 3}
       propertyPath: m_LocalPosition.z
