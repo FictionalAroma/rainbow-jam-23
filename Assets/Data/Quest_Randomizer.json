@@ -1,0 +1,69 @@
+{
+  "Quest": {
+    "Location": {
+      "Lighthouse": {
+        "enemyTypes": [
+          {
+            "typename": "AquaticBBEG",
+            "names": [ "Kraken", "Leviathan" ]
+          },
+          {
+            "typename": "AquaticMonster",
+            "names": [ "Siren" ]
+          },
+          {
+            "typename": "EvilDoer",
+            "names": [ "Bandit" ]
+          }
+        ]
+      },
+      "Lair": {
+        "enemyTypes": [
+          {
+            "typename": "BBEG",
+            "names": [ "Lich", "Dragon", "Vampire" ]
+          },
+          {
+            "typename": "Nest",
+            "names": [ "Basilisk", "Vampire Spawn" ]
+          },
+          {
+            "typename": "EvilDoer",
+            "names": [ "Corrupt Soldier" ]
+          }
+        ]
+      },
+      "Mines": {
+        "enemyTypes": [
+          {
+            "typename": "Undead",
+            "names": [ "Ghouls", "Ghosts", "Skeletons", "Zombies" ]
+          }
+        ]
+      },
+      "EnemyCamp": {
+        "enemyTypes": [
+          {
+            "typename": "Monster",
+            "names": [ "Kobold", "Goblin" ]
+          },
+          {
+            "typename": "Evil-Doer",
+            "names": [ "Bandit" ]
+          }
+        ]
+      },
+      "Underdark": {
+        "enemyTypes": [
+          {
+            "typename": "Empire",
+            "names": [ "Lolth Drow", "Mindflayer" ]
+          }
+        ]
+      }
+    },
+    "Difficulty": [ "Easy", "Normal", "Hard", "Extreme" ],
+    "Reward": [ "Low", "Medium", "High", "Extreme" ],
+    "Duration": [ "Short", "Medium", "Long" ]
+  }
+}
