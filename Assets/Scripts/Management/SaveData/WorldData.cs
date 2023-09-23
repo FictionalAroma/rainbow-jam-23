@@ -10,7 +10,7 @@ namespace Management.Data
 	{
 		public int Day { get; set; }
 		public int TimeOfDay { get; set; }
-		public List<AdventurerData> AdventurerList { get; set; } = new List<AdventurerData>();
+		public List<Adventurer> AdventurerList { get; set; } = new List<Adventurer>();
 		public List<QuestData> QuestList { get; set; } = new List<QuestData>();
 
 		public PlayerData Player { get; set; }

@@ -73,3 +73,5 @@ crashlytics-build.properties
 /.gitconfig
 /Assets/Packages
 *.tiled-session
+/Assets/Audio
+/Assets/Sprites

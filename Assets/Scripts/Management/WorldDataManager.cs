@@ -1,8 +1,12 @@
 ﻿using System.IO;
+using System.Linq;
 using ExtensionClasses;
 using Management.Data;
 using NPCS;
+using NPCS.Generator;
+using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Management
 {
@@ -29,6 +33,7 @@ namespace Management
 		}
 
 		private NPCGenerator _generator;
+		//[SerializeField] private SkinGenerator skinGenerator;
 		private WorldData _world;
 		[SerializeField] private bool simulateLoad;
 		public WorldData TheWorld => _world;
@@ -46,9 +51,10 @@ namespace Management
 			{
 				_world = new WorldData();
 			}
+			
 		}
 
-		public AdventurerData GenerateAdventurer()
+		public Adventurer GenerateAdventurer()
 		{
 			var newMeat = _generator.GenerateAdventurer();
 			_world.AdventurerList.Add(newMeat);
