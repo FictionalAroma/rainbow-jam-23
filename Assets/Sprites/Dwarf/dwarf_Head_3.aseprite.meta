@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: bc904c3e0c5021342a082cbc4a1491af
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dwarf_Head_3_Frame_0
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 13
+      height: 14
+    spriteID: 9a2dddf0addff9746ad49ffb16b4db6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dwarf_Head_3_Frame_1
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 13
+      height: 14
+    spriteID: c65f4aaa5852aa642b3cfa86ec141d40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: dwarf_Head_3_Frame_2
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 13
+      height: 14
+    spriteID: 2a47c84172dc3b14d83cc5e8a501edd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: dwarf_Head_3_Frame_3
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 13
+      height: 14
+    spriteID: 9f61da381575c5042939a423f39809a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: dwarf_Head_3_Frame_4
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 13
+      height: 14
+    spriteID: 965a07c1e2f269e46b430993d92cf041
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: dwarf_Head_3_Frame_5
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 13
+      height: 14
+    spriteID: c607d203e4fbe8443ae0ea4bcc387930
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 114}
+  - name: dwarf_Head_3_Frame_6
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 13
+      height: 14
+    spriteID: b127afbf187f8854dad22b859cd8d4fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+  - name: dwarf_Head_3_Frame_7
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 13
+      height: 14
+    spriteID: c83c455a746522248ab3d04fab18ed43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: dwarf_Head_3_Frame_8
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 180
+      width: 13
+      height: 14
+    spriteID: 5b5e6b00b1b99b44490fe70e295942e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 180}
+  - name: dwarf_Head_3_Frame_9
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 13
+      height: 14
+    spriteID: 1715153851e04aa46b51c68e9496ac93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 202}
+  - name: dwarf_Head_3_Frame_10
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 13
+      height: 14
+    spriteID: ee03fe5d5f849a343bc0c19b0af8fa0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  - name: dwarf_Head_3_Frame_11
+    originalName: 
+    pivot: {x: 0.3846154, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 4
+      width: 13
+      height: 14
+    spriteID: 2c8cf506931f0a84a8604cef8bfa4df4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 4}
+  - name: dwarf_Head_3_Frame_12
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 26
+      width: 13
+      height: 14
+    spriteID: 1f032dfb045fde54ba71d8751b8a9ada
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 26}
+  - name: dwarf_Head_3_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 48
+      width: 12
+      height: 14
+    spriteID: 3b5d2719266bcca43867b6c8e51f5ee1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 48}
+  - name: dwarf_Head_3_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 70
+      width: 12
+      height: 14
+    spriteID: 23b46fc3e806fb3468478aede11e1c82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 70}
+  - name: dwarf_Head_3_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 92
+      width: 12
+      height: 14
+    spriteID: c7de2b9c2f9f2484e9baf9762fcd240b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 92}
+  - name: dwarf_Head_3_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 114
+      width: 12
+      height: 14
+    spriteID: 6d662596dc63de346b66c4accb952d3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 114}
+  - name: dwarf_Head_3_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 136
+      width: 12
+      height: 14
+    spriteID: 365833b5ee8f81242aca934d4f84532c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 136}
+  - name: dwarf_Head_3_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 158
+      width: 12
+      height: 14
+    spriteID: a98e2e5f3265f5f4bbb617f03fa53b38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 158}
+  - name: dwarf_Head_3_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 180
+      width: 12
+      height: 14
+    spriteID: 912abb7b0b997de4f9b64d4781111c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 180}
+  - name: dwarf_Head_3_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 202
+      width: 12
+      height: 14
+    spriteID: 92f948a65e5bb804d99856131631f107
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 202}
+  - name: dwarf_Head_3_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 224
+      width: 12
+      height: 14
+    spriteID: 8c38906c054069b4fb9e690140db71b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 224}
+  - name: dwarf_Head_3_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 4
+      width: 12
+      height: 14
+    spriteID: 57d42f6ce7e564e448186443c400dc5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 4}
+  - name: dwarf_Head_3_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 26
+      width: 12
+      height: 14
+    spriteID: ef6cad5390b708d49babb33c35c22afc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 26}
+  - name: dwarf_Head_3_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 48
+      width: 12
+      height: 14
+    spriteID: ef2fa77b697eba34a8bb42ece1788f0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 48}
+  - name: dwarf_Head_3_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 70
+      width: 12
+      height: 14
+    spriteID: 5b3e23b116dd65f438b9c3cf49bee292
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 70}
+  - name: dwarf_Head_3_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 92
+      width: 12
+      height: 14
+    spriteID: a7264850f1183484991834dd25b8fb27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 92}
+  - name: dwarf_Head_3_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 114
+      width: 12
+      height: 14
+    spriteID: 6e8e1a89163287f48800cf033464ed34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 114}
+  - name: dwarf_Head_3_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 136
+      width: 12
+      height: 14
+    spriteID: 24edda475c887d7469a24aac43936958
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 136}
+  - name: dwarf_Head_3_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 158
+      width: 12
+      height: 14
+    spriteID: 03facadb7ca085145a62721a35e5949b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 158}
+  - name: dwarf_Head_3_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 180
+      width: 12
+      height: 14
+    spriteID: 438da3f9fc49b834285306869a38267c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 180}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 175081725
+    name: dwarf_Head_3
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dwarf_Head_3_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 35
+        width: 13
+        height: 14
+      spriteId: 9a2dddf0addff9746ad49ffb16b4db6e
+    - name: dwarf_Head_3_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: c65f4aaa5852aa642b3cfa86ec141d40
+    - name: dwarf_Head_3_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 27
+        y: 33
+        width: 13
+        height: 14
+      spriteId: 2a47c84172dc3b14d83cc5e8a501edd2
+    - name: dwarf_Head_3_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: 9f61da381575c5042939a423f39809a7
+    - name: dwarf_Head_3_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 35
+        width: 13
+        height: 14
+      spriteId: 965a07c1e2f269e46b430993d92cf041
+    - name: dwarf_Head_3_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 27
+        y: 35
+        width: 13
+        height: 14
+      spriteId: c607d203e4fbe8443ae0ea4bcc387930
+    - name: dwarf_Head_3_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: b127afbf187f8854dad22b859cd8d4fb
+    - name: dwarf_Head_3_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: c83c455a746522248ab3d04fab18ed43
+    - name: dwarf_Head_3_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: 5b5e6b00b1b99b44490fe70e295942e8
+    - name: dwarf_Head_3_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 26
+        y: 35
+        width: 13
+        height: 14
+      spriteId: 1715153851e04aa46b51c68e9496ac93
+    - name: dwarf_Head_3_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: ee03fe5d5f849a343bc0c19b0af8fa0e
+    - name: dwarf_Head_3_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 27
+        y: 34
+        width: 13
+        height: 14
+      spriteId: 2c8cf506931f0a84a8604cef8bfa4df4
+    - name: dwarf_Head_3_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 26
+        y: 34
+        width: 13
+        height: 14
+      spriteId: 1f032dfb045fde54ba71d8751b8a9ada
+    - name: dwarf_Head_3_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 3b5d2719266bcca43867b6c8e51f5ee1
+    - name: dwarf_Head_3_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 23b46fc3e806fb3468478aede11e1c82
+    - name: dwarf_Head_3_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 26
+        y: 36
+        width: 12
+        height: 14
+      spriteId: c7de2b9c2f9f2484e9baf9762fcd240b
+    - name: dwarf_Head_3_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 6d662596dc63de346b66c4accb952d3b
+    - name: dwarf_Head_3_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 365833b5ee8f81242aca934d4f84532c
+    - name: dwarf_Head_3_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: a98e2e5f3265f5f4bbb617f03fa53b38
+    - name: dwarf_Head_3_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 26
+        y: 36
+        width: 12
+        height: 14
+      spriteId: 912abb7b0b997de4f9b64d4781111c76
+    - name: dwarf_Head_3_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 92f948a65e5bb804d99856131631f107
+    - name: dwarf_Head_3_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 8c38906c054069b4fb9e690140db71b6
+    - name: dwarf_Head_3_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 57d42f6ce7e564e448186443c400dc5f
+    - name: dwarf_Head_3_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: ef6cad5390b708d49babb33c35c22afc
+    - name: dwarf_Head_3_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 26
+        y: 36
+        width: 12
+        height: 14
+      spriteId: ef2fa77b697eba34a8bb42ece1788f0c
+    - name: dwarf_Head_3_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 5b3e23b116dd65f438b9c3cf49bee292
+    - name: dwarf_Head_3_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: a7264850f1183484991834dd25b8fb27
+    - name: dwarf_Head_3_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 6e8e1a89163287f48800cf033464ed34
+    - name: dwarf_Head_3_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 24edda475c887d7469a24aac43936958
+    - name: dwarf_Head_3_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 26
+        y: 36
+        width: 12
+        height: 14
+      spriteId: 03facadb7ca085145a62721a35e5949b
+    - name: dwarf_Head_3_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 26
+        y: 35
+        width: 12
+        height: 14
+      spriteId: 438da3f9fc49b834285306869a38267c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

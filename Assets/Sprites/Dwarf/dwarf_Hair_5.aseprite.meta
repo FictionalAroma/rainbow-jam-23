@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: da5839fdd45cf204ea42eca803629cf7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dwarf_Hair_5_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 16
+      height: 14
+    spriteID: a5994d2e64f50dd47841ddb4cabda6f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: dwarf_Hair_5_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 16
+      height: 14
+    spriteID: b78befeedfa10544488f4732bcb260bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: dwarf_Hair_5_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 16
+      height: 14
+    spriteID: 8e101170ee337ee40adab22f9fad803c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: dwarf_Hair_5_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 16
+      height: 14
+    spriteID: a225c43ba900dde4ca014bb8df5de49d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: dwarf_Hair_5_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 16
+      height: 14
+    spriteID: abd8f931034ca1546a3573f5151fd84d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 114}
+  - name: dwarf_Hair_5_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 16
+      height: 14
+    spriteID: a51217ef7486eef47bbc37cf619d9e92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+  - name: dwarf_Hair_5_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 16
+      height: 14
+    spriteID: 1e8b971888162f74da40e29c07611ff5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: dwarf_Hair_5_Frame_7
+    originalName: 
+    pivot: {x: 0.5294118, y: -3.0833335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 17
+      height: 12
+    spriteID: 6dc60fe9c9451694db40b6de1fb883c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: dwarf_Hair_5_Frame_8
+    originalName: 
+    pivot: {x: 0.5294118, y: -2.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 17
+      height: 13
+    spriteID: e4da1f8be68b4dc4e948a8d1eba15cdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  - name: dwarf_Hair_5_Frame_9
+    originalName: 
+    pivot: {x: 0.5625, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 180
+      width: 16
+      height: 14
+    spriteID: 94c132eafa5eaf5469e50d9e0b570bbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 180}
+  - name: dwarf_Hair_5_Frame_10
+    originalName: 
+    pivot: {x: 0.5294118, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 17
+      height: 14
+    spriteID: 5380f885e2a487543bb5253783924b89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dwarf_Hair_5_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 16
+      height: 14
+    spriteID: c6c42801f7decce4f948e2abeff33c4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 202}
+  - name: dwarf_Hair_5_Frame_12
+    originalName: 
+    pivot: {x: 0.5882353, y: -3.0833335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 24
+      width: 17
+      height: 12
+    spriteID: 6532ee4c71b48754b987a13bd1785e31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 24}
+  - name: dwarf_Hair_5_Frame_13
+    originalName: 
+    pivot: {x: 0.54545456, y: -3.0833335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 73
+      width: 11
+      height: 12
+    spriteID: d66088df8704c92489c280ad34050f74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 73}
+  - name: dwarf_Hair_5_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -2.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 113
+      width: 10
+      height: 13
+    spriteID: f728efbb140f21144848bd96c98e0caa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 113}
+  - name: dwarf_Hair_5_Frame_15
+    originalName: 
+    pivot: {x: 0.45454547, y: -2.846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 52
+      width: 11
+      height: 13
+    spriteID: c58b72d2e3753c444bf053368be418c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 52}
+  - name: dwarf_Hair_5_Frame_16
+    originalName: 
+    pivot: {x: 0.45454547, y: -3.0833335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 93
+      width: 11
+      height: 12
+    spriteID: 808b7c101e8b688478d96e6efe1aa35e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 93}
+  - name: dwarf_Hair_5_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -2.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 134
+      width: 10
+      height: 13
+    spriteID: da78fdc413b7666478cdbe1eff581160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 134}
+  - name: dwarf_Hair_5_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -3.0833335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 237
+      width: 12
+      height: 12
+    spriteID: c2eee8ff3a869d047a3200c806523f23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 237}
+  - name: dwarf_Hair_5_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -2.846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 155
+      width: 10
+      height: 13
+    spriteID: 90f68bad9b81f3142837b09ea485a261
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 155}
+  - name: dwarf_Hair_5_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -2.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 176
+      width: 10
+      height: 13
+    spriteID: f6e23dcd47372934795b1bc22b0f1be9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 176}
+  - name: dwarf_Hair_5_Frame_21
+    originalName: 
+    pivot: {x: 0.54545456, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 141
+      width: 11
+      height: 16
+    spriteID: c11e346fe32d34b4f8f760c40c08b32e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 141}
+  - name: dwarf_Hair_5_Frame_22
+    originalName: 
+    pivot: {x: 0.54545456, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 165
+      width: 11
+      height: 16
+    spriteID: 444e5350b3b525c4b99770c8e740f148
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 165}
+  - name: dwarf_Hair_5_Frame_23
+    originalName: 
+    pivot: {x: 0.54545456, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 189
+      width: 11
+      height: 16
+    spriteID: b5b77b5b08c87da449f6cbd46b7c6361
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 189}
+  - name: dwarf_Hair_5_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -2.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 44
+      width: 12
+      height: 16
+    spriteID: e64a19e8424bf094e91007632d2f9cd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 44}
+  - name: dwarf_Hair_5_Frame_25
+    originalName: 
+    pivot: {x: 0.45454547, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 213
+      width: 11
+      height: 16
+    spriteID: 2ddfd36f9fec7784d99c8d256ee8ee3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 213}
+  - name: dwarf_Hair_5_Frame_26
+    originalName: 
+    pivot: {x: 0.45454547, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 11
+      height: 16
+    spriteID: 32744f32c930d23488d99da376e5ef0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: dwarf_Hair_5_Frame_27
+    originalName: 
+    pivot: {x: 0.45454547, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 28
+      width: 11
+      height: 16
+    spriteID: c2ef8713085610a4d808cb5c5f116ee9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 28}
+  - name: dwarf_Hair_5_Frame_28
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 116
+      width: 11
+      height: 17
+    spriteID: dc5755230e2336d49b8722379a486e02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 116}
+  - name: dwarf_Hair_5_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -2.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 68
+      width: 12
+      height: 16
+    spriteID: 78aa1c578c1204647abcbc11dcecbcab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 68}
+  - name: dwarf_Hair_5_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -2.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 92
+      width: 12
+      height: 16
+    spriteID: 5d45da30ae027e34f8fd234165dd184a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 92}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 480102961
+    name: dwarf_Hair_5
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dwarf_Hair_5_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 24
+        y: 36
+        width: 16
+        height: 14
+      spriteId: a5994d2e64f50dd47841ddb4cabda6f1
+    - name: dwarf_Hair_5_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 24
+        y: 35
+        width: 16
+        height: 14
+      spriteId: b78befeedfa10544488f4732bcb260bc
+    - name: dwarf_Hair_5_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 34
+        width: 16
+        height: 14
+      spriteId: 8e101170ee337ee40adab22f9fad803c
+    - name: dwarf_Hair_5_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 24
+        y: 35
+        width: 16
+        height: 14
+      spriteId: a225c43ba900dde4ca014bb8df5de49d
+    - name: dwarf_Hair_5_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 24
+        y: 36
+        width: 16
+        height: 14
+      spriteId: abd8f931034ca1546a3573f5151fd84d
+    - name: dwarf_Hair_5_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 24
+        y: 36
+        width: 16
+        height: 14
+      spriteId: a51217ef7486eef47bbc37cf619d9e92
+    - name: dwarf_Hair_5_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 35
+        width: 16
+        height: 14
+      spriteId: 1e8b971888162f74da40e29c07611ff5
+    - name: dwarf_Hair_5_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 23
+        y: 37
+        width: 17
+        height: 12
+      spriteId: 6dc60fe9c9451694db40b6de1fb883c2
+    - name: dwarf_Hair_5_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 23
+        y: 36
+        width: 17
+        height: 13
+      spriteId: e4da1f8be68b4dc4e948a8d1eba15cdd
+    - name: dwarf_Hair_5_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 23
+        y: 36
+        width: 16
+        height: 14
+      spriteId: 94c132eafa5eaf5469e50d9e0b570bbd
+    - name: dwarf_Hair_5_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 23
+        y: 35
+        width: 17
+        height: 14
+      spriteId: 5380f885e2a487543bb5253783924b89
+    - name: dwarf_Hair_5_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 24
+        y: 35
+        width: 16
+        height: 14
+      spriteId: c6c42801f7decce4f948e2abeff33c4d
+    - name: dwarf_Hair_5_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 22
+        y: 37
+        width: 17
+        height: 12
+      spriteId: 6532ee4c71b48754b987a13bd1785e31
+    - name: dwarf_Hair_5_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 37
+        width: 11
+        height: 12
+      spriteId: d66088df8704c92489c280ad34050f74
+    - name: dwarf_Hair_5_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 27
+        y: 36
+        width: 10
+        height: 13
+      spriteId: f728efbb140f21144848bd96c98e0caa
+    - name: dwarf_Hair_5_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 27
+        y: 37
+        width: 11
+        height: 13
+      spriteId: c58b72d2e3753c444bf053368be418c3
+    - name: dwarf_Hair_5_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 27
+        y: 37
+        width: 11
+        height: 12
+      spriteId: 808b7c101e8b688478d96e6efe1aa35e
+    - name: dwarf_Hair_5_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 27
+        y: 36
+        width: 10
+        height: 13
+      spriteId: da78fdc413b7666478cdbe1eff581160
+    - name: dwarf_Hair_5_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 26
+        y: 37
+        width: 12
+        height: 12
+      spriteId: c2eee8ff3a869d047a3200c806523f23
+    - name: dwarf_Hair_5_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 27
+        y: 37
+        width: 10
+        height: 13
+      spriteId: 90f68bad9b81f3142837b09ea485a261
+    - name: dwarf_Hair_5_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 27
+        y: 36
+        width: 10
+        height: 13
+      spriteId: f6e23dcd47372934795b1bc22b0f1be9
+    - name: dwarf_Hair_5_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 26
+        y: 33
+        width: 11
+        height: 16
+      spriteId: c11e346fe32d34b4f8f760c40c08b32e
+    - name: dwarf_Hair_5_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 26
+        y: 33
+        width: 11
+        height: 16
+      spriteId: 444e5350b3b525c4b99770c8e740f148
+    - name: dwarf_Hair_5_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 26
+        y: 33
+        width: 11
+        height: 16
+      spriteId: b5b77b5b08c87da449f6cbd46b7c6361
+    - name: dwarf_Hair_5_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 26
+        y: 34
+        width: 12
+        height: 16
+      spriteId: e64a19e8424bf094e91007632d2f9cd1
+    - name: dwarf_Hair_5_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 27
+        y: 33
+        width: 11
+        height: 16
+      spriteId: 2ddfd36f9fec7784d99c8d256ee8ee3f
+    - name: dwarf_Hair_5_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 27
+        y: 33
+        width: 11
+        height: 16
+      spriteId: 32744f32c930d23488d99da376e5ef0e
+    - name: dwarf_Hair_5_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 27
+        y: 33
+        width: 11
+        height: 16
+      spriteId: c2ef8713085610a4d808cb5c5f116ee9
+    - name: dwarf_Hair_5_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 27
+        y: 32
+        width: 11
+        height: 17
+      spriteId: dc5755230e2336d49b8722379a486e02
+    - name: dwarf_Hair_5_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 26
+        y: 34
+        width: 12
+        height: 16
+      spriteId: 78aa1c578c1204647abcbc11dcecbcab
+    - name: dwarf_Hair_5_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 26
+        y: 33
+        width: 12
+        height: 16
+      spriteId: 5d45da30ae027e34f8fd234165dd184a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

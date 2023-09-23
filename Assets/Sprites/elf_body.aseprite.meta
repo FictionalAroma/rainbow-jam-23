@@ -1,0 +1,1032 @@
+fileFormatVersion: 2
+guid: 5f42f6c1b66f20d47b0bdf03596004c6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: elf_body_Frame_0
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.093023255}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 22
+      height: 43
+    spriteID: 5580b9c2431128647afde68bb2cec9f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -15, y: 198}
+  - name: elf_body_Frame_1
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 55
+      width: 22
+      height: 42
+    spriteID: d963251ffa25d7c4da061327b02a2fdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 55}
+  - name: elf_body_Frame_2
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 205
+      width: 22
+      height: 40
+    spriteID: c91d181fc19e30546b0e170899473c89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 205}
+  - name: elf_body_Frame_3
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 105
+      width: 22
+      height: 42
+    spriteID: a2647edac8f0cda4ab5f9f61d5d1665f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 105}
+  - name: elf_body_Frame_4
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.093023255}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 22
+      height: 43
+    spriteID: dc8e1dce8b62e7546adfe5f30f352fc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 4}
+  - name: elf_body_Frame_5
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 31
+      height: 42
+    spriteID: 561fd2ea7a178c04499ae1e0dc859425
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: elf_body_Frame_6
+    originalName: 
+    pivot: {x: 0.55172414, y: -0.09756097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 29
+      height: 41
+    spriteID: b63b5a8d56175da4f81613832a045547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: elf_body_Frame_7
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 19
+      height: 42
+    spriteID: 1b14c36cb39356843be779f9b38ed8d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: elf_body_Frame_8
+    originalName: 
+    pivot: {x: 0.40909094, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 155
+      width: 22
+      height: 42
+    spriteID: 12ef237d409c4144eaf3d0b2229da363
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 155}
+  - name: elf_body_Frame_9
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 54
+      width: 31
+      height: 42
+    spriteID: 7bd2256fd53e02446934ec5857608d8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 54}
+  - name: elf_body_Frame_10
+    originalName: 
+    pivot: {x: 0.55172414, y: -0.09756097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 153
+      width: 29
+      height: 41
+    spriteID: 5584fa429520b15488a7e676cdaa5db4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 153}
+  - name: elf_body_Frame_11
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 54
+      width: 17
+      height: 42
+    spriteID: 8bce632bc8a237145971a17fa852b175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 54}
+  - name: elf_body_Frame_12
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 104
+      width: 17
+      height: 42
+    spriteID: ff794ed24099fa74f99237668bebd6d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 104}
+  - name: elf_body_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 48
+      width: 18
+      height: 39
+    spriteID: e5c4296344b580e499a55fe8c428fe83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 48}
+  - name: elf_body_Frame_14
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.15789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 142
+      width: 18
+      height: 38
+    spriteID: e0936699cfe5629499c6b973d482740b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 142}
+  - name: elf_body_Frame_15
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 188
+      width: 18
+      height: 38
+    spriteID: d480f499e2b71cb4ebf5faa46ebb8f30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 188}
+  - name: elf_body_Frame_16
+    originalName: 
+    pivot: {x: 0.55, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 188
+      width: 20
+      height: 36
+    spriteID: c76d8c7b0c55dbd44b481755f152d634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 188}
+  - name: elf_body_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 95
+      width: 18
+      height: 39
+    spriteID: 49c92f85091d9d24cb33b5a1cd171478
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 95}
+  - name: elf_body_Frame_18
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.15789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 4
+      width: 18
+      height: 38
+    spriteID: 9c18ceadaa928f04ca4370bc52191f2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 4}
+  - name: elf_body_Frame_19
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 50
+      width: 18
+      height: 38
+    spriteID: 0770e1f325295ac44881767906a3343b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 50}
+  - name: elf_body_Frame_20
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 4
+      width: 20
+      height: 36
+    spriteID: a39fdbb9415f7fc47b082c20d7551b07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 4}
+  - name: elf_body_Frame_21
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 96
+      width: 20
+      height: 39
+    spriteID: 34b3c41f5d1ca4845b2c3f7795752598
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 96}
+  - name: elf_body_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.15789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 4
+      width: 20
+      height: 38
+    spriteID: 67bababf4eedbd24fabb1cb245e25dc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+  - name: elf_body_Frame_23
+    originalName: 
+    pivot: {x: 0.47619048, y: -0.18421052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 21
+      height: 38
+    spriteID: a2799f03f09873b4b9680f630dda0b2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: elf_body_Frame_24
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.21621622}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 154
+      width: 19
+      height: 37
+    spriteID: 34b342cb943c90249932a89d5946aeed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 154}
+  - name: elf_body_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.18421052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 50
+      width: 20
+      height: 38
+    spriteID: 7edf4ed66d16cb848b5bbf7dc92e2ea3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 50}
+  - name: elf_body_Frame_26
+    originalName: 
+    pivot: {x: 0.55, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 143
+      width: 20
+      height: 39
+    spriteID: 709841369e49a5e4790b8f868afb2b90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 143}
+  - name: elf_body_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.15789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 96
+      width: 20
+      height: 38
+    spriteID: d0e2ff6f2a8b73744bbd989348a4b2bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 96}
+  - name: elf_body_Frame_28
+    originalName: 
+    pivot: {x: 0.52380955, y: -0.18421052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 50
+      width: 21
+      height: 38
+    spriteID: a7723e6ca5e1b4048b8f2aa90aa04a3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 50}
+  - name: elf_body_Frame_29
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.21621622}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 199
+      width: 19
+      height: 37
+    spriteID: 9068e7819faa1104ba4d38d8d34beda9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 199}
+  - name: elf_body_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.18421052}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 142
+      width: 20
+      height: 38
+    spriteID: f64699ad83a23304cbaee5786d600238
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 142}
+  - name: elf_body_Frame_31
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 190
+      width: 20
+      height: 39
+    spriteID: 99456bf5c389a104ba8d3fe571de3a92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 190}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 351020448
+    name: elf_body
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: elf_body_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 5580b9c2431128647afde68bb2cec9f1
+    - name: elf_body_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 19
+        y: 4
+        width: 22
+        height: 42
+      spriteId: d963251ffa25d7c4da061327b02a2fdd
+    - name: elf_body_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 19
+        y: 4
+        width: 22
+        height: 40
+      spriteId: c91d181fc19e30546b0e170899473c89
+    - name: elf_body_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 19
+        y: 4
+        width: 22
+        height: 42
+      spriteId: a2647edac8f0cda4ab5f9f61d5d1665f
+    - name: elf_body_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 19
+        y: 4
+        width: 22
+        height: 43
+      spriteId: dc8e1dce8b62e7546adfe5f30f352fc4
+    - name: elf_body_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 17
+        y: 4
+        width: 31
+        height: 42
+      spriteId: 561fd2ea7a178c04499ae1e0dc859425
+    - name: elf_body_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 16
+        y: 4
+        width: 29
+        height: 41
+      spriteId: b63b5a8d56175da4f81613832a045547
+    - name: elf_body_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 22
+        y: 4
+        width: 19
+        height: 42
+      spriteId: 1b14c36cb39356843be779f9b38ed8d0
+    - name: elf_body_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 23
+        y: 4
+        width: 22
+        height: 42
+      spriteId: 12ef237d409c4144eaf3d0b2229da363
+    - name: elf_body_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 4
+        width: 31
+        height: 42
+      spriteId: 7bd2256fd53e02446934ec5857608d8b
+    - name: elf_body_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 4
+        width: 29
+        height: 41
+      spriteId: 5584fa429520b15488a7e676cdaa5db4
+    - name: elf_body_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 22
+        y: 4
+        width: 17
+        height: 42
+      spriteId: 8bce632bc8a237145971a17fa852b175
+    - name: elf_body_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 23
+        y: 4
+        width: 17
+        height: 42
+      spriteId: ff794ed24099fa74f99237668bebd6d6
+    - name: elf_body_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 23
+        y: 6
+        width: 18
+        height: 39
+      spriteId: e5c4296344b580e499a55fe8c428fe83
+    - name: elf_body_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 22
+        y: 6
+        width: 18
+        height: 38
+      spriteId: e0936699cfe5629499c6b973d482740b
+    - name: elf_body_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 22
+        y: 8
+        width: 18
+        height: 38
+      spriteId: d480f499e2b71cb4ebf5faa46ebb8f30
+    - name: elf_body_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 21
+        y: 9
+        width: 20
+        height: 36
+      spriteId: c76d8c7b0c55dbd44b481755f152d634
+    - name: elf_body_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 23
+        y: 6
+        width: 18
+        height: 39
+      spriteId: 49c92f85091d9d24cb33b5a1cd171478
+    - name: elf_body_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 24
+        y: 6
+        width: 18
+        height: 38
+      spriteId: 9c18ceadaa928f04ca4370bc52191f2a
+    - name: elf_body_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 24
+        y: 8
+        width: 18
+        height: 38
+      spriteId: 0770e1f325295ac44881767906a3343b
+    - name: elf_body_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 23
+        y: 9
+        width: 20
+        height: 36
+      spriteId: a39fdbb9415f7fc47b082c20d7551b07
+    - name: elf_body_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 23
+        y: 6
+        width: 20
+        height: 39
+      spriteId: 34b3c41f5d1ca4845b2c3f7795752598
+    - name: elf_body_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 22
+        y: 6
+        width: 20
+        height: 38
+      spriteId: 67bababf4eedbd24fabb1cb245e25dc1
+    - name: elf_body_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 22
+        y: 7
+        width: 21
+        height: 38
+      spriteId: a2799f03f09873b4b9680f630dda0b2b
+    - name: elf_body_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 23
+        y: 8
+        width: 19
+        height: 37
+      spriteId: 34b342cb943c90249932a89d5946aeed
+    - name: elf_body_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 22
+        y: 7
+        width: 20
+        height: 38
+      spriteId: 7edf4ed66d16cb848b5bbf7dc92e2ea3
+    - name: elf_body_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 21
+        y: 6
+        width: 20
+        height: 39
+      spriteId: 709841369e49a5e4790b8f868afb2b90
+    - name: elf_body_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 22
+        y: 6
+        width: 20
+        height: 38
+      spriteId: d0e2ff6f2a8b73744bbd989348a4b2bf
+    - name: elf_body_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 21
+        y: 7
+        width: 21
+        height: 38
+      spriteId: a7723e6ca5e1b4048b8f2aa90aa04a3d
+    - name: elf_body_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 22
+        y: 8
+        width: 19
+        height: 37
+      spriteId: 9068e7819faa1104ba4d38d8d34beda9
+    - name: elf_body_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 22
+        y: 7
+        width: 20
+        height: 38
+      spriteId: f64699ad83a23304cbaee5786d600238
+    - name: elf_body_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 23
+        y: 6
+        width: 20
+        height: 39
+      spriteId: 99456bf5c389a104ba8d3fe571de3a92
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

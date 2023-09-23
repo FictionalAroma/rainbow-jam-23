@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 8aef87e17bde0f74bb7f4ba68bb3927a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dragonborn_HeadTail_4_Frame_0
+    originalName: 
+    pivot: {x: 0.6756757, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 37
+      height: 48
+    spriteID: 7ba4f94376240a54caeb2c38febbf1e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dragonborn_HeadTail_4_Frame_1
+    originalName: 
+    pivot: {x: 0.6756757, y: -0.23913044}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 4
+      width: 37
+      height: 46
+    spriteID: efb3b8101a9c7ed4d98158d73b31177d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 4}
+  - name: dragonborn_HeadTail_4_Frame_2
+    originalName: 
+    pivot: {x: 0.6756757, y: -0.27272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 4
+      width: 37
+      height: 44
+    spriteID: 69b93d231c4c67e40943e321923f11cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 4}
+  - name: dragonborn_HeadTail_4_Frame_3
+    originalName: 
+    pivot: {x: 0.6756757, y: -0.23913044}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 58
+      width: 37
+      height: 46
+    spriteID: 555c9084b72157a4c9d3c7f07fdd7cbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 58}
+  - name: dragonborn_HeadTail_4_Frame_4
+    originalName: 
+    pivot: {x: 0.6756757, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 60
+      width: 37
+      height: 48
+    spriteID: 81a9f88cc16874845ac63d85aaabac7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 60}
+  - name: dragonborn_HeadTail_4_Frame_5
+    originalName: 
+    pivot: {x: 0.6756757, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 116
+      width: 37
+      height: 48
+    spriteID: 7ef4fdef3b456594db59ffc3b75692be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 116}
+  - name: dragonborn_HeadTail_4_Frame_6
+    originalName: 
+    pivot: {x: 0.6388889, y: -0.21276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 112
+      width: 36
+      height: 47
+    spriteID: 129db87efe9911943a1d73c60f59a02d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 112}
+  - name: dragonborn_HeadTail_4_Frame_7
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.1632653}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 4
+      width: 35
+      height: 49
+    spriteID: 064e6750f81b1bb41b6b3473841c9bc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 4}
+  - name: dragonborn_HeadTail_4_Frame_8
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 167
+      width: 35
+      height: 48
+    spriteID: b72af69c3cddab345bb9aebb2222b0da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 167}
+  - name: dragonborn_HeadTail_4_Frame_9
+    originalName: 
+    pivot: {x: 0.6571429, y: -0.23404254}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 173
+      width: 35
+      height: 47
+    spriteID: 46c507114a46b0c44b1203a1b2059154
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 173}
+  - name: dragonborn_HeadTail_4_Frame_10
+    originalName: 
+    pivot: {x: 0.6388889, y: -0.1632653}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 36
+      height: 49
+    spriteID: 4da28f94ac84a2f4fadb2ba7b0e42bdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: dragonborn_HeadTail_4_Frame_11
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 61
+      width: 35
+      height: 48
+    spriteID: 21dbc24284082cc46b946eba138e9039
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 61}
+  - name: dragonborn_HeadTail_4_Frame_12
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 117
+      width: 35
+      height: 48
+    spriteID: f0c3514f557833545a71347277530ad4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 117}
+  - name: dragonborn_HeadTail_4_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.26086956}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 4
+      width: 10
+      height: 46
+    spriteID: 98f17dd83ccd7c4428c42691306cf45c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 4}
+  - name: dragonborn_HeadTail_4_Frame_14
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.29545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 56
+      width: 11
+      height: 44
+    spriteID: 4766c627f1dcb3c4f964ef7dc34f90f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 56}
+  - name: dragonborn_HeadTail_4_Frame_15
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.21276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 60
+      width: 13
+      height: 47
+    spriteID: 70da76fac2ba0f54b9ae82c6fcd5b74e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 60}
+  - name: dragonborn_HeadTail_4_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.2888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 58
+      width: 10
+      height: 45
+    spriteID: 85730cfdbba231c4db6e2aa2772e9981
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 58}
+  - name: dragonborn_HeadTail_4_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.2888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 111
+      width: 10
+      height: 45
+    spriteID: e61cd1a23f924b14db7ea0810efbfd06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 111}
+  - name: dragonborn_HeadTail_4_Frame_18
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.29545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 110
+      width: 11
+      height: 44
+    spriteID: f9bd1db18c7e08e468c3d7625ba0be38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 110}
+  - name: dragonborn_HeadTail_4_Frame_19
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.21276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 164
+      width: 15
+      height: 47
+    spriteID: 4e9dcab40c1c7824aa67dadcf73d045f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 164}
+  - name: dragonborn_HeadTail_4_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.2888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 164
+      width: 10
+      height: 45
+    spriteID: 01e22e93b7c1a4b41b9a0a72af22547d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 164}
+  - name: dragonborn_HeadTail_4_Frame_21
+    originalName: 
+    pivot: {x: 0.3125, y: -0.23913044}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 56
+      width: 16
+      height: 46
+    spriteID: 212579f4c76ece84f8a0c714179944b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 56}
+  - name: dragonborn_HeadTail_4_Frame_22
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.13725491}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 115
+      width: 11
+      height: 51
+    spriteID: 8cf241b4d7a04944085cada44d14894f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 115}
+  - name: dragonborn_HeadTail_4_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.13725491}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 10
+      height: 51
+    spriteID: 968986cef59c4d049968f9ac7f681777
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: dragonborn_HeadTail_4_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 122
+      width: 10
+      height: 50
+    spriteID: dae92e627f2f82c42b706b5fb8cd6655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 122}
+  - name: dragonborn_HeadTail_4_Frame_25
+    originalName: 
+    pivot: {x: 0.6428572, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 164
+      width: 14
+      height: 48
+    spriteID: 0db626c2f45db40408bd6deae24b8972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 164}
+  - name: dragonborn_HeadTail_4_Frame_26
+    originalName: 
+    pivot: {x: 0.6875, y: -0.23913044}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 110
+      width: 16
+      height: 46
+    spriteID: ee9b5b53370fad7488bb0fd472b05b41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 110}
+  - name: dragonborn_HeadTail_4_Frame_27
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.14}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 174
+      width: 11
+      height: 50
+    spriteID: b35081731370255438dd9eb4b4615da3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 174}
+  - name: dragonborn_HeadTail_4_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.13725491}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 63
+      width: 10
+      height: 51
+    spriteID: a23b22406e34b434b844bac640211e96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 63}
+  - name: dragonborn_HeadTail_4_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 180
+      width: 10
+      height: 50
+    spriteID: 8e3e75b8b4eb59c40b39a6691a674bb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 180}
+  - name: dragonborn_HeadTail_4_Frame_30
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 4
+      width: 14
+      height: 48
+    spriteID: 0ec244c056563054e899b446ecdbac8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 203942988
+    name: dragonborn_HeadTail_4
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dragonborn_HeadTail_4_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 7
+        y: 10
+        width: 37
+        height: 48
+      spriteId: 7ba4f94376240a54caeb2c38febbf1e6
+    - name: dragonborn_HeadTail_4_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 7
+        y: 11
+        width: 37
+        height: 46
+      spriteId: efb3b8101a9c7ed4d98158d73b31177d
+    - name: dragonborn_HeadTail_4_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 7
+        y: 12
+        width: 37
+        height: 44
+      spriteId: 69b93d231c4c67e40943e321923f11cc
+    - name: dragonborn_HeadTail_4_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 11
+        width: 37
+        height: 46
+      spriteId: 555c9084b72157a4c9d3c7f07fdd7cbd
+    - name: dragonborn_HeadTail_4_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 10
+        width: 37
+        height: 48
+      spriteId: 81a9f88cc16874845ac63d85aaabac7e
+    - name: dragonborn_HeadTail_4_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 7
+        y: 10
+        width: 37
+        height: 48
+      spriteId: 7ef4fdef3b456594db59ffc3b75692be
+    - name: dragonborn_HeadTail_4_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 9
+        y: 10
+        width: 36
+        height: 47
+      spriteId: 129db87efe9911943a1d73c60f59a02d
+    - name: dragonborn_HeadTail_4_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 10
+        y: 8
+        width: 35
+        height: 49
+      spriteId: 064e6750f81b1bb41b6b3473841c9bc3
+    - name: dragonborn_HeadTail_4_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 10
+        width: 35
+        height: 48
+      spriteId: b72af69c3cddab345bb9aebb2222b0da
+    - name: dragonborn_HeadTail_4_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 9
+        y: 11
+        width: 35
+        height: 47
+      spriteId: 46c507114a46b0c44b1203a1b2059154
+    - name: dragonborn_HeadTail_4_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 9
+        y: 8
+        width: 36
+        height: 49
+      spriteId: 4da28f94ac84a2f4fadb2ba7b0e42bdb
+    - name: dragonborn_HeadTail_4_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 10
+        y: 9
+        width: 35
+        height: 48
+      spriteId: 21dbc24284082cc46b946eba138e9039
+    - name: dragonborn_HeadTail_4_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 10
+        y: 10
+        width: 35
+        height: 48
+      spriteId: f0c3514f557833545a71347277530ad4
+    - name: dragonborn_HeadTail_4_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 27
+        y: 12
+        width: 10
+        height: 46
+      spriteId: 98f17dd83ccd7c4428c42691306cf45c
+    - name: dragonborn_HeadTail_4_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 27
+        y: 13
+        width: 11
+        height: 44
+      spriteId: 4766c627f1dcb3c4f964ef7dc34f90f6
+    - name: dragonborn_HeadTail_4_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 27
+        y: 10
+        width: 13
+        height: 47
+      spriteId: 70da76fac2ba0f54b9ae82c6fcd5b74e
+    - name: dragonborn_HeadTail_4_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 27
+        y: 13
+        width: 10
+        height: 45
+      spriteId: 85730cfdbba231c4db6e2aa2772e9981
+    - name: dragonborn_HeadTail_4_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 27
+        y: 13
+        width: 10
+        height: 45
+      spriteId: e61cd1a23f924b14db7ea0810efbfd06
+    - name: dragonborn_HeadTail_4_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 26
+        y: 13
+        width: 11
+        height: 44
+      spriteId: f9bd1db18c7e08e468c3d7625ba0be38
+    - name: dragonborn_HeadTail_4_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 22
+        y: 10
+        width: 15
+        height: 47
+      spriteId: 4e9dcab40c1c7824aa67dadcf73d045f
+    - name: dragonborn_HeadTail_4_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 27
+        y: 13
+        width: 10
+        height: 45
+      spriteId: 01e22e93b7c1a4b41b9a0a72af22547d
+    - name: dragonborn_HeadTail_4_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 27
+        y: 11
+        width: 16
+        height: 46
+      spriteId: 212579f4c76ece84f8a0c714179944b2
+    - name: dragonborn_HeadTail_4_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 27
+        y: 7
+        width: 11
+        height: 51
+      spriteId: 8cf241b4d7a04944085cada44d14894f
+    - name: dragonborn_HeadTail_4_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 27
+        y: 7
+        width: 10
+        height: 51
+      spriteId: 968986cef59c4d049968f9ac7f681777
+    - name: dragonborn_HeadTail_4_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 27
+        y: 8
+        width: 10
+        height: 50
+      spriteId: dae92e627f2f82c42b706b5fb8cd6655
+    - name: dragonborn_HeadTail_4_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 23
+        y: 10
+        width: 14
+        height: 48
+      spriteId: 0db626c2f45db40408bd6deae24b8972
+    - name: dragonborn_HeadTail_4_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 21
+        y: 11
+        width: 16
+        height: 46
+      spriteId: ee9b5b53370fad7488bb0fd472b05b41
+    - name: dragonborn_HeadTail_4_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 26
+        y: 7
+        width: 11
+        height: 50
+      spriteId: b35081731370255438dd9eb4b4615da3
+    - name: dragonborn_HeadTail_4_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 27
+        y: 7
+        width: 10
+        height: 51
+      spriteId: a23b22406e34b434b844bac640211e96
+    - name: dragonborn_HeadTail_4_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 27
+        y: 8
+        width: 10
+        height: 50
+      spriteId: 8e3e75b8b4eb59c40b39a6691a674bb3
+    - name: dragonborn_HeadTail_4_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 27
+        y: 10
+        width: 14
+        height: 48
+      spriteId: 0ec244c056563054e899b446ecdbac8f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

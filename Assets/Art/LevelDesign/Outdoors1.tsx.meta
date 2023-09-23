@@ -8,10 +8,8 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
-  missingFiles:
-  - ../../Packages/EPIC RPG World Pack - Grass Land 2.0 v1.4/Tilesets/Tileset-Terrain.png
-  errors:
-  - 'Missing texture asset: ../../Packages/EPIC RPG World Pack - Grass Land 2.0 v1.4/Tilesets/Tileset-Terrain.png'
+  missingFiles: []
+  errors: []
   warnings: []
   missingSortingLayers: []
   missingLayers: []
@@ -19,7 +17,7 @@ ScriptedImporter:
   importerVersion: 14
   pixelsPerUnit: 100
   edgesPerEllipse: 32
-  numberOfObjectsImported: 2
+  numberOfObjectsImported: 7924
   useSpriteAtlas: 1
   atlasWidth: 2048
   atlasHeight: 2048

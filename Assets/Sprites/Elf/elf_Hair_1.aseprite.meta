@@ -1,0 +1,1032 @@
+fileFormatVersion: 2
+guid: 68ffa2af43cffdf46bfb72e3589f6c89
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: elf_Hair_1_Frame_0
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.8571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 17
+      height: 21
+    spriteID: a5e77d28e6c85e44d8fe8deca9aefa24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 94}
+  - name: elf_Hair_1_Frame_1
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 123
+      width: 17
+      height: 21
+    spriteID: 2fc0ca088cb333444a7071baadc7bd19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 123}
+  - name: elf_Hair_1_Frame_2
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.7142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 152
+      width: 17
+      height: 21
+    spriteID: 8efd3484e6423ba4286cf80b656432bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 152}
+  - name: elf_Hair_1_Frame_3
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 181
+      width: 17
+      height: 21
+    spriteID: ccedf0ac6114f5e40aa55ac9a8def607
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 181}
+  - name: elf_Hair_1_Frame_4
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.8571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 210
+      width: 17
+      height: 21
+    spriteID: a0a1ed38ec6cba745bd345a69f11e872
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 210}
+  - name: elf_Hair_1_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 16
+      height: 22
+    spriteID: bc933d3658c994449b2269a1df65cffc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: elf_Hair_1_Frame_6
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.6818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 17
+      height: 22
+    spriteID: f9b37dc62b66cd8478208690eaf94cd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: elf_Hair_1_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 34
+      width: 16
+      height: 22
+    spriteID: daa39c085f361714489ca9eb758898fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 34}
+  - name: elf_Hair_1_Frame_8
+    originalName: 
+    pivot: {x: 0.47058824, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 34
+      width: 17
+      height: 22
+    spriteID: eb810aa901d81004584ae1c265dfdea3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 34}
+  - name: elf_Hair_1_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 64
+      width: 16
+      height: 22
+    spriteID: aacb436a2be3d32438e73da02601fb8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 64}
+  - name: elf_Hair_1_Frame_10
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.6818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 64
+      width: 17
+      height: 22
+    spriteID: 318f7f57ee188a2419dcc99224ad23ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 64}
+  - name: elf_Hair_1_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 94
+      width: 16
+      height: 22
+    spriteID: 482f9c1b447848049b67cbbc915b75df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 94}
+  - name: elf_Hair_1_Frame_12
+    originalName: 
+    pivot: {x: 0.4375, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 124
+      width: 16
+      height: 22
+    spriteID: 6d8c3c93bca81b9468aacc2d9002654d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 124}
+  - name: elf_Hair_1_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 12
+      height: 20
+    spriteID: f798fe6315c956040b37bd3861b50d7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: elf_Hair_1_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -1.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 32
+      width: 12
+      height: 20
+    spriteID: 2c96cf147b4ec9c4ab5c7781ed25dac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 32}
+  - name: elf_Hair_1_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 60
+      width: 12
+      height: 20
+    spriteID: 9dc0c97f59eb079479d976556b9c9905
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 60}
+  - name: elf_Hair_1_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 88
+      width: 12
+      height: 20
+    spriteID: f3817e403fd0a7e4a824a3c4c2f03a94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 88}
+  - name: elf_Hair_1_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 116
+      width: 12
+      height: 20
+    spriteID: 7c88f2a3f6796da4c9381547176b1ba2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 116}
+  - name: elf_Hair_1_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -1.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 144
+      width: 12
+      height: 20
+    spriteID: 01befdd1eb475124689a38a42894c1b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 144}
+  - name: elf_Hair_1_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 172
+      width: 12
+      height: 20
+    spriteID: c72f839188677fd4c8abd4266e6d4115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 172}
+  - name: elf_Hair_1_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 200
+      width: 12
+      height: 20
+    spriteID: 5b8343561f45e1c42acba4eee8d3252b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 200}
+  - name: elf_Hair_1_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 154
+      width: 12
+      height: 22
+    spriteID: 0a6b7da9e16712840ae1638013187f3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 154}
+  - name: elf_Hair_1_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -1.6818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 184
+      width: 12
+      height: 22
+    spriteID: 236e07fb10cfc6346ac04b8f258093d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 184}
+  - name: elf_Hair_1_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 214
+      width: 12
+      height: 22
+    spriteID: 06fdfae32c6b2db498f6669626b259d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 214}
+  - name: elf_Hair_1_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 4
+      width: 12
+      height: 22
+    spriteID: 4fd59c7924e7fbe408395bf7e0c51395
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 4}
+  - name: elf_Hair_1_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 34
+      width: 12
+      height: 22
+    spriteID: b5d3ad14b399b854692b2ba1b5789fdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 34}
+  - name: elf_Hair_1_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 64
+      width: 12
+      height: 22
+    spriteID: 664d18d050a13b848b52206e35abc97a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 64}
+  - name: elf_Hair_1_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -1.6818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 94
+      width: 12
+      height: 22
+    spriteID: e5136161f2653af449acaabab375e219
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 94}
+  - name: elf_Hair_1_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 124
+      width: 12
+      height: 22
+    spriteID: cace012af2a48bc4f83da4c9b6e7a102
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 124}
+  - name: elf_Hair_1_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 154
+      width: 12
+      height: 22
+    spriteID: de11b253685660448bbd9c8584881101
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 154}
+  - name: elf_Hair_1_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 184
+      width: 12
+      height: 22
+    spriteID: 484868f2bf1669b43bcf1ada89cccc70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 184}
+  - name: elf_Hair_1_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -1.7272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 214
+      width: 12
+      height: 22
+    spriteID: c57e20062a73acf45b8fe952ed207562
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 214}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -914354324
+    name: elf_Hair_1
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: elf_Hair_1_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 23
+        y: 39
+        width: 17
+        height: 21
+      spriteId: a5e77d28e6c85e44d8fe8deca9aefa24
+    - name: elf_Hair_1_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 23
+        y: 38
+        width: 17
+        height: 21
+      spriteId: 2fc0ca088cb333444a7071baadc7bd19
+    - name: elf_Hair_1_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 23
+        y: 36
+        width: 17
+        height: 21
+      spriteId: 8efd3484e6423ba4286cf80b656432bf
+    - name: elf_Hair_1_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 23
+        y: 38
+        width: 17
+        height: 21
+      spriteId: ccedf0ac6114f5e40aa55ac9a8def607
+    - name: elf_Hair_1_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 23
+        y: 39
+        width: 17
+        height: 21
+      spriteId: a0a1ed38ec6cba745bd345a69f11e872
+    - name: elf_Hair_1_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 24
+        y: 38
+        width: 16
+        height: 22
+      spriteId: bc933d3658c994449b2269a1df65cffc
+    - name: elf_Hair_1_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 23
+        y: 37
+        width: 17
+        height: 22
+      spriteId: f9b37dc62b66cd8478208690eaf94cd5
+    - name: elf_Hair_1_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 24
+        y: 38
+        width: 16
+        height: 22
+      spriteId: daa39c085f361714489ca9eb758898fd
+    - name: elf_Hair_1_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 24
+        y: 38
+        width: 17
+        height: 22
+      spriteId: eb810aa901d81004584ae1c265dfdea3
+    - name: elf_Hair_1_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 24
+        y: 38
+        width: 16
+        height: 22
+      spriteId: aacb436a2be3d32438e73da02601fb8f
+    - name: elf_Hair_1_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 23
+        y: 37
+        width: 17
+        height: 22
+      spriteId: 318f7f57ee188a2419dcc99224ad23ec
+    - name: elf_Hair_1_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 24
+        y: 38
+        width: 16
+        height: 22
+      spriteId: 482f9c1b447848049b67cbbc915b75df
+    - name: elf_Hair_1_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 25
+        y: 38
+        width: 16
+        height: 22
+      spriteId: 6d8c3c93bca81b9468aacc2d9002654d
+    - name: elf_Hair_1_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 39
+        width: 12
+        height: 20
+      spriteId: f798fe6315c956040b37bd3861b50d7b
+    - name: elf_Hair_1_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 20
+      spriteId: 2c96cf147b4ec9c4ab5c7781ed25dac9
+    - name: elf_Hair_1_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 26
+        y: 40
+        width: 12
+        height: 20
+      spriteId: 9dc0c97f59eb079479d976556b9c9905
+    - name: elf_Hair_1_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 26
+        y: 39
+        width: 12
+        height: 20
+      spriteId: f3817e403fd0a7e4a824a3c4c2f03a94
+    - name: elf_Hair_1_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 26
+        y: 39
+        width: 12
+        height: 20
+      spriteId: 7c88f2a3f6796da4c9381547176b1ba2
+    - name: elf_Hair_1_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 20
+      spriteId: 01befdd1eb475124689a38a42894c1b0
+    - name: elf_Hair_1_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 26
+        y: 40
+        width: 12
+        height: 20
+      spriteId: c72f839188677fd4c8abd4266e6d4115
+    - name: elf_Hair_1_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 26
+        y: 39
+        width: 12
+        height: 20
+      spriteId: 5b8343561f45e1c42acba4eee8d3252b
+    - name: elf_Hair_1_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: 0a6b7da9e16712840ae1638013187f3d
+    - name: elf_Hair_1_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 26
+        y: 37
+        width: 12
+        height: 22
+      spriteId: 236e07fb10cfc6346ac04b8f258093d9
+    - name: elf_Hair_1_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: 06fdfae32c6b2db498f6669626b259d2
+    - name: elf_Hair_1_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: 4fd59c7924e7fbe408395bf7e0c51395
+    - name: elf_Hair_1_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: b5d3ad14b399b854692b2ba1b5789fdf
+    - name: elf_Hair_1_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: 664d18d050a13b848b52206e35abc97a
+    - name: elf_Hair_1_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 26
+        y: 37
+        width: 12
+        height: 22
+      spriteId: e5136161f2653af449acaabab375e219
+    - name: elf_Hair_1_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: cace012af2a48bc4f83da4c9b6e7a102
+    - name: elf_Hair_1_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: de11b253685660448bbd9c8584881101
+    - name: elf_Hair_1_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: 484868f2bf1669b43bcf1ada89cccc70
+    - name: elf_Hair_1_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 26
+        y: 38
+        width: 12
+        height: 22
+      spriteId: c57e20062a73acf45b8fe952ed207562
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
