@@ -6,7 +6,10 @@ using UnityEngine;
 namespace NPCS.Avatars
 { public class AdventurerAvatar : AdventurerInteraction
 	{
-
+		[SerializeField]
+		Animator headAnimator;
+		Animator hairAnimator;
+		Animator bodyAnimator;
 		private void Start()
 		{
 			Data.ChangeStateEvent += OnChangeStateEvent;
@@ -34,6 +37,7 @@ namespace NPCS.Avatars
 			}
 
 			itemName = Data.CharacterStats.firstName;
+			
 		}
 	}
 }

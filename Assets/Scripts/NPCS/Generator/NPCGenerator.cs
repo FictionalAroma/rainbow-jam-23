@@ -43,6 +43,7 @@ public class NPCGenerator
 
 	public Adventurer GenerateAdventurer() { 		
 		var characterSheet = GenerateCharacter();
+		
 		if (!_dataWrapper.Races.TryGetValue(characterSheet.race, out var foundData))
 		{
 			foundData = _dataWrapper.Races.First().Value;
