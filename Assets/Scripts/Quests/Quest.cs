@@ -4,20 +4,16 @@ using DataObjects;
 using NPCS;
 using UnityEngine;
 
-public class Quest
+public class Quest : QuestData
 {
 	private List<AdventurerData> _party;
 
-	public QuestData Data { get; set; }
-	public bool IsComplete => Data.State == QuestState.Complete;
+	
+	public bool IsComplete => this.State == QuestState.Complete;
 
     private QuestStageData _currentStageData;
 
-	public Quest(QuestData questdata)
-	{
-		Data = questdata;
-		Data.Stages = Data.Stages.OrderBy(stage => stage.Order).ToList();
-	}
+	
 
 	public void Tick()
 	{
@@ -30,7 +26,7 @@ public class Quest
 				UpdateCurrentStage();
 				if (_currentStageData == null)
 				{
-					this.Data.State = QuestState.Complete;
+					this.State = QuestState.Complete;
 				}
 
 			}
@@ -64,6 +60,6 @@ public class Quest
 
 	public void UpdateCurrentStage()
 	{
-		_currentStageData = Data.Stages.FirstOrDefault(stage => stage.State == QuestState.Pending);
+		_currentStageData = this.Stages.FirstOrDefault(stage => stage.State == QuestState.Pending);
 	}
 }

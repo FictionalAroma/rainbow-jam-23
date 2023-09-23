@@ -1,5 +1,4 @@
 {
-  "Quest": {
     "Location": {
       "Lighthouse": {
         "enemyTypes": [
@@ -66,4 +65,3 @@
     "Reward": [ "Low", "Medium", "High", "Extreme" ],
     "Duration": [ "Short", "Medium", "Long" ]
   }
-}

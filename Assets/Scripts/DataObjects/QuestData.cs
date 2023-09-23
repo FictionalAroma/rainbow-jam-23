@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ExtensionClasses;
+using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace DataObjects 
 {
@@ -14,7 +16,13 @@ namespace DataObjects
 
 	public class QuestData : BaseDataObject
 	{
-		public List<Guid> AdventurerIDs { get; set; }
+        
+        [Header("Quest Details")]
+        
+        public string questLocation;
+
+       
+        public List<Guid> AdventurerIDs { get; set; }
 
 		public QuestState State { get; set; }
 
@@ -24,28 +32,36 @@ namespace DataObjects
 		public int? DayToActivate { get; set; }
 
 		public int? ActivateInDays { get; set; }
-	}
+        public QuestData(QuestRandomizationData questRandomizationData)
+        {
+            enemyType = questRandomizationData.EnemyTypes.RandomFromList();
+            questDuration = questRandomizationData.Durations.RandomFromList();
+            questReward = questRandomizationData.Rewards.RandomFromList();
+            questLocation = questRandomizationData.Locations.RandomFromList();
+
+        }
+    }
 
 	public class QuestStageData : BaseDataObject
 	{
 		public ushort Order { get; set; }
 		public QuestState State { get; set; }
-
-		public int TimeRequired { get; set; }
+        public string enemyType;
+        public string enemyName;
+        public int TimeRequired { get; set; }
 		public int TimeRemaining { get; set; }
 
-		public List<QuestObstacleData> Obstacles { get; set; }
+        public int SkillToBeat { get; set; }
+
+        public int CooldownTimer { get; set; }
+
+        public int FailureDamage { get; set; }
+        public bool? Passed { get; set; }
+
+        
 
 	}
+   
 
-	public class QuestObstacleData : BaseDataObject
-	{
-		public int SkillToBeat { get; set; }
 
-		public int CooldownTimer { get; set; }
-
-		public int FailureDamage { get; set; }
-		public bool? Passed { get; set; }
-
-	}
 }

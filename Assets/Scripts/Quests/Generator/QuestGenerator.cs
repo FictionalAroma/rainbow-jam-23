@@ -1,3 +1,4 @@
+using DataObjects;
 using ExtensionClasses;
 using NPCS;
 using System.Collections;
@@ -22,7 +23,7 @@ public class QuestGenerator
     }
 
     // Update is called once per frame
-    public QuestSheet GenerateQuest()
+    public QuestData GenerateQuest()
     {
         if (!_questGenList.Any())
         {
@@ -31,7 +32,7 @@ public class QuestGenerator
         var randomData = Random.Range(0, _questGenList.Count);
         var questRandomizationData = _questGenList[randomData];
 
-        QuestSheet QuestSheet = new QuestSheet(questRandomizationData);
+        QuestData questData = new QuestData(questRandomizationData);
 
         //for integers
         //var intData = JsonUtility.FromJson<int>(jsonDB.text);
@@ -41,7 +42,7 @@ public class QuestGenerator
         // Populate UI fields
 
 
-        return QuestSheet;
+        return questData;
 
     }
 
