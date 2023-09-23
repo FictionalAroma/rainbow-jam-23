@@ -25,4 +25,4 @@ public class QuestStatRandomizationData
     public int Max { get; set; }
     public int GetRandomValue => Random.Range(Min, Max + 1);
 }
-}
+

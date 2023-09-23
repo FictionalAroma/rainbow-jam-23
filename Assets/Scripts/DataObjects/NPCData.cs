@@ -12,7 +12,7 @@ namespace DataObjects
 	[Serializable]
 	public class NPCData : BaseDataObject
 	{
-		public QuestSheet CharacterStats { get; set; }
+		public CharacterSheet CharacterStats { get; set; }
 
 		public NPCState State { get; set; } = NPCState.Idle;
 		// status

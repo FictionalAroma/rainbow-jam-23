@@ -22,7 +22,7 @@ public class NPCGenerator
     }
 
     // Update is called once per frame
-    public QuestSheet GenerateCharacter()
+    public CharacterSheet GenerateCharacter()
     {
         if (!_characterGenList.Any())
         {
@@ -31,7 +31,7 @@ public class NPCGenerator
 		var randomData = Random.Range(0, _characterGenList.Count);
 		var characterRandomizationData = _characterGenList[randomData];
 
-		QuestSheet characterSheet = new CharacterSheet(characterRandomizationData);
+		CharacterSheet characterSheet = new CharacterSheet(characterRandomizationData);
 
 		//for integers
 		//var intData = JsonUtility.FromJson<int>(jsonDB.text);
