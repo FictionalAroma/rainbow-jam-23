@@ -4,35 +4,34 @@ using NPCS;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Quests.Generator;
 using UnityEngine;
 
 public class QuestGenerator
 {
-    private List<QuestRandomizationData> _questGenList;
+    private List<QuestRandomizationData> _locations;
 
     public QuestGenerator(string filePath)
     {
-        _questGenList = new List<QuestRandomizationData>();
         ImportRandomizationData(filePath);
     }
 
     public void ImportRandomizationData(string filePath)
     {
         var wrapper = JsonUtils.LoadFromFile<QuestRandomizationDataJsonWrapper>(filePath);
-        _questGenList.AddRange(wrapper.QuestList);
-    }
+		_locations = wrapper.Locations;
+	}
 
     // Update is called once per frame
-    public QuestData GenerateQuest()
+    public Quest GenerateQuest()
     {
-        if (!_questGenList.Any())
+        if (!_locations.Any())
         {
             return null;
         }
-        var randomData = Random.Range(0, _questGenList.Count);
-        var questRandomizationData = _questGenList[randomData];
 
-        QuestData questData = new QuestData(questRandomizationData);
+
+		var questRandomizationData = _locations.RandomFromList();
 
         //for integers
         //var intData = JsonUtility.FromJson<int>(jsonDB.text);
@@ -42,7 +41,7 @@ public class QuestGenerator
         // Populate UI fields
 
 
-        return questData;
+        return new Quest(questRandomizationData);
 
     }
 

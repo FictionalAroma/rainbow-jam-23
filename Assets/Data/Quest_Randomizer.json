@@ -1,67 +1,96 @@
 {
-    "Location": {
-      "Lighthouse": {
+    "Locations": [{
+      "name":"Lighthouse",
         "enemyTypes": [
           {
             "typename": "AquaticBBEG",
-            "names": [ "Kraken", "Leviathan" ]
+            "names": [ "Kraken", "Leviathan" ],
+              "Difficulties":[5],
+              "Rewards": [5],
+              "Durations":[5]
           },
           {
             "typename": "AquaticMonster",
-            "names": [ "Siren" ]
+            "names": [ "Siren" ],
+              "Difficulties":[5],
+              "Rewards": [5],
+              "Durations":[5]
           },
           {
             "typename": "EvilDoer",
-            "names": [ "Bandit" ]
+            "names": [ "Bandit" ],
+              "Difficulties":[5],
+              "Rewards": [5],
+              "Durations":[5]
           }
         ]
       },
-      "Lair": {
+      {
+      "name":"Lair",
         "enemyTypes": [
           {
             "typename": "BBEG",
-            "names": [ "Lich", "Dragon", "Vampire" ]
+            "names": [ "Lich", "Dragon", "Vampire" ],
+              "Difficulties":[5],
+              "Rewards": [5],
+              "Durations":[5]
           },
           {
             "typename": "Nest",
-            "names": [ "Basilisk", "Vampire Spawn" ]
+            "names": [ "Basilisk", "Vampire Spawn" ],
+              "Difficulties":[5],
+              "Rewards": [5],
+              "Durations":[5]
           },
           {
             "typename": "EvilDoer",
-            "names": [ "Corrupt Soldier" ]
+            "names": [ "Corrupt Soldier" ],
+              "Difficulties":[5],
+              "Rewards": [5],
+              "Durations":[5]
           }
         ]
       },
-      "Mines": {
+      {
+      "name":"Mines",
         "enemyTypes": [
           {
             "typename": "Undead",
-            "names": [ "Ghouls", "Ghosts", "Skeletons", "Zombies" ]
+            "names": [ "Ghouls", "Ghosts", "Skeletons", "Zombies" ],
+              "Difficulties":[1,2],
+              "Rewards": [1,2],
+              "Durations":[1,2,3]
           }
         ]
       },
-      "EnemyCamp": {
+      {
+      "name":"EnemyCamp",
         "enemyTypes": [
           {
             "typename": "Monster",
-            "names": [ "Kobold", "Goblin" ]
+            "names": [ "Kobold", "Goblin" ],
+              "Difficulties":[1,2],
+              "Rewards": [1,2,3],
+              "Durations":[1,2]
           },
           {
             "typename": "Evil-Doer",
-            "names": [ "Bandit" ]
+            "names": [ "Bandit" ],
+              "Difficulties":[2,3],
+              "Rewards": [2,3],
+              "Durations":[1,2,3]
           }
         ]
       },
-      "Underdark": {
+      {
+      "name": "Underdark",
         "enemyTypes": [
           {
             "typename": "Empire",
-            "names": [ "Lolth Drow", "Mindflayer" ]
+            "names": [ "Lolth Drow", "Mindflayer" ],
+              "Difficulties":[3,4,5],
+              "Rewards": [3,4,5],
+              "Durations":[2,3,4]
           }
         ]
-      }
-    },
-    "Difficulty": [ "Easy", "Normal", "Hard", "Extreme" ],
-    "Reward": [ "Low", "Medium", "High", "Extreme" ],
-    "Duration": [ "Short", "Medium", "Long" ]
-  }
+}]}

@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using DataObjects;
 using ExtensionClasses;
 using Management.Data;
 using NPCS;
@@ -28,7 +29,8 @@ namespace Management
 			Setup();
 		}
 
-		private NPCGenerator _generator;
+		private NPCGenerator _npcGenerator;
+		private QuestGenerator _questGenerator;
 		private WorldData _world;
 		[SerializeField] private bool simulateLoad;
 		public WorldData TheWorld => _world;
@@ -37,18 +39,28 @@ namespace Management
 
 		private void Setup()
 		{
-			_generator = new NPCGenerator(Path.Join(Application.dataPath, "Data/NPC_Randomizer.json"));
+			_npcGenerator = new NPCGenerator(Path.Join(Application.dataPath, "Data/NPC_Randomizer.json"));
+			_questGenerator = new QuestGenerator(Path.Join(Application.dataPath, "Data/Quest_Randomizer.json"));
+
 			if (simulateLoad)
 			{
 				this.LoadWorldData(WorldName, GameName);
 			}
+
 		}
 
 		public AdventurerData GenerateAdventurer()
 		{
-			var newMeat = _generator.GenerateAdventurer();
+			var newMeat = _npcGenerator.GenerateAdventurer();
 			_world.AdventurerList.Add(newMeat);
 			return newMeat;
+		}
+
+		public Quest GenerateQuest()
+		{
+			var newTask = _questGenerator.GenerateQuest();
+			_world.QuestList.Add(newTask);
+			return newTask;
 		}
 
 
