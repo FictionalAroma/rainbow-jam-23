@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DragonbornTail2OC
+  m_Controller: {fileID: 9100000, guid: 3607606e3b6c3a040aa93d69ff1ce625, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5b1e013bb43006a44be13ca1485f966b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9bc79345b97e85c49b2b806427ea62eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f05603aab31259f4289b5de038fbc571, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f14e236caa27e91438a5e991899f7688, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7d2f7253fc2112740b278504ba5b3129, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d8b204dea2eafea4aa2b4241de6c9530, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 478c4b74239dfe643af998b0a931856e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0f1993ab4bc7fe749b281836c997dbeb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7c3f5c6522d9ea747940186ebb923656, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ac9da24dfe848864ab88739c267f0306, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dd1fb5d80350c0a48b3b13c11e470daf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ebdea7045308a86468ce137a67fe6789, type: 2}

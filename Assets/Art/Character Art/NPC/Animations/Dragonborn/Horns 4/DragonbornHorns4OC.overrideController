@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DragonbornHorns4OC
+  m_Controller: {fileID: 9100000, guid: 3607606e3b6c3a040aa93d69ff1ce625, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5b1e013bb43006a44be13ca1485f966b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 82963b1d76715404c81062ae80c72ec8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f05603aab31259f4289b5de038fbc571, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 065f00e08e27f0f47b4b798fb0101d1c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7d2f7253fc2112740b278504ba5b3129, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8bac51046f9796c4da93da082a3ad789, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 478c4b74239dfe643af998b0a931856e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8024f52f0417757498a2e316fe4fdc25, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7c3f5c6522d9ea747940186ebb923656, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 215596403ee2be249bca5499e80547bb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dd1fb5d80350c0a48b3b13c11e470daf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a63b3162a56d53b409c509de326995cf, type: 2}
