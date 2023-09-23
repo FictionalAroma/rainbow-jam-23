@@ -4,7 +4,7 @@ using UnityEngine;
 
 [Serializable]
 //[CreateAssetMenu(fileName = "NewCharacter", menuName = "Character/New Character")]
-public class CharacterSheet
+public class QuestSheet
 {
 	[Header("Character Details")]
 	public string firstName;
@@ -34,11 +34,11 @@ public class CharacterSheet
 	public string[] pos_traits;
 	public string[] flaws;
 	public string[] ideals;
-	public CharacterSheet() {
+	public QuestSheet() {
 
 	}
 
-	public CharacterSheet(CharacterRandomizationData characterRandomizationData)
+	public QuestSheet(CharacterRandomizationData characterRandomizationData)
 	{
 		firstName = characterRandomizationData.FirstNames.RandomFromList();
 		lastName = characterRandomizationData.Surnames.RandomFromList();

@@ -10,8 +10,8 @@ namespace NPCS
 	{
 		private bool _canActivate = true;
 
-		[SerializeField] private IngameUIBase<CharacterSheet> menuToOpen;
-		[SerializeField] private CharacterSheet stats;
+		[SerializeField] private IngameUIBase<QuestSheet> menuToOpen;
+		[SerializeField] private QuestSheet stats;
 
 		public override bool Action(InteractableActor interactableActor)
 		{
