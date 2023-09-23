@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1253dabbe71a7694a865361c06f58b4b, type: 3}
+  m_Name: HumanSkinsRepo
+  m_EditorClassIdentifier: 
+  skinRace: Human
+  headOverrideControllers:
+  - {fileID: 22100000, guid: 46231cd76f46c5646a287de30ce7379c, type: 2}
+  - {fileID: 22100000, guid: 22c5a6175a5f36f4885f50c2fd3d7687, type: 2}
+  - {fileID: 22100000, guid: 054cde0f8492f434082a7b963285a499, type: 2}
+  - {fileID: 22100000, guid: 40b130d5ee0352e4a984fc092c0d495d, type: 2}
+  - {fileID: 22100000, guid: 6710787d26945734ca2f74990c0ea6ca, type: 2}
+  hairOverrideControllers:
+  - {fileID: 22100000, guid: 6794eacaac20bd64aa256c7749bd9ff0, type: 2}
+  - {fileID: 22100000, guid: 35b2a1033a6e458489d00d439638e1ed, type: 2}
+  - {fileID: 22100000, guid: 8c2f105b181c9ad4d800f20597f9092c, type: 2}
+  - {fileID: 22100000, guid: 1197b0e74c798ba43bef4b6e18f54306, type: 2}
+  bodyOverrideControllers:
+  - {fileID: 22100000, guid: d616d214031074b4e9412f847f409f45, type: 2}

@@ -13,8 +13,8 @@ public class NPCManager : MonoSingleton<NPCManager>
 	readonly List<AdventurerData> _graveYard = new List<AdventurerData>();
 	[SerializeField] private List<Adventurer> _adventurersAlive = new List<Adventurer>();
 	[SerializeField] private AvatarSpawner spawner;
-    
-	private void Start()
+    [SerializeField] List<AdventurerAvatarSkin> skinRepoList;
+    private void Start()
     {
         _worldData = WorldDataManager.Instance.TheWorld;
 

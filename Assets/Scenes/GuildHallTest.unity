@@ -571,6 +571,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _adventurersAlive: []
   spawner: {fileID: 461727997}
+  skinRepoList:
+  - {fileID: 11400000, guid: 136187cf72dc1ec4baede94372c90cfe, type: 2}
+  - {fileID: 11400000, guid: 7a619f69d5de7794daa77a9ddc1e33c7, type: 2}
+  - {fileID: 11400000, guid: 809ecef1ac207194d887633b50efc5be, type: 2}
+  - {fileID: 11400000, guid: 5e5920b993ad51249921406cbc5a93aa, type: 2}
 --- !u!114 &1392580375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,6 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92858ce9c19433d4a8af435a76292c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _activeQuests: []
 --- !u!114 &1392580376
 MonoBehaviour:
   m_ObjectHideFlags: 0
