@@ -9,11 +9,9 @@ using UnityEngine;
 public class QuestsManager : MonoBehaviour
 {
     WorldData theWorld;
-    Quest questPrefab;
-	private readonly List<QuestData> _completedQuests = new List<QuestData>();
-	private readonly List<Quest> _activeQuests = new List<Quest>();
-	private readonly List<QuestData> _inactiveQuests = new List<QuestData>();
-
+	private List<QuestData> _completedQuests = new List<QuestData>();
+	[SerializeField] private List<Quest> _activeQuests = new List<Quest>();
+	private List<QuestData> _inactiveQuests = new List<QuestData>();
 
 
 	private void Start()
@@ -21,8 +19,8 @@ public class QuestsManager : MonoBehaviour
 		theWorld = WorldDataManager.Instance.TheWorld;
         TimeManager.Instance.OnTick += QuestOnTick;
 		TimeManager.Instance.OnDayUpdate += QuestOnDay;
+		PopulateQuests(theWorld.QuestList);
 
-        List<QuestData> questsData = theWorld.QuestList;
 	}
 
 	private void QuestOnDay(int currentDay)
@@ -34,7 +32,7 @@ public class QuestsManager : MonoBehaviour
 			if (inactive.DayToActivate < currentDay || inactive.ActivateInDays <= 0)
 			{
 				_inactiveQuests.RemoveAt(index);
-				_activeQuests.Add(new Quest(inactive));
+				_activeQuests.Add((Quest)inactive);
 			}
 			else
 			{
@@ -58,12 +56,12 @@ public class QuestsManager : MonoBehaviour
 		foreach (var completedQuest in completedThisTick)
 		{
 			_activeQuests.Remove(completedQuest);
-			_completedQuests.Add(completedQuest.Data);
+			_completedQuests.Add(completedQuest);
 		}
 		
 	}
 
-	private void PopulateQuests( List<QuestData> questsData)
+	private void PopulateQuests( List<Quest> questsData)
     {
 		foreach (var data in questsData)
 		{
@@ -83,13 +81,17 @@ public class QuestsManager : MonoBehaviour
 				case QuestState.Pending:
 				case QuestState.Ongoing:
 				{
-					var quest = new Quest(data);
-
-					_activeQuests.Add(quest);
+					_activeQuests.Add(data);
 					break;
 				}
 				default: throw new ArgumentOutOfRangeException();
 			}
 		}
+	}
+
+	public void AddNewQuest()
+	{
+		var quest = WorldDataManager.Instance.GenerateQuest();
+		_activeQuests.Add(quest);
 	}
 }

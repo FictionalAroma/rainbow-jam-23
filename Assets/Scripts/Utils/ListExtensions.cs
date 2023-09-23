@@ -27,6 +27,7 @@ namespace ExtensionClasses
 			return array[0];
 		}
 
+
 		public static bool IsNullOrEmpty(this string test) => string.IsNullOrEmpty(test);
 	}
 }
