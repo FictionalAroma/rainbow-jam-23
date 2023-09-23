@@ -1,23 +1,26 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using DataObjects;
+using JetBrains.Annotations;
 using NPCS;
+using Quests.Generator;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class Quest
+[Serializable]
+public class Quest : QuestData
 {
 	private List<AdventurerData> _party;
 
-	public QuestData Data { get; set; }
-	public bool IsComplete => Data.State == QuestState.Complete;
+	
+	public bool IsComplete => this.State == QuestState.Complete;
 
-    private QuestStageData _currentStageData;
+	[field:SerializeField] private QuestStageData _currentStageData;
+	[UsedImplicitly]
+	public Quest() { }
+	public Quest(QuestRandomizationData questRandomizationData) : base(questRandomizationData) { }
 
-	public Quest(QuestData questdata)
-	{
-		Data = questdata;
-		Data.Stages = Data.Stages.OrderBy(stage => stage.Order).ToList();
-	}
 
 	public void Tick()
 	{
@@ -30,7 +33,7 @@ public class Quest
 				UpdateCurrentStage();
 				if (_currentStageData == null)
 				{
-					this.Data.State = QuestState.Complete;
+					this.State = QuestState.Complete;
 				}
 
 			}
@@ -39,31 +42,19 @@ public class Quest
 
 	private bool DoStageTest(QuestStageData currentStageData)
 	{
-		var current = currentStageData.Obstacles.FirstOrDefault(data => !data.Passed.HasValue);
-		if (current != null)
-		{
-			if (DoSkillCheck(current))
-			{
-				current.Passed = true;
-			}
-			else
-			{
-				current.Passed = false;
-				//do adventer damage here
-			}
-		}
-
-		return currentStageData.Obstacles.All(data => data.Passed.HasValue);
-
+		var result = DoSkillCheck(currentStageData.SkillToBeat);
+		currentStageData.Passed = result;
+		//do adventer damage here
+		return result;
 	}
 
-	private bool DoSkillCheck(QuestObstacleData current)
+	private bool DoSkillCheck(int skillToBeat)
 	{
-		return Random.Range(0, 100) < current.SkillToBeat;
+		return Random.Range(0, 100) < skillToBeat;
 	}
 
 	public void UpdateCurrentStage()
 	{
-		_currentStageData = Data.Stages.FirstOrDefault(stage => stage.State == QuestState.Pending);
+		_currentStageData = this.Stages.FirstOrDefault(stage => stage.State == QuestState.Pending);
 	}
 }
