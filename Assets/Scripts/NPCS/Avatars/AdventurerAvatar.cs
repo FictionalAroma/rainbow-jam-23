@@ -4,9 +4,7 @@ using Interactions;
 using UnityEngine;
 
 namespace NPCS.Avatars
-{
-	[RequireComponent(typeof(SpriteRenderer))]
-	public class AdventurerAvatar : AdventurerInteraction
+{ public class AdventurerAvatar : AdventurerInteraction
 	{
 
 		private void Start()
@@ -35,7 +33,7 @@ namespace NPCS.Avatars
 				interaction.LinkUI(uiChache);
 			}
 
-			itemName = Data.AdventurerData.CharacterStats.firstName;
+			itemName = Data.CharacterStats.firstName;
 		}
 	}
 }

@@ -1,3 +1,4 @@
+using DataObjects;
 using GameMenu;
 using TMPro;
 using UnityEngine;
@@ -15,7 +16,7 @@ namespace Assets.Scripts.NPCS.UI
 
         protected override void Populate(Adventurer ad)
 		{
-			var characterSheet = ad.AdventurerData.CharacterStats;
+			var characterSheet = ad.CharacterStats;
             if (nameText != null) nameText.text = $"{characterSheet.firstName} {characterSheet.lastName}";
             if (level != null) level.text = characterSheet.level.ToString();
             if (npcClass != null)

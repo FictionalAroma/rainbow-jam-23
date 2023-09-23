@@ -4,7 +4,9 @@ using UnityEngine;
 public class CharacterRandomizationDataJsonWrapper
 {
 	public List<CharacterRandomizationData> NPCList { get; set; }
+	public Dictionary<string, RaceRandomizationData> Races { get; set; }
 }
+
 
 public class CharacterRandomizationData
 {
@@ -37,4 +39,13 @@ public class StatRandomizationData
 	public int Min { get; set; }
 	public int Max { get; set; }
 	public int GetRandomValue => Random.Range(Min, Max + 1);
+}
+
+
+public class RaceRandomizationData
+{
+	public int NumBodyPart { get; set; }
+	public int NumHeadPart { get; set; }
+	public int NumHairPart { get; set; }
+
 }

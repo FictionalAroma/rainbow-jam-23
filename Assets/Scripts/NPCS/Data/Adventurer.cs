@@ -5,20 +5,16 @@ using Unity.Collections;
 using UnityEngine;
 
 [Serializable]
-public class Adventurer
+public class Adventurer : AdventurerData
 {
 
-	[field:SerializeField, ReadOnly] public AdventurerData AdventurerData { get; set; }
 	[field:SerializeField, ReadOnly]public AdventurerAction AdventurerAction { get; set; }
-
-	public Adventurer() { }
-	public Adventurer(AdventurerData data) { AdventurerData = data; }
 
 	public event Action<Adventurer, NPCState> ChangeStateEvent;
 
 	public void Tick()
 	{
-		switch (AdventurerData.State)
+		switch (State)
 		{
 			case NPCState.None:
 			{
@@ -44,7 +40,7 @@ public class Adventurer
 
 	private void ChangeState(NPCState newState)
 	{
-		AdventurerData.State = newState;
+		State = newState;
 		ChangeStateEvent?.Invoke(this, newState);
 	}
 }

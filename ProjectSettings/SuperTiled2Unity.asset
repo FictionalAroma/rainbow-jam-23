@@ -54,4 +54,6 @@ MonoBehaviour:
   - {r: 0, g: 1, b: 1, a: 1}
   - {r: 0.7372549, g: 0.56078434, b: 0.56078434, a: 1}
   m_CustomObjectTypes: []
-  m_PrefabReplacements: []
+  m_PrefabReplacements:
+  - m_TypeName: QuestBoard
+    m_Prefab: {fileID: 3331834208988277007, guid: 124cbbb760a03db49a8017f8324a4ecb, type: 3}

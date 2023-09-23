@@ -1,38 +1,34 @@
-using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using ExtensionClasses;
-using NPCS;
+using NPCS.Generator;
 using UnityEngine;
 
 public class NPCGenerator
 {
-	private List<CharacterRandomizationData> _characterGenList;
+	private CharacterRandomizationDataJsonWrapper _dataWrapper;
 
 	public NPCGenerator(string filePath)
     {
-        _characterGenList = new List<CharacterRandomizationData>();
         ImportRandomizationData(filePath);
     }
 
     public void ImportRandomizationData(string filePath)
     {
-        var wrapper = JsonUtils.LoadFromFile<CharacterRandomizationDataJsonWrapper>(filePath);
-        _characterGenList.AddRange(wrapper.NPCList);
+		_dataWrapper = JsonUtils.LoadFromFile<CharacterRandomizationDataJsonWrapper>(filePath);
     }
 
     // Update is called once per frame
     public CharacterSheet GenerateCharacter()
     {
-        if (!_characterGenList.Any())
+        if (!_dataWrapper.NPCList.Any() || !_dataWrapper.Races.Any())
         {
             return null;
         }
-		var randomData = Random.Range(0, _characterGenList.Count);
-		var characterRandomizationData = _characterGenList[randomData];
+		var randomData = Random.Range(0, _dataWrapper.NPCList.Count);
+		var characterRandomizationData = _dataWrapper.NPCList[randomData];
 
 		CharacterSheet characterSheet = new CharacterSheet(characterRandomizationData);
-
 		//for integers
 		//var intData = JsonUtility.FromJson<int>(jsonDB.text);
 		// Deserialize the JSON data into a Dictionary<string, string[]>
@@ -45,9 +41,16 @@ public class NPCGenerator
 
     }
 
-	public AdventurerData GenerateAdventurer() { 		
+	public Adventurer GenerateAdventurer() { 		
 		var characterSheet = GenerateCharacter();
-		var newAdventurer = new AdventurerData() { CharacterStats = characterSheet };
+		if (!_dataWrapper.Races.TryGetValue(characterSheet.race, out var foundData))
+		{
+			foundData = _dataWrapper.Races.First().Value;
+		}
+
+		characterSheet.AddVisual(foundData);
+
+		var newAdventurer = new Adventurer { CharacterStats = characterSheet };
 
 		return newAdventurer;
 	}

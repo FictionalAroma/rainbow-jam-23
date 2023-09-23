@@ -25,8 +25,7 @@ public class NPCManager : MonoSingleton<NPCManager>
 
 	public void AddNewAdventurer()
 	{
-		var newMeat = WorldDataManager.Instance.GenerateAdventurer();
-		var adventurerCreated = new Adventurer(newMeat);
+		var adventurerCreated = WorldDataManager.Instance.GenerateAdventurer();
         _adventurersAlive.Add(adventurerCreated);
 		adventurerCreated.ChangeStateEvent += OnAdventurerStateChange;
 
@@ -40,7 +39,7 @@ public class NPCManager : MonoSingleton<NPCManager>
         }
     }
 
-    private void PopulateNPCs(List<AdventurerData> adventurers)
+    private void PopulateNPCs(List<Adventurer> adventurers)
     {
         foreach (var adventurer in adventurers)
         {
@@ -51,15 +50,14 @@ public class NPCManager : MonoSingleton<NPCManager>
             }
             else
             {
-                var adventurerCreated = new Adventurer(adventurer);
-                _adventurersAlive.Add(adventurerCreated);
-				adventurerCreated.ChangeStateEvent += OnAdventurerStateChange;
+                _adventurersAlive.Add(adventurer);
+				adventurer.ChangeStateEvent += OnAdventurerStateChange;
 			}
         }
     }
 
 	public Adventurer GetAdventurerByID(Guid id) =>
-		_adventurersAlive.FirstOrDefault(adventurer => adventurer.AdventurerData.ID == id);
+		_adventurersAlive.FirstOrDefault(adventurer => adventurer.ID == id);
 
 	public void OnAdventurerStateChange(Adventurer npc, NPCState newState)
 	{
