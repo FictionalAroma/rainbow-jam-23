@@ -9,15 +9,15 @@ AnimatorOverrideController:
   m_Name: HumanHair1OC
   m_Controller: {fileID: 9100000, guid: 3607606e3b6c3a040aa93d69ff1ce625, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 5b1e013bb43006a44be13ca1485f966b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fea935f07a8eafc4d9f987906da9e1ab, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 4b24ed3b18471ce4cb99be72871c6b10, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: f05603aab31259f4289b5de038fbc571, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3f2bf4467e32867428946e9762c64354, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: c376a6a006084924a9061a70d74d9f65, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 7d2f7253fc2112740b278504ba5b3129, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f334307430ba08045a93d692b15191b8, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 5702622f6d857cf419dcce828777114d, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 478c4b74239dfe643af998b0a931856e, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 7ad70667b270f58429f2b095f0475f5d, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 7c3f5c6522d9ea747940186ebb923656, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3187bab9b23977a40b1f3d2f6ff2038b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 78a072a2589343549b7d1e00ac37454a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b9bcf50b5d5099f4eb30272e97417832, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 01428d5c4180d48439f1640ca63d484e, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: dd1fb5d80350c0a48b3b13c11e470daf, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 4ee59d99b04a5494ba05f1cc11594849, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a94b403a6497e1d4fb2ca0bbbf46f75c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fb4578ca891a9dd498ba2d2f4413a2f8, type: 2}
