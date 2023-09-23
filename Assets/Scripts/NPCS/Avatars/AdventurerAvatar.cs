@@ -8,11 +8,14 @@ namespace NPCS.Avatars
 	{
 		[SerializeField]
 		Animator headAnimator;
+		[SerializeField]
 		Animator hairAnimator;
+		[SerializeField]
 		Animator bodyAnimator;
 		private void Start()
 		{
 			Data.ChangeStateEvent += OnChangeStateEvent;
+
 		}
 
 		private void OnChangeStateEvent(Adventurer adv, NPCState state)
@@ -38,6 +41,15 @@ namespace NPCS.Avatars
 
 			itemName = Data.CharacterStats.firstName;
 			
+		}
+
+		public void SetAnimators(AnimatorOverrideController getBody,
+								 AnimatorOverrideController getHead,
+								 AnimatorOverrideController getHair)
+		{
+			headAnimator.runtimeAnimatorController = getHead;
+			bodyAnimator.runtimeAnimatorController = getBody;
+			hairAnimator.runtimeAnimatorController = getHair;
 		}
 	}
 }

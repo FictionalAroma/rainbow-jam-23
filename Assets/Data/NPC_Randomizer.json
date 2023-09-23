@@ -278,12 +278,12 @@
     }
 
   ],
-    "Races":[
+    "Races":
         {
             "Human": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4},
-            "Elf": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4}
-            "Dwarf": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4}
+            "Elf": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4},
+            "Dwarf": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4},
             "Dragonborn": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4}
         }
-    ]
+    
 }

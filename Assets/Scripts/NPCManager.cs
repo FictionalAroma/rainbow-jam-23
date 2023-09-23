@@ -14,6 +14,10 @@ public class NPCManager : MonoSingleton<NPCManager>
 	[SerializeField] private List<Adventurer> _adventurersAlive = new List<Adventurer>();
 	[SerializeField] private AvatarSpawner spawner;
     [SerializeField] List<AdventurerAvatarSkin> skinRepoList;
+
+	public List<AdventurerAvatarSkin> SkinRepoList => skinRepoList;
+
+
     private void Start()
     {
         _worldData = WorldDataManager.Instance.TheWorld;

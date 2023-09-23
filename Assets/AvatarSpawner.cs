@@ -1,16 +1,18 @@
+using System;
 using System.Collections.Generic;
 using NPCS.Avatars;
 using NPCS.Generator;
 using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 using UnityEngine.Animations;
+using Random = UnityEngine.Random;
 
 public class AvatarSpawner : MonoBehaviour
 {
 	[SerializeField] private List<Transform> spawnPositions;
 	[SerializeField] private AdventurerAvatar avatarBase;
 	[SerializeField] private Transform spawningParent;
-	
+	private List<AdventurerAvatarSkin> skinChache;
 	private UIManager _uiChache;
 
 	[SerializeField] private AsepriteFile body;
@@ -18,6 +20,10 @@ public class AvatarSpawner : MonoBehaviour
 	private void Start()
 	{
 		NPCManager npcCache = FindObjectOfType<NPCManager>();
+		if (npcCache != null)
+		{
+			skinChache = npcCache.SkinRepoList;
+		}
 		_uiChache = FindObjectOfType<UIManager>();
 	}
 
@@ -26,9 +32,23 @@ public class AvatarSpawner : MonoBehaviour
 		var spawnPos = spawnPositions[Random.Range(0, spawnPositions.Count)].position;
 		var newAdventurer = Instantiate(avatarBase, spawnPos, Quaternion.identity, spawningParent);
 		newAdventurer.Setup(npc, _uiChache);
-		
+		AdventurerAvatarSkin foundSkin = null;
+		foreach (var skin in skinChache)
+		{
+			if (string.Compare(npc.CharacterStats.race, skin.skinRace, StringComparison.Ordinal) == 0)
+			{
+				foundSkin = skin;
+				break;
+			}
+		}
 
-		AsepriteImporter imp = new AsepriteImporter();
-		
+		if (foundSkin == null)
+		{
+			foundSkin = skinChache[0];
+		}
+
+		newAdventurer.SetAnimators(foundSkin.GetBody(npc.CharacterStats.bodyPartNum),
+								   foundSkin.GetHead(npc.CharacterStats.headPartNum),
+								   foundSkin.GetHair(npc.CharacterStats.hairPartNum));
 	}
 }
