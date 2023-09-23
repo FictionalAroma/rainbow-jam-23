@@ -16,12 +16,26 @@
             "scaleInDock": 0.5,
             "scaleInEditor": 1
         },
+        "Dragon.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Outdoors props.tsx": {
+            "scaleInDock": 1
+        },
+        "Outdoors1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "guildhall.tmx": {
-            "scale": 0.75,
-            "selectedLayer": 2,
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.5,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 497.33333333333326,
-                "y": 572.6666666666666
+                "x": 514,
+                "y": 213
             }
         },
         "untitled.tmx": {
@@ -44,9 +58,12 @@
     ],
     "project": "Guildhall.tiled-project",
     "recentFiles": [
+        "guildhall.tmx",
+        "Dragon.tsx",
+        "untitled.tmx",
+        "Outdoors1.tsx",
         ":/automap-tiles.tsx",
-        "Buildings1.tsx",
-        "guildhall.tmx"
+        "Buildings1.tsx"
     ],
     "tileset.lastUsedFormat": "tsx"
 }
