@@ -1,6 +1,7 @@
 ﻿using System;
 using DataObjects;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
 
 namespace NPCS
@@ -8,6 +9,6 @@ namespace NPCS
     [Serializable]
 	public class AdventurerData : NPCData
 	{
-        List<AdventurerAction> AdventurerActions { get; set; }
+		[field:SerializeField, ReadOnly] List<AdventurerAction> AdventurerActions { get; set; }
     }
 }

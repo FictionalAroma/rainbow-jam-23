@@ -46,7 +46,10 @@ namespace Management
 			{
 				this.LoadWorldData(WorldName, GameName);
 			}
-
+			else
+			{
+				_world = new WorldData();
+			}
 		}
 
 		public AdventurerData GenerateAdventurer()
@@ -77,8 +80,7 @@ namespace Management
 		public void LoadWorldData(string username, string gameName)
 		{
 			string filePath = GetWorldFilePath(username, gameName);
-			_world = JsonUtils.LoadFromFile<WorldData>(filePath);
-
+			_world = JsonUtils.LoadFromFile<WorldData>(filePath) ?? new WorldData();
 		}
 	}
 

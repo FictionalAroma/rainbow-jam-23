@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.NPCS.UI
 {
-    public class CharacterUI : IngameUIBase<CharacterSheet>
+    public class CharacterUI : IngameUIBase<Adventurer>
     {
         [SerializeField] TextMeshProUGUI nameText, level, npcClass, race, strength, dexterity, constitution, intelligence, wisdom, charisma;
         [SerializeField] TextMeshProUGUI healthPoints;
@@ -13,9 +13,10 @@ namespace Assets.Scripts.NPCS.UI
         [SerializeField] TextMeshProUGUI traits, flaws, ideals, skills;
 
 
-        protected override void Populate(CharacterSheet characterSheet)
-        {
-            if (nameText != null) nameText.text = $"{characterSheet.firstName} + {characterSheet.lastName}";
+        protected override void Populate(Adventurer ad)
+		{
+			var characterSheet = ad.AdventurerData.CharacterStats;
+            if (nameText != null) nameText.text = $"{characterSheet.firstName} {characterSheet.lastName}";
             if (level != null) level.text = characterSheet.level.ToString();
             if (npcClass != null)
                 npcClass.text = characterSheet.npcClass;

@@ -1,9 +1,11 @@
 ﻿using System;
+using UnityEngine;
 
 namespace DataObjects
 {
 	public enum NPCState
 	{
+		None,
 		Idle,
 		Quest,
 		Busy,
@@ -12,11 +14,11 @@ namespace DataObjects
 	[Serializable]
 	public class NPCData : BaseDataObject
 	{
-		public CharacterSheet CharacterStats { get; set; }
+		[field:SerializeField]public CharacterSheet CharacterStats { get; set; }
 
-		public NPCState State { get; set; } = NPCState.Idle;
+		[field:SerializeField]public NPCState State { get; set; } = NPCState.None;
 		// status
 		// action
-		public bool IsAlive { get; set; } = true;
+		[field:SerializeField]public bool IsAlive { get; set; } = true;
 	}
 }
