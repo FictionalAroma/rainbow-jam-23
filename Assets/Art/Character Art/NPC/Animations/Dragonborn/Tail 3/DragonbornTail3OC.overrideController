@@ -9,15 +9,15 @@ AnimatorOverrideController:
   m_Name: DragonbornTail3OC
   m_Controller: {fileID: 9100000, guid: 3607606e3b6c3a040aa93d69ff1ce625, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 5b1e013bb43006a44be13ca1485f966b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fea935f07a8eafc4d9f987906da9e1ab, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: c8811c5092ce2ab449188a32419caefe, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: f05603aab31259f4289b5de038fbc571, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3f2bf4467e32867428946e9762c64354, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 9ff9f34cd9294d1408866e6cc5a5375c, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 7d2f7253fc2112740b278504ba5b3129, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3187bab9b23977a40b1f3d2f6ff2038b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 72bc56c8a7314ec498011ad242665b00, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f334307430ba08045a93d692b15191b8, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 7a8dfcf05560dfd4a90084045cc6e6f5, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 478c4b74239dfe643af998b0a931856e, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: c96dfa60afe22ae4f9096f14a2e0febb, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 7c3f5c6522d9ea747940186ebb923656, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b9bcf50b5d5099f4eb30272e97417832, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: fae75cb12ee87534792022bf6268bbae, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: dd1fb5d80350c0a48b3b13c11e470daf, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 7215faaafefb1d346ac3700911e97edc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a94b403a6497e1d4fb2ca0bbbf46f75c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eb55a7cd5dd70e64fb854965ba452c6f, type: 2}
