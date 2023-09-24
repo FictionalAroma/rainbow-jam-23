@@ -1,6 +1,7 @@
-using DataObjects;
+using System;
 using GameMenu;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Assets.Scripts.NPCS.UI
@@ -14,8 +15,9 @@ namespace Assets.Scripts.NPCS.UI
         [SerializeField] TextMeshProUGUI traits, flaws, ideals, skills;
 
 
-        protected override void Populate(Adventurer ad)
+		protected override void Populate(Adventurer ad)
 		{
+            
 			var characterSheet = ad.CharacterStats;
             if (nameText != null) nameText.text = $"{characterSheet.firstName} {characterSheet.lastName}";
             if (level != null) level.text = characterSheet.level.ToString();
