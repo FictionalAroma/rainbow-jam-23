@@ -3,7 +3,6 @@ using CommonComponents.Interfaces;
 using Management;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem.UI;
 
 namespace GameMenu
 {
