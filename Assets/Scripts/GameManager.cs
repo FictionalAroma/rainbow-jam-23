@@ -23,8 +23,8 @@ public class GameManager : MonoBehaviour
         fontSize = playerSettings.GetInt("fontSize");
         ambienceVolume = playerSettings.GetInt("ambienceVolume");
         audioManager = GetComponent<AudioManager>();
-        audioManager.PlayRandomMusicClip();
-        audioManager.PlayRandomAmbienceClip();
+        
+        
 
     }
 
@@ -33,5 +33,13 @@ public class GameManager : MonoBehaviour
     {
         audioManager.musicAudioSource.volume = musicVolume;
         audioManager.ambienceAudioSource.volume= ambienceVolume;
+        if (!audioManager.musicAudioSource.isPlaying)
+        {
+            audioManager.PlayRandomMusicClip();
+        }
+        if (!audioManager.ambienceAudioSource.isPlaying)
+        {
+            audioManager.PlayRandomAmbienceClip();
+        }
     }
 }

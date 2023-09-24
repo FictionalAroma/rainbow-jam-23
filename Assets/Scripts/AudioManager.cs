@@ -11,11 +11,15 @@ public class AudioManager : MonoBehaviour
 
     public void PlayRandomAmbienceClip()
     {
-        if (!ambienceAudioSource.isPlaying)
+        if (ambienceClips.Length >0)
         {
-            ambienceAudioSource.clip = ambienceClips[Random.Range(0, ambienceClips.Length)];
-            ambienceAudioSource.Play();
+            if (!ambienceAudioSource.isPlaying)
+            {
+                ambienceAudioSource.clip = ambienceClips[Random.Range(0, ambienceClips.Length)];
+                ambienceAudioSource.Play();
+            }
         }
+        
         else
         {
             return;
