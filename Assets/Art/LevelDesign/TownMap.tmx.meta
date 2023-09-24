@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 303ffe171af5b384d989c7d53a01fe57
+guid: 07082490359118441a876845d5229c53
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -9,7 +9,13 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
   missingFiles: []
-  errors: []
+  errors:
+  - Errors detected in tileset '../../Packages/EPIC RPG World Pack - Grass Land 2.0
+    v1.4/TiledMap Editor new/Tilesets/Atlas-Props-sheet2.tsx'. Check the tileset
+    inspector for more details. Your map may be broken until these are fixed.
+  - Errors detected in tileset '../../Packages/EPIC RPG World Pack - Grass Land 2.0
+    v1.4/TiledMap Editor new/Tilesets/platform - grass - coast.tsx'. Check the tileset
+    inspector for more details. Your map may be broken until these are fixed.
   warnings: []
   missingSortingLayers: []
   missingLayers: []
