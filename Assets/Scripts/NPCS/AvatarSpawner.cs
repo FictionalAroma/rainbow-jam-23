@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 public class AvatarSpawner : MonoBehaviour
 {
 	[SerializeField] private List<Transform> spawnPositions;
+	[SerializeField] private List<Transform> navigationPositions;
 	[SerializeField] private AdventurerAvatar avatarBase;
 	[SerializeField] private Transform spawningParent;
 	private List<AdventurerAvatarSkin> skinChache;
@@ -17,6 +18,7 @@ public class AvatarSpawner : MonoBehaviour
 
 	private void Start()
 	{
+
 		NPCManager npcCache = FindObjectOfType<NPCManager>();
 		if (npcCache != null)
 		{
@@ -29,7 +31,7 @@ public class AvatarSpawner : MonoBehaviour
 	{
 		var spawnPos = spawnPositions[Random.Range(0, spawnPositions.Count)].position;
 		var newAdventurer = Instantiate(avatarBase, spawnPos, Quaternion.identity, spawningParent);
-		newAdventurer.Setup(npc, _uiChache);
+		newAdventurer.Setup(npc, _uiChache, navigationPositions);
 		AdventurerAvatarSkin foundSkin = null;
 		foreach (var skin in skinChache)
 		{
