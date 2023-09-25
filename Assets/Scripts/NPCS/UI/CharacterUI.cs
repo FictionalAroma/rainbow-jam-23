@@ -1,7 +1,5 @@
-using System;
 using GameMenu;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Assets.Scripts.NPCS.UI

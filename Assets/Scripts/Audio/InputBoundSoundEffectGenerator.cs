@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-namespace Audio
+﻿namespace Audio
 {
 	public class InputBoundSoundEffectGenerator : SoundEffectGenerator
 	{

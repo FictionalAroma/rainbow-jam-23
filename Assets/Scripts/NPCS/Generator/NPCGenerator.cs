@@ -1,7 +1,5 @@
-using System.Collections.Generic;
 using System.Linq;
 using ExtensionClasses;
-using NPCS.Generator;
 using UnityEngine;
 
 public class NPCGenerator

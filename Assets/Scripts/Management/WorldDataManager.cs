@@ -1,13 +1,7 @@
 ﻿using System.IO;
-using DataObjects;
-using System.Linq;
 using ExtensionClasses;
 using Management.Data;
-using NPCS;
-using NPCS.Generator;
-using UnityEditor.Animations;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Management
 {

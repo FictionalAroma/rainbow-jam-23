@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
 using NPCS.Avatars;
-using NPCS.Generator;
 using UnityEditor.U2D.Aseprite;
 using UnityEngine;
-using UnityEngine.Animations;
 using Random = UnityEngine.Random;
 
 public class AvatarSpawner : MonoBehaviour

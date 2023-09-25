@@ -1,7 +1,6 @@
 using System.Collections;
 using CommonComponents;
 using CommonComponents.Interfaces;
-using Interactions;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine;

@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : MonoSingleton<AudioManager>
 {
+	[SerializeField] private AudioMixerGroup mixer;
     public AudioSource musicAudioSource;
     public AudioSource ambienceAudioSource;
     [SerializeField] AudioClip[] ambienceClips;
@@ -19,23 +19,13 @@ public class AudioManager : MonoBehaviour
                 ambienceAudioSource.Play();
             }
         }
-        
-        else
-        {
-            return;
-        }
-   
-    }
+	}
     public void PlayRandomMusicClip()
     {
         if (!musicAudioSource.isPlaying)
         {
             musicAudioSource.clip = musicClips[Random.Range(0, musicClips.Length)];
             musicAudioSource.Play();
-        }
-        else
-        {
-            return;
         }
     }
 }

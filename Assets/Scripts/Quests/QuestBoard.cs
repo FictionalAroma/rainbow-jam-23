@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using CommonComponents.Interfaces;
 using Interactions;
-using UnityEngine;
 
 public class QuestBoard : CharacterInteraction
 {

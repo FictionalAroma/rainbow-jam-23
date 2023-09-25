@@ -1,5 +1,4 @@
-﻿using System;
-using CommonComponents;
+﻿using CommonComponents;
 using CommonComponents.Interfaces;
 using PlayerInput;
 using TMPro;
@@ -31,7 +30,7 @@ namespace Assets.Scripts.Player
 			}
 
 			actionDisplay.SetActive(true);
-			actionText.text = $"{interactiveObject.ActionText} the {interactiveObject.ItemName}";
+			actionText.text = $"{interactiveObject.ActionText} {interactiveObject.ItemName}";
 		}
 	}
 }
