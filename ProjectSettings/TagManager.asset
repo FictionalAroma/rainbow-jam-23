@@ -50,3 +50,9 @@ TagManager:
   - name: player
     uniqueID: 2552574491
     locked: 0
+  - name: floating text
+    uniqueID: 3405421125
+    locked: 0
+  - name: ingame UI
+    uniqueID: 1410310479
+    locked: 0
