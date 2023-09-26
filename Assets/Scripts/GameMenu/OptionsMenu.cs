@@ -1,19 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
     PlayerSettings playerSettings;
-    Slider sfxVolumeSlider;
-    Slider musicVolumeSlider;
-    Slider ambienceVolumeSlider;
+    [SerializeField] Slider sfxVolumeSlider;
+    [SerializeField] Slider musicVolumeSlider;
+    [SerializeField] Slider masterVolumeSlider;
     
     public void SaveSettings()
     {
         playerSettings.MusicVolume = (int)musicVolumeSlider.value;
         playerSettings.SFXVolume = (int)sfxVolumeSlider.value;
-       
+        playerSettings.MasterVolume = (int)masterVolumeSlider.value;
+    }
+    public void Return()
+    {
+        if (SceneManager.GetActiveScene().buildIndex== 0)
+        {
+            Menus menus = FindObjectOfType<Menus>();
+            menus.ReturnToMainMenu();
+        }
+        else
+        {
+
+        }
     }
 }
