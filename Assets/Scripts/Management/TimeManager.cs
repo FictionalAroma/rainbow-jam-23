@@ -29,6 +29,8 @@ namespace Management
 		[SerializeField] private int currentDay;
 		[SerializeField] private int currentTick;
 
+		public float TimeSpeedFactor { get; set; } = 1f;
+
 		public event Action OnTick;
 		public event Action<int> OnDayUpdate;
 
@@ -57,10 +59,9 @@ namespace Management
 				OnTick?.Invoke();
 				currentTickCountdown = timePerTick;
 			}
-			else
-			{
-				currentTickCountdown -= Time.fixedDeltaTime;
-			}
+			
+			currentTickCountdown -= Time.fixedDeltaTime * TimeSpeedFactor;
+			
 		}
 	}
 }
