@@ -19,14 +19,7 @@ public class OptionsMenu : MonoBehaviour
     }
     public void Return()
     {
-        if (SceneManager.GetActiveScene().buildIndex== 0)
-        {
-            Menus menus = FindObjectOfType<Menus>();
-            menus.ReturnToMainMenu();
-        }
-        else
-        {
+        FindObjectOfType<OptionsMenu>().gameObject.SetActive(false);
 
-        }
     }
 }
