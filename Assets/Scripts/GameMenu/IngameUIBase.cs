@@ -99,7 +99,7 @@ namespace GameMenu
 
 	public abstract class IngameUIBase<T> : IngameUIBase where T: new()
 	{
-		protected T Data { get; private set; }
+		protected T Data { get; set; }
 
 		public bool ShowMenu(T data, IngameUIBase previous = null, Action onCloseCallback = null)
 		{

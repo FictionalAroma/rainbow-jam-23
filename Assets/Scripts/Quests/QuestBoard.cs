@@ -1,16 +1,21 @@
+using System;
 using CommonComponents.Interfaces;
 using Interactions;
+using UnityEngine;
 
-public class QuestBoard : CharacterInteraction
+public class QuestBoard : CharacterInteraction<QuestsManager>
 {
+	[field:SerializeField] public QuestsManager Data { get; set; }
 
-	public override bool Action(InteractableActor interactableActor)
+	private void Start()
 	{
-		return true;
+		Data = QuestsManager.Instance;
 	}
 
 	public override void LinkUI(UIManager manager)
 	{
-
+		this.menuToOpen = manager.QuestUI;
 	}
+
+	protected override QuestsManager GetData() => Data;
 }

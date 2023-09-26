@@ -14,8 +14,11 @@ public class MonoSingleton<T>: MonoBehaviour where T : MonoBehaviour
         {
             Instance = this as T;
             DontDestroyOnLoad(Instance);
+            Setup();
         }
 
         
     }
+
+	protected virtual void Setup() { }
 }

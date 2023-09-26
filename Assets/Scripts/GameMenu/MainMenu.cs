@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
     {
         mainMenuCanvas.SetActive(false);
         optionsCanvas.SetActive(true);
-    }
+	}
     public void ReturnToMainMenu()
     {
         optionsCanvas.SetActive(false);

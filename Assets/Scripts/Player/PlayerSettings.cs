@@ -23,7 +23,7 @@ public class PlayerSettings
             _masterVolume = value;
         }
     }
-    public int SFXVolume
+    public int SFXVolum
     {
         get
         {
@@ -37,7 +37,7 @@ public class PlayerSettings
         set
         {
             SetInt("SFXVolume", value);
-            SFXVolume = value;
+			_sfxVolume = value;
         }
     }
     public int MusicVolume
