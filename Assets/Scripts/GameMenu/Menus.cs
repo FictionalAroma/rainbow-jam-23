@@ -2,12 +2,12 @@ using Management;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class Menus : MonoBehaviour
 {
     [SerializeField] GameObject mainMenuCanvas;
     [SerializeField] GameObject optionsCanvas;
-
-	public void StartGame()
+  
+    public void StartGame()
 	{
 		//WorldDataManager.Instance.LoadStartingDefault();
 		SceneManager.LoadScene(1);
@@ -38,5 +38,5 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    
+   
 }
