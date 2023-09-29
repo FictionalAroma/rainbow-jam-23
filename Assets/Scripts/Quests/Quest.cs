@@ -13,10 +13,10 @@ public class Quest : QuestData
 {
 	private List<AdventurerData> _party;
 
-	
 	public bool IsComplete => this.State == QuestState.Complete;
 
 	[field:SerializeField] private QuestStageData _currentStageData;
+
 	[UsedImplicitly]
 	public Quest() { }
 	public Quest(QuestRandomizationData questRandomizationData) : base(questRandomizationData) { }
@@ -25,6 +25,7 @@ public class Quest : QuestData
 	public void Tick()
 	{
 		_currentStageData.TimeRemaining--;
+		TimeRemaining--;
 		if (_currentStageData.TimeRemaining < 0)
 		{
 			if (DoStageTest(_currentStageData))

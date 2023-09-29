@@ -5,21 +5,30 @@ using Management.Data;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuestsManager : MonoBehaviour
+public class QuestsManager : MonoSingleton<QuestsManager>
 {
     WorldData theWorld;
 	private List<QuestData> _completedQuests = new List<QuestData>();
 	[SerializeField] private List<Quest> _activeQuests = new List<Quest>();
 	private List<QuestData> _inactiveQuests = new List<QuestData>();
 
+	public List<Quest> ActiveQuests => _activeQuests;
 
-	private void Start()
-    {
+	public event Action<Quest> NewQuest;
+
+
+	protected void Start() 
+	{ 
 		theWorld = WorldDataManager.Instance.TheWorld;
         TimeManager.Instance.OnTick += QuestOnTick;
 		TimeManager.Instance.OnDayUpdate += QuestOnDay;
 		PopulateQuests(theWorld.QuestList);
+	}
 
+	private void OnDestroy()
+	{
+		TimeManager.Instance.OnTick -= QuestOnTick;
+		TimeManager.Instance.OnDayUpdate -= QuestOnDay;
 	}
 
 	private void QuestOnDay(int currentDay)
@@ -31,7 +40,7 @@ public class QuestsManager : MonoBehaviour
 			if (inactive.DayToActivate < currentDay || inactive.ActivateInDays <= 0)
 			{
 				_inactiveQuests.RemoveAt(index);
-				_activeQuests.Add((Quest)inactive);
+				ActiveQuests.Add((Quest)inactive);
 			}
 			else
 			{
@@ -42,8 +51,8 @@ public class QuestsManager : MonoBehaviour
 
 	private void QuestOnTick()
 	{
-		var completedThisTick = new List<Quest>(_activeQuests.Count);
-		foreach (var activeQuest in _activeQuests)
+		var completedThisTick = new List<Quest>(ActiveQuests.Count);
+		foreach (var activeQuest in ActiveQuests)
 		{
 			activeQuest.Tick();
 			if (activeQuest.IsComplete)
@@ -54,7 +63,7 @@ public class QuestsManager : MonoBehaviour
 
 		foreach (var completedQuest in completedThisTick)
 		{
-			_activeQuests.Remove(completedQuest);
+			ActiveQuests.Remove(completedQuest);
 			_completedQuests.Add(completedQuest);
 		}
 		
@@ -80,7 +89,7 @@ public class QuestsManager : MonoBehaviour
 				case QuestState.Pending:
 				case QuestState.Ongoing:
 				{
-					_activeQuests.Add(data);
+					ActiveQuests.Add(data);
 					break;
 				}
 				default: throw new ArgumentOutOfRangeException();
@@ -91,6 +100,7 @@ public class QuestsManager : MonoBehaviour
 	public void AddNewQuest()
 	{
 		var quest = WorldDataManager.Instance.GenerateQuest();
-		_activeQuests.Add(quest);
+		ActiveQuests.Add(quest);
+		NewQuest?.Invoke(quest);
 	}
 }

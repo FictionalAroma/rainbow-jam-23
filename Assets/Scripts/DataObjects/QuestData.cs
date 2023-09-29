@@ -25,7 +25,6 @@ namespace DataObjects
         
         public string questLocation;
 
-
 		public List<Guid> AdventurerIDs { get; set; } = new List<Guid>();
 
 		[field:SerializeField]public QuestState State { get; set; }
@@ -36,6 +35,7 @@ namespace DataObjects
 		[field:SerializeField]public int? DayToActivate { get; set; }
 
 		[field:SerializeField]public int? ActivateInDays { get; set; }
+		public int TimeRemaining { get; protected set; }
         public QuestData(QuestRandomizationData questRandomizationData)
 		{
 
@@ -54,6 +54,7 @@ namespace DataObjects
 				};
 				newStage.Setup();
 				Stages.Add(newStage);
+				TimeRemaining += newStage.TimeRemaining;
 			}
 
             QuestReward = enemyType.Rewards.RandomFromList();
