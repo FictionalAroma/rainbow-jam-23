@@ -74,4 +74,7 @@ crashlytics-build.properties
 /Assets/Packages
 *.tiled-session
 /Assets/Audio
+
+desktop.ini*
+/Assets/Audio
 /Assets/Sprites

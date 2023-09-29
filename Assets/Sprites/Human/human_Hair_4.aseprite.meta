@@ -1,0 +1,1088 @@
+fileFormatVersion: 2
+guid: 656083686f3c7af4796851405224767c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: back
+    second: {fileID: 7400000, guid: 441f353c8181e864a8e94a1dfe65f597, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: front
+    second: {fileID: 7400000, guid: 794965c5264a9a44e82c896290eea266, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: idle
+    second: {fileID: 7400000, guid: 0fc33a49949e5a1408b87a28ddd13933, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: walk
+    second: {fileID: 7400000, guid: e62812f0ca9e9fd41bcaf79f25643cdb, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638311012598424319
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: human_Hair_4_Frame_0
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15
+      height: 21
+    spriteID: 74efad93336561f47b895dfbf74f51b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: human_Hair_4_Frame_1
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 33
+      width: 15
+      height: 21
+    spriteID: 78465f269b060a14d91e760b92546264
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 33}
+  - name: human_Hair_4_Frame_2
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 15
+      height: 21
+    spriteID: 42194faeceb5f1144a8e784c09cbcba5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: human_Hair_4_Frame_3
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 15
+      height: 21
+    spriteID: 6f2b5f7e39afdcc4aa055e129606ece4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: human_Hair_4_Frame_4
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 15
+      height: 21
+    spriteID: 29f063bb916b7364fbfcddb906373bf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: human_Hair_4_Frame_5
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 149
+      width: 15
+      height: 21
+    spriteID: 3d568ef97dc3cf047a3f81c9966e8133
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 149}
+  - name: human_Hair_4_Frame_6
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 178
+      width: 15
+      height: 21
+    spriteID: c4bf1a2f250d6544094161ba24fa528c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 178}
+  - name: human_Hair_4_Frame_7
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 207
+      width: 15
+      height: 21
+    spriteID: 8aa84116197f52b46b6310d0617e1236
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 207}
+  - name: human_Hair_4_Frame_8
+    originalName: 
+    pivot: {x: 0.40000004, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 4
+      width: 15
+      height: 21
+    spriteID: 3adff902335878f40bb16cc4c8a66003
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 4}
+  - name: human_Hair_4_Frame_9
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 33
+      width: 15
+      height: 21
+    spriteID: 97a70ad5ecd8c0b46a2fcdd217b0ca71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 33}
+  - name: human_Hair_4_Frame_10
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 62
+      width: 15
+      height: 21
+    spriteID: 2cf0869b6f91dff458cb4afa7db0ab91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 62}
+  - name: human_Hair_4_Frame_11
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 91
+      width: 15
+      height: 21
+    spriteID: 4bfb58991241586449edd6884e8dc462
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 91}
+  - name: human_Hair_4_Frame_12
+    originalName: 
+    pivot: {x: 0.40000004, y: -1.8095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 120
+      width: 15
+      height: 21
+    spriteID: 4831f56f4f2bdcb4b9c660b6f8f003d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 120}
+  - name: human_Hair_4_Frame_13
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 149
+      width: 13
+      height: 20
+    spriteID: 1df84b2f053e7b048a868a5d5fd4cc8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 149}
+  - name: human_Hair_4_Frame_14
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 177
+      width: 13
+      height: 20
+    spriteID: 31bd588d8595c2146b48ee8a4656da60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 177}
+  - name: human_Hair_4_Frame_15
+    originalName: 
+    pivot: {x: 0.53846157, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 205
+      width: 13
+      height: 20
+    spriteID: e2701181976973443b4a6d5c3fa224e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 205}
+  - name: human_Hair_4_Frame_16
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 13
+      height: 20
+    spriteID: e1008cdf1015b2449a3f9e48c9105a5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: human_Hair_4_Frame_17
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 32
+      width: 13
+      height: 20
+    spriteID: 20cdca7caf63e5f439b64c708cb3a053
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 32}
+  - name: human_Hair_4_Frame_18
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 60
+      width: 13
+      height: 20
+    spriteID: 4cb54de841eb8714a88550a53a6d3bcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 60}
+  - name: human_Hair_4_Frame_19
+    originalName: 
+    pivot: {x: 0.53846157, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 88
+      width: 13
+      height: 20
+    spriteID: 05df6fb3ea65cfa4abb8cac4a794a431
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 88}
+  - name: human_Hair_4_Frame_20
+    originalName: 
+    pivot: {x: 0.53846157, y: -1.95}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 116
+      width: 13
+      height: 20
+    spriteID: a723913334b8a1646be82bc28a1f5c10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 116}
+  - name: human_Hair_4_Frame_21
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 236
+      width: 13
+      height: 16
+    spriteID: b67cb9c78f20fcf4eb80b854eeb3bd12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 236}
+  - name: human_Hair_4_Frame_22
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.6875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 233
+      width: 13
+      height: 16
+    spriteID: d83befb218f3c07409e334b19697c476
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 233}
+  - name: human_Hair_4_Frame_23
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 144
+      width: 13
+      height: 16
+    spriteID: 35b9ef6988afa0049b34aee809aa1b00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 144}
+  - name: human_Hair_4_Frame_24
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 168
+      width: 13
+      height: 16
+    spriteID: 13fe340b591f4a34dbcbd1b9cff64efa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 168}
+  - name: human_Hair_4_Frame_25
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 192
+      width: 13
+      height: 16
+    spriteID: 1071300eebdb8af42a1de9e4fa143ebd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 192}
+  - name: human_Hair_4_Frame_26
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 216
+      width: 13
+      height: 16
+    spriteID: 06694cfb73f94034d92c4f07f7896447
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 216}
+  - name: human_Hair_4_Frame_27
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.6875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 4
+      width: 13
+      height: 16
+    spriteID: aa22bc5dbffdf1e48b85186348d5eea4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 4}
+  - name: human_Hair_4_Frame_28
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 28
+      width: 13
+      height: 16
+    spriteID: b8543a4dd22cdc64ab26c32c4ec6424b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 28}
+  - name: human_Hair_4_Frame_29
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 52
+      width: 13
+      height: 16
+    spriteID: bc95477add0b4f248bd8a1b9185aa053
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 52}
+  - name: human_Hair_4_Frame_30
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 76
+      width: 13
+      height: 16
+    spriteID: 3994c49b4cb5a0e43b91bf168d0cfb0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 76}
+  - name: human_Hair_4_Frame_31
+    originalName: 
+    pivot: {x: 0.4615385, y: -2.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 100
+      width: 13
+      height: 16
+    spriteID: 91851a89b007060429aff0c77b18bfd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 100}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 561519481
+    name: human_Hair_4
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: human_Hair_4_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 25
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 74efad93336561f47b895dfbf74f51b8
+    - name: human_Hair_4_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 37
+        width: 15
+        height: 21
+      spriteId: 78465f269b060a14d91e760b92546264
+    - name: human_Hair_4_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 25
+        y: 35
+        width: 15
+        height: 21
+      spriteId: 42194faeceb5f1144a8e784c09cbcba5
+    - name: human_Hair_4_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 25
+        y: 37
+        width: 15
+        height: 21
+      spriteId: 6f2b5f7e39afdcc4aa055e129606ece4
+    - name: human_Hair_4_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 25
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 29f063bb916b7364fbfcddb906373bf4
+    - name: human_Hair_4_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 3d568ef97dc3cf047a3f81c9966e8133
+    - name: human_Hair_4_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 37
+        width: 15
+        height: 21
+      spriteId: c4bf1a2f250d6544094161ba24fa528c
+    - name: human_Hair_4_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 8aa84116197f52b46b6310d0617e1236
+    - name: human_Hair_4_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 26
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 3adff902335878f40bb16cc4c8a66003
+    - name: human_Hair_4_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 97a70ad5ecd8c0b46a2fcdd217b0ca71
+    - name: human_Hair_4_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 37
+        width: 15
+        height: 21
+      spriteId: 2cf0869b6f91dff458cb4afa7db0ab91
+    - name: human_Hair_4_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 25
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 4bfb58991241586449edd6884e8dc462
+    - name: human_Hair_4_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 26
+        y: 38
+        width: 15
+        height: 21
+      spriteId: 4831f56f4f2bdcb4b9c660b6f8f003d0
+    - name: human_Hair_4_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 25
+        y: 39
+        width: 13
+        height: 20
+      spriteId: 1df84b2f053e7b048a868a5d5fd4cc8d
+    - name: human_Hair_4_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 25
+        y: 38
+        width: 13
+        height: 20
+      spriteId: 31bd588d8595c2146b48ee8a4656da60
+    - name: human_Hair_4_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 25
+        y: 40
+        width: 13
+        height: 20
+      spriteId: e2701181976973443b4a6d5c3fa224e8
+    - name: human_Hair_4_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 25
+        y: 39
+        width: 13
+        height: 20
+      spriteId: e1008cdf1015b2449a3f9e48c9105a5f
+    - name: human_Hair_4_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 25
+        y: 39
+        width: 13
+        height: 20
+      spriteId: 20cdca7caf63e5f439b64c708cb3a053
+    - name: human_Hair_4_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 25
+        y: 38
+        width: 13
+        height: 20
+      spriteId: 4cb54de841eb8714a88550a53a6d3bcf
+    - name: human_Hair_4_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 25
+        y: 40
+        width: 13
+        height: 20
+      spriteId: 05df6fb3ea65cfa4abb8cac4a794a431
+    - name: human_Hair_4_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 25
+        y: 39
+        width: 13
+        height: 20
+      spriteId: a723913334b8a1646be82bc28a1f5c10
+    - name: human_Hair_4_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: b67cb9c78f20fcf4eb80b854eeb3bd12
+    - name: human_Hair_4_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 26
+        y: 43
+        width: 13
+        height: 16
+      spriteId: d83befb218f3c07409e334b19697c476
+    - name: human_Hair_4_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: 35b9ef6988afa0049b34aee809aa1b00
+    - name: human_Hair_4_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: 13fe340b591f4a34dbcbd1b9cff64efa
+    - name: human_Hair_4_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: 1071300eebdb8af42a1de9e4fa143ebd
+    - name: human_Hair_4_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: 06694cfb73f94034d92c4f07f7896447
+    - name: human_Hair_4_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 26
+        y: 43
+        width: 13
+        height: 16
+      spriteId: aa22bc5dbffdf1e48b85186348d5eea4
+    - name: human_Hair_4_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: b8543a4dd22cdc64ab26c32c4ec6424b
+    - name: human_Hair_4_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: bc95477add0b4f248bd8a1b9185aa053
+    - name: human_Hair_4_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: 3994c49b4cb5a0e43b91bf168d0cfb0a
+    - name: human_Hair_4_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 26
+        y: 44
+        width: 13
+        height: 16
+      spriteId: 91851a89b007060429aff0c77b18bfd2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

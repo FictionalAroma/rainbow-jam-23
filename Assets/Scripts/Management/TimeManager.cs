@@ -3,24 +3,8 @@ using UnityEngine;
 
 namespace Management
 {
-	public class TimeManager : MonoBehaviour
+	public class TimeManager : MonoSingleton<TimeManager>
 	{
-		public static TimeManager Instance { get; private set; }
-
-		private void Awake()
-		{
-			if (Instance != null && Instance != this) 
-			{ 
-				Destroy(this); 
-			} 
-			else 
-			{ 
-				Instance = this; 
-				DontDestroyOnLoad(this);
-				Setup();
-			} 
-		}
-
 
 		[SerializeField] private float timePerTick = 10f;
 		[SerializeField] private int ticksPerDay = 23;
@@ -28,6 +12,8 @@ namespace Management
 		[SerializeField] private float currentTickCountdown;
 		[SerializeField] private int currentDay;
 		[SerializeField] private int currentTick;
+
+		public float TimeSpeedFactor { get; set; } = 1f;
 
 		public event Action OnTick;
 		public event Action<int> OnDayUpdate;
@@ -57,10 +43,9 @@ namespace Management
 				OnTick?.Invoke();
 				currentTickCountdown = timePerTick;
 			}
-			else
-			{
-				currentTickCountdown -= Time.fixedDeltaTime;
-			}
+			
+			currentTickCountdown -= Time.fixedDeltaTime * TimeSpeedFactor;
+			
 		}
 	}
 }

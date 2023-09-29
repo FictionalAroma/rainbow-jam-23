@@ -13,9 +13,10 @@ namespace Assets.Scripts.NPCS.UI
         [SerializeField] TextMeshProUGUI traits, flaws, ideals, skills;
 
 
-        protected override void Populate(Adventurer ad)
+		protected override void Populate(Adventurer ad)
 		{
-			var characterSheet = ad.AdventurerData.CharacterStats;
+            
+			var characterSheet = ad.CharacterStats;
             if (nameText != null) nameText.text = $"{characterSheet.firstName} {characterSheet.lastName}";
             if (level != null) level.text = characterSheet.level.ToString();
             if (npcClass != null)

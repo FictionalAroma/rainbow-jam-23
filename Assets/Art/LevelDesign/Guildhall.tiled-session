@@ -3,21 +3,47 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Buildings1.tsx",
+    "activeFile": "guildhall.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "Buildings1.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Dragon.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Outdoors props.tsx": {
+            "scaleInDock": 1
+        },
+        "Outdoors1.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "guildhall.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
             "scale": 0.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 514,
+                "y": 213
+            }
+        },
+        "untitled.tmx": {
+            "scale": 0.23502604166666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1040,
-                "y": 799
+                "x": 961.5955678670362,
+                "y": 963.7229916897508
             }
         }
     },
@@ -33,6 +59,10 @@
     "project": "Guildhall.tiled-project",
     "recentFiles": [
         "guildhall.tmx",
+        "Dragon.tsx",
+        "untitled.tmx",
+        "Outdoors1.tsx",
+        ":/automap-tiles.tsx",
         "Buildings1.tsx"
     ],
     "tileset.lastUsedFormat": "tsx"

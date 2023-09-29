@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1253dabbe71a7694a865361c06f58b4b, type: 3}
+  m_Name: ElfSkinsRepo
+  m_EditorClassIdentifier: 
+  skinRace: Elf
+  headOverrideControllers:
+  - {fileID: 22100000, guid: f4ccda84c88b2fb4a97d5661acee4bbd, type: 2}
+  - {fileID: 22100000, guid: 45f7a61f5c90b8148952f3d73605cabc, type: 2}
+  - {fileID: 22100000, guid: e3d927c16a8abae4fb7bb29790ee28fb, type: 2}
+  - {fileID: 22100000, guid: b783035bffa951c428ddab17de979933, type: 2}
+  - {fileID: 22100000, guid: 257a2ff3144651e449f2befa70afab47, type: 2}
+  hairOverrideControllers:
+  - {fileID: 22100000, guid: f82fa32a85aed1b4ea4250b7de2b1d4d, type: 2}
+  - {fileID: 22100000, guid: ceaab214293ff6f4eb222671ccda0120, type: 2}
+  - {fileID: 22100000, guid: f95272d1b081bad43b55a9fc4fe9448d, type: 2}
+  - {fileID: 22100000, guid: c1aea2f5be3992746b04c65d38ecb901, type: 2}
+  bodyOverrideControllers:
+  - {fileID: 22100000, guid: db042f5b84209034ba31c5aa0e0ae62a, type: 2}

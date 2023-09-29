@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2008694117857442534}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameMenu.IngameUIBase, Assembly-CSharp
         m_MethodName: CloseMenu
         m_Mode: 1
@@ -1409,14 +1409,13 @@ GameObject:
   - component: {fileID: 5300821973999016704}
   - component: {fileID: 8049784848311271006}
   - component: {fileID: 3075533539259087667}
-  - component: {fileID: 2008694117857442534}
   m_Layer: 5
   m_Name: CharacterSheetCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2247249777586359482
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1431,7 +1430,7 @@ RectTransform:
   m_Children:
   - {fileID: 4173789547074368123}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1509,37 +1508,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2722828050900853053}
   m_CullTransparentMesh: 1
---- !u!114 &2008694117857442534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2722828050900853053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2411b1883706d1447aebc462372c2c3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 2487154250429206759}
-  firstSelect: {fileID: 2086367770510830235}
-  nameText: {fileID: 8435308483699055039}
-  level: {fileID: 1264704339749353544}
-  npcClass: {fileID: 979855441558007190}
-  race: {fileID: 0}
-  strength: {fileID: 1723466376370697206}
-  dexterity: {fileID: 171619921244038279}
-  constitution: {fileID: 1517027892156092508}
-  intelligence: {fileID: 7241773459620621913}
-  wisdom: {fileID: 9180308899137418260}
-  charisma: {fileID: 7089768445536296476}
-  healthPoints: {fileID: 0}
-  healthPointsMax: {fileID: 0}
-  armorClass: {fileID: 0}
-  traits: {fileID: 0}
-  flaws: {fileID: 0}
-  ideals: {fileID: 0}
-  skills: {fileID: 0}
 --- !u!1 &2781529472624340211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,9 +1656,9 @@ GameObject:
   - component: {fileID: 4173789547074368123}
   - component: {fileID: 7893874442378198885}
   - component: {fileID: 3389965935346999522}
-  - component: {fileID: 2293614102487788713}
+  - component: {fileID: 6503570590087303948}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: CharacterSheetPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1759,7 +1727,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 0.2
---- !u!114 &2293614102487788713
+--- !u!114 &6503570590087303948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1771,18 +1739,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2411b1883706d1447aebc462372c2c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  firstSelect: {fileID: 0}
-  nameText: {fileID: 0}
-  level: {fileID: 0}
-  npcClass: {fileID: 0}
+  canvas: {fileID: 2487154250429206759}
+  firstSelect: {fileID: 2086367770510830235}
+  nameText: {fileID: 8435308483699055039}
+  level: {fileID: 1264704339749353544}
+  npcClass: {fileID: 979855441558007190}
   race: {fileID: 0}
-  strength: {fileID: 0}
-  dexterity: {fileID: 0}
-  constitution: {fileID: 0}
-  intelligence: {fileID: 0}
-  wisdom: {fileID: 0}
-  charisma: {fileID: 0}
+  strength: {fileID: 1723466376370697206}
+  dexterity: {fileID: 171619921244038279}
+  constitution: {fileID: 1517027892156092508}
+  intelligence: {fileID: 7241773459620621913}
+  wisdom: {fileID: 9180308899137418260}
+  charisma: {fileID: 7089768445536296476}
   healthPoints: {fileID: 0}
   healthPointsMax: {fileID: 0}
   armorClass: {fileID: 0}

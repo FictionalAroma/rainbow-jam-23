@@ -1,20 +1,21 @@
 ﻿using System;
 using CommonComponents.Interfaces;
 using Management;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem.UI;
 
 namespace GameMenu
 {
 	public class IngameUIBase : MonoBehaviour
 	{
-		[SerializeField] private Canvas canvas;
-		
-		protected IngameUIBase PreviousMenu;
+		[SerializeField] protected Canvas canvas;
+
+		private IngameUIBase _previousMenu;
 		private EventSystem _eventSystem;
 		private GameObject _lastObject;
 		[SerializeField]private GameObject firstSelect;
+		public SoundEffectGenerator SoundEffectGenerator { get; set; }
 
 		private Action _onCloseCallback;
 
@@ -23,12 +24,33 @@ namespace GameMenu
 			_eventSystem = EventSystem.current;
 		}
 
+		private void OnGUI()
+		{
+			switch (Event.current.type)
+			{
+				case EventType.KeyUp:
+				{
+					if (_eventSystem.currentSelectedGameObject.IsUnityNull())
+					{
+						_eventSystem.SetSelectedGameObject(firstSelect);
+					}
+					PlaySound();
+					break;
+
+				}
+				case EventType.MouseDown:
+					PlaySound();
+					break;
+			}
+		}
+
 
 		public virtual bool ShowMenu(IngameUIBase previous = null, Action onCloseCallback = null)
 		{
 			_onCloseCallback = onCloseCallback;
-			PreviousMenu = previous;
+			_previousMenu = previous;
 			ReturnFocus();
+			PlaySound();
 			return true;
 		}
 
@@ -37,19 +59,22 @@ namespace GameMenu
 		{
 			canvas.gameObject.SetActive(false);
 
-			if (PreviousMenu != null)
+			if (_previousMenu != null)
 			{
-				PreviousMenu.ReturnFocus();
+				_previousMenu.ReturnFocus();
 			}
 			else
 			{ 
 				_onCloseCallback?.Invoke();
 				GameStateManager.Instance.SetState(GameState.Running);
 			}
+
+			PlaySound();
 		}
 
 		protected virtual void ReturnFocus()
 		{
+			
 			canvas.gameObject.SetActive(true);
 			
 			_eventSystem.SetSelectedGameObject(_lastObject != null ? _lastObject : firstSelect);
@@ -62,11 +87,19 @@ namespace GameMenu
 			_lastObject = source;
 			menuToOpen.ShowMenu(nested ? this : null);
 		}
+
+		public void PlaySound()
+		{
+			if (SoundEffectGenerator != null)
+			{
+				SoundEffectGenerator.PlayRandomSound();
+			}
+		}
 	}
 
 	public abstract class IngameUIBase<T> : IngameUIBase where T: new()
 	{
-		protected T Data { get; private set; }
+		protected T Data { get; set; }
 
 		public bool ShowMenu(T data, IngameUIBase previous = null, Action onCloseCallback = null)
 		{
@@ -74,6 +107,7 @@ namespace GameMenu
 			var result = base.ShowMenu(previous, onCloseCallback);
 
 			Populate(Data);
+
 			return result;
 		}
 

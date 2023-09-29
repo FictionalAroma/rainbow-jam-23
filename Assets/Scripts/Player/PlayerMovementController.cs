@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using CommonComponents.Interfaces;
-using PlayerInput;
+﻿using PlayerInput;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Assets.Scripts.Player
 {

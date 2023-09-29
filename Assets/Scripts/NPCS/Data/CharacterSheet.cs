@@ -1,6 +1,7 @@
 using System;
 using ExtensionClasses;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [Serializable]
 //[CreateAssetMenu(fileName = "NewCharacter", menuName = "Character/New Character")]
@@ -34,6 +35,13 @@ public class CharacterSheet
 	public string[] pos_traits;
 	public string[] flaws;
 	public string[] ideals;
+
+	[Header("Visual")] 
+	public int headPartNum;
+	public int hairPartNum;
+	public int bodyPartNum;
+
+
 	public CharacterSheet() {
 
 	}
@@ -57,5 +65,12 @@ public class CharacterSheet
 		ideals = characterRandomizationData.Ideals.RandomFromList(characterRandomizationData.NumOfIdeals);
 		skills = characterRandomizationData.Skills.RandomFromList(characterRandomizationData.NumOfSkills);
 
+	}
+
+	public void AddVisual(RaceRandomizationData raceRandomizationData)
+	{
+		headPartNum = Random.Range(0, raceRandomizationData.NumHeadPart);
+		hairPartNum = Random.Range(0, raceRandomizationData.NumHairPart);
+		bodyPartNum = Random.Range(0, raceRandomizationData.NumBodyPart);
 	}
 }

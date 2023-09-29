@@ -1,0 +1,1060 @@
+fileFormatVersion: 2
+guid: c952dbdbc4b396b44a593da1ace5e126
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: back
+    second: {fileID: 7400000, guid: 900394b4b5fbc5c409aade34e336987c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: front
+    second: {fileID: 7400000, guid: d541b5947ea43c44495adb958f64081b, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: idle
+    second: {fileID: 7400000, guid: 1c2c69db295dec34d869ae5edc4f7bee, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: walk
+    second: {fileID: 7400000, guid: a2d6b8f52fb4cbd4a968cac60cc970a7, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638311010298762317
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: dragonborn_Horns_1_Frame_0
+    originalName: 
+    pivot: {x: 0.625, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 51
+      width: 8
+      height: 9
+    spriteID: 37c6102145c741d48984fff709c6e078
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 51}
+  - name: dragonborn_Horns_1_Frame_1
+    originalName: 
+    pivot: {x: 0.625, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 51
+      width: 8
+      height: 9
+    spriteID: 30ac2fad6344812489302a9d6a658c8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 51}
+  - name: dragonborn_Horns_1_Frame_2
+    originalName: 
+    pivot: {x: 0.625, y: -5.7777777}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 51
+      width: 8
+      height: 9
+    spriteID: d66a0a212cc6915409c94ad9b1595dee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 51}
+  - name: dragonborn_Horns_1_Frame_3
+    originalName: 
+    pivot: {x: 0.625, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 51
+      width: 8
+      height: 9
+    spriteID: 8b64dbc9e00ce19409727863bc864ae5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 51}
+  - name: dragonborn_Horns_1_Frame_4
+    originalName: 
+    pivot: {x: 0.625, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 51
+      width: 8
+      height: 9
+    spriteID: a8f39ebe4259a834ea828970b8d78eda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 51}
+  - name: dragonborn_Horns_1_Frame_5
+    originalName: 
+    pivot: {x: 0.625, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 51
+      width: 8
+      height: 9
+    spriteID: 554d80d2db112894fadce124d57b3b7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 51}
+  - name: dragonborn_Horns_1_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 51
+      width: 8
+      height: 9
+    spriteID: e8282a498fff9f44b84fb50db28d3159
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 51}
+  - name: dragonborn_Horns_1_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 51
+      width: 8
+      height: 9
+    spriteID: fb5539a4cd06b1647a621d9e2a614137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 51}
+  - name: dragonborn_Horns_1_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 8
+      height: 9
+    spriteID: 7ff53b8e50b18fd41b63bac84aae8fcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 68}
+  - name: dragonborn_Horns_1_Frame_9
+    originalName: 
+    pivot: {x: 0.625, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 68
+      width: 8
+      height: 9
+    spriteID: 72e928fa84e79d2409785ff239f56227
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 68}
+  - name: dragonborn_Horns_1_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 68
+      width: 8
+      height: 9
+    spriteID: 5bf7dfe674e20f24abce480e85ca125a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 68}
+  - name: dragonborn_Horns_1_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -5.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 68
+      width: 8
+      height: 9
+    spriteID: 85f7a41e62ee4d742b37e2d419c57bf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 68}
+  - name: dragonborn_Horns_1_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 68
+      width: 8
+      height: 9
+    spriteID: 223da2cb326a5c7498dea166c8938432
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 68}
+  - name: dragonborn_Horns_1_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 20
+      width: 12
+      height: 7
+    spriteID: 7cb872edd2c33a04886912518e90aae1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 20}
+  - name: dragonborn_Horns_1_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -7.8571434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 20
+      width: 12
+      height: 7
+    spriteID: f645f0d7941a87f498fd65a16f0becd4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 20}
+  - name: dragonborn_Horns_1_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -7.8571434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 12
+      height: 7
+    spriteID: bd462c05a8a329d4da54e9ed433da08b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 36}
+  - name: dragonborn_Horns_1_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 36
+      width: 12
+      height: 7
+    spriteID: 22bc7e92bf5823e4ea10a6075a19e327
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 36}
+  - name: dragonborn_Horns_1_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 36
+      width: 12
+      height: 7
+    spriteID: 2117e3b456d9362499e6c25ce076bec2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 36}
+  - name: dragonborn_Horns_1_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -7.8571434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 36
+      width: 12
+      height: 7
+    spriteID: a7917663da7634a4a8f7ef502f4f18f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 36}
+  - name: dragonborn_Horns_1_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -7.8571434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 36
+      width: 12
+      height: 7
+    spriteID: 4ae9753ead0e6424a8c8940f882935dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 36}
+  - name: dragonborn_Horns_1_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 36
+      width: 12
+      height: 7
+    spriteID: 242eeaf765f30864587d8de24aef9aa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 36}
+  - name: dragonborn_Horns_1_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -6.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 12
+      height: 8
+    spriteID: 59b349d16b5a4d8419bf6e0d41a8c965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: dragonborn_Horns_1_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 4
+      width: 12
+      height: 8
+    spriteID: 68da1b6b91065e9459b68ad0799d3678
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 4}
+  - name: dragonborn_Horns_1_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 12
+      height: 8
+    spriteID: e650a3f3d183eb44eadbb27672d7e1ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: dragonborn_Horns_1_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 4
+      width: 12
+      height: 8
+    spriteID: 3cea7dc046d0669478489361f7d9e17a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 4}
+  - name: dragonborn_Horns_1_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 12
+      height: 8
+    spriteID: b2637911f590e2e4d86b6d12c7e70016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: dragonborn_Horns_1_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -6.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 4
+      width: 12
+      height: 8
+    spriteID: 97f832b049b56d144b6cfbe56f4eabf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 4}
+  - name: dragonborn_Horns_1_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -6.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 20
+      width: 12
+      height: 8
+    spriteID: 699f823d6bf5d2a449d49a68c7fca4e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 20}
+  - name: dragonborn_Horns_1_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 20
+      width: 12
+      height: 8
+    spriteID: e421df7b02dda0f49be3d34a27fb7194
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 20}
+  - name: dragonborn_Horns_1_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 20
+      width: 12
+      height: 8
+    spriteID: cbf56df6393f2474a992d9011c636237
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 20}
+  - name: dragonborn_Horns_1_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -6.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 20
+      width: 12
+      height: 8
+    spriteID: 372362a37558aa045a7293f4b7ab4b75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 20}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1455856915
+    name: dragonborn_Horns_1
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dragonborn_Horns_1_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 54
+        width: 8
+        height: 9
+      spriteId: 37c6102145c741d48984fff709c6e078
+    - name: dragonborn_Horns_1_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 53
+        width: 8
+        height: 9
+      spriteId: 30ac2fad6344812489302a9d6a658c8c
+    - name: dragonborn_Horns_1_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 27
+        y: 52
+        width: 8
+        height: 9
+      spriteId: d66a0a212cc6915409c94ad9b1595dee
+    - name: dragonborn_Horns_1_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 27
+        y: 53
+        width: 8
+        height: 9
+      spriteId: 8b64dbc9e00ce19409727863bc864ae5
+    - name: dragonborn_Horns_1_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 54
+        width: 8
+        height: 9
+      spriteId: a8f39ebe4259a834ea828970b8d78eda
+    - name: dragonborn_Horns_1_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 27
+        y: 54
+        width: 8
+        height: 9
+      spriteId: 554d80d2db112894fadce124d57b3b7b
+    - name: dragonborn_Horns_1_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 28
+        y: 53
+        width: 8
+        height: 9
+      spriteId: e8282a498fff9f44b84fb50db28d3159
+    - name: dragonborn_Horns_1_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 28
+        y: 53
+        width: 8
+        height: 9
+      spriteId: fb5539a4cd06b1647a621d9e2a614137
+    - name: dragonborn_Horns_1_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 28
+        y: 54
+        width: 8
+        height: 9
+      spriteId: 7ff53b8e50b18fd41b63bac84aae8fcf
+    - name: dragonborn_Horns_1_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 27
+        y: 54
+        width: 8
+        height: 9
+      spriteId: 72e928fa84e79d2409785ff239f56227
+    - name: dragonborn_Horns_1_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 28
+        y: 53
+        width: 8
+        height: 9
+      spriteId: 5bf7dfe674e20f24abce480e85ca125a
+    - name: dragonborn_Horns_1_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 28
+        y: 53
+        width: 8
+        height: 9
+      spriteId: 85f7a41e62ee4d742b37e2d419c57bf7
+    - name: dragonborn_Horns_1_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 28
+        y: 54
+        width: 8
+        height: 9
+      spriteId: 223da2cb326a5c7498dea166c8938432
+    - name: dragonborn_Horns_1_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 56
+        width: 12
+        height: 7
+      spriteId: 7cb872edd2c33a04886912518e90aae1
+    - name: dragonborn_Horns_1_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 7
+      spriteId: f645f0d7941a87f498fd65a16f0becd4
+    - name: dragonborn_Horns_1_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 7
+      spriteId: bd462c05a8a329d4da54e9ed433da08b
+    - name: dragonborn_Horns_1_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 26
+        y: 56
+        width: 12
+        height: 7
+      spriteId: 22bc7e92bf5823e4ea10a6075a19e327
+    - name: dragonborn_Horns_1_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 26
+        y: 56
+        width: 12
+        height: 7
+      spriteId: 2117e3b456d9362499e6c25ce076bec2
+    - name: dragonborn_Horns_1_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 7
+      spriteId: a7917663da7634a4a8f7ef502f4f18f5
+    - name: dragonborn_Horns_1_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 7
+      spriteId: 4ae9753ead0e6424a8c8940f882935dd
+    - name: dragonborn_Horns_1_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 26
+        y: 56
+        width: 12
+        height: 7
+      spriteId: 242eeaf765f30864587d8de24aef9aa9
+    - name: dragonborn_Horns_1_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 26
+        y: 54
+        width: 12
+        height: 8
+      spriteId: 59b349d16b5a4d8419bf6e0d41a8c965
+    - name: dragonborn_Horns_1_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: 68da1b6b91065e9459b68ad0799d3678
+    - name: dragonborn_Horns_1_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: e650a3f3d183eb44eadbb27672d7e1ee
+    - name: dragonborn_Horns_1_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: 3cea7dc046d0669478489361f7d9e17a
+    - name: dragonborn_Horns_1_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: b2637911f590e2e4d86b6d12c7e70016
+    - name: dragonborn_Horns_1_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 26
+        y: 54
+        width: 12
+        height: 8
+      spriteId: 97f832b049b56d144b6cfbe56f4eabf9
+    - name: dragonborn_Horns_1_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 26
+        y: 54
+        width: 12
+        height: 8
+      spriteId: 699f823d6bf5d2a449d49a68c7fca4e2
+    - name: dragonborn_Horns_1_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: e421df7b02dda0f49be3d34a27fb7194
+    - name: dragonborn_Horns_1_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: cbf56df6393f2474a992d9011c636237
+    - name: dragonborn_Horns_1_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 26
+        y: 55
+        width: 12
+        height: 8
+      spriteId: 372362a37558aa045a7293f4b7ab4b75
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

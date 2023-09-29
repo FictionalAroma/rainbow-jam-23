@@ -264,7 +264,7 @@
         "Wyvernslayer"
       ],
       "Class": [ "Warrior", "Paladin", "Wizard", "Sorcerer", "Monk", "Bard", "Druid", "Ranger", "Rogue", "Barbarian", "Warlock" ],
-      "Race": [ "Elf", "Dwarf", "Human", "Half-Orc", "Tiefling", "Aasimar", "Dragonborn", "Drow", "Half-Elf", "Halfling", "Gnome", "Warforged" ],
+      "Race": [ "Elf", "Dwarf", "Human", "Dragonborn"],
       "TraitsPos": [ "Brave", "Cheerful", "Friendly" ],
       "TraitsNeg": [ "Cowardly", "Gloomy", "Aloof" ],
       "Flaws": [ "Addict", "Arrogant", "Greedy", "Jealous", "Lier", "Compulsive" ],
@@ -277,5 +277,13 @@
       "NumOfSkills": 3
     }
 
-  ]
+  ],
+    "Races":
+        {
+            "Human": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4},
+            "Elf": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4},
+            "Dwarf": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4},
+            "Dragonborn": {"NumBodyPart": 1, "NumHeadPart": 4, "NumHairPart": 4}
+        }
+    
 }

@@ -2,7 +2,6 @@
 using DataObjects;
 using ExtensionClasses;
 using Management.Data;
-using NPCS;
 using UnityEngine;
 
 namespace Management
@@ -50,9 +49,10 @@ namespace Management
 			{
 				_world = new WorldData();
 			}
+			
 		}
 
-		public AdventurerData GenerateAdventurer()
+		public Adventurer GenerateAdventurer()
 		{
 			var newMeat = _npcGenerator.GenerateAdventurer();
 			_world.AdventurerList.Add(newMeat);
